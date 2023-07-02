@@ -34,6 +34,7 @@ jobs:
           echo "GOOGLE_CN_URL=https://rules.kr328.app/google@cn.yaml" >> $GITHUB_ENV
           echo "CATEGORY_GAMES_CN_URL=https://rules.kr328.app/category-games@cn.yaml" >> $GITHUB_ENV
           echo "CHINAMAX_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/ChinaMax.list" >> $GITHUB_ENV
+          echo "PROXY_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Proxy.list" >> $GITHUB_ENV
         shell: bash
 
       - name: Checkout Loyalsoldier/domain-list-custom
@@ -85,6 +86,12 @@ jobs:
         run: |
           curl -sSL $CHINAMAX_URL | ${{ env.SED }} > ./community/mydata/cn
 
+      - name: Generate proxy
+        env:
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d'
+        run: |
+          curl -sSL $PROXY_URL | ${{ env.SED }} > ./community/mydata/proxy
+          
       - name: Put together user.yaml
         env:
           SED: sed 's/^/    - /'
