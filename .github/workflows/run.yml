@@ -29,16 +29,15 @@ jobs:
         run: |
           echo "RELEASE_NAME=Released on $(date +%Y%m%d%H%M)" >> $GITHUB_ENV
           echo "TAG_NAME=$(date +%Y%m%d%H%M)" >> $GITHUB_ENV
-          echo "ANTI_AD_URL=https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml" >> $GITHUB_ENV
           echo "LAN_URL=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.list" >> $GITHUB_ENV
           echo "SPEEDTEST_URL=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Speedtest/Speedtest.list" >> $GITHUB_ENV
           echo "IPV6TEST_URL=https://raw.githubusercontent.com/DustinWin/clash-geosite/master/rule-files/network.txt" >> $GITHUB_ENV
-          echo "MICROSOFT_CN_URL=https://rules.kr328.app/microsoft@cn.yaml" >> $GITHUB_ENV
+          echo "MICROSOFT_CN_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/microsoft%40cn.yaml" >> $GITHUB_ENV
           echo "APPLE_CN_URL=https://rules.kr328.app/apple@cn.yaml" >> $GITHUB_ENV
           echo "GOOGLE_CN_URL=https://rules.kr328.app/google@cn.yaml" >> $GITHUB_ENV
           echo "CATEGORY_GAMES_CN_URL=https://rules.kr328.app/category-games@cn.yaml" >> $GITHUB_ENV
           echo "PROXY_URL=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Proxy/Proxy.list" >> $GITHUB_ENV
-          echo "CHINAMAX_URL=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax.list" >> $GITHUB_ENV
+          echo "CHINAMAX_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/ChinaMax.list" >> $GITHUB_ENV
         shell: bash
 
       - name: Checkout Loyalsoldier/domain-list-custom
@@ -58,17 +57,6 @@ jobs:
         with:
           go-version-file: ./custom/go.mod
           cache-dependency-path: ./custom/go.sum
-
-      - name: Get geoip.dat relative files
-        run: |
-          wget https://github.com/DustinWin/clash-geoip/raw/release/geoip.dat
-
-      - name: Generate ads
-        env:
-          SED: sed '/^\s*#/d' | sed '/payload:/d' | sed "s/  - '+.//g" | sed "s/'$//" | sed '/^\s*$/d'
-        run: |
-          mkdir -p ./community/mydata
-          curl -sSL $ANTI_AD_URL | ${{ env.SED }} > ./community/mydata/ads
 
       - name: Generate lan
         env:
@@ -109,12 +97,6 @@ jobs:
         run: |
           curl -sSL $CATEGORY_GAMES_CN_URL | ${{ env.SED }} > ./community/mydata/games-cn
 
-      - name: Generate proxy
-        env:
-          SED: sed '/^\s*#/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d'
-        run: |
-          curl -sSL $PROXY_URL | ${{ env.SED }} > ./community/mydata/proxy
-
       - name: Generate cn
         env:
           SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d'
@@ -142,8 +124,6 @@ jobs:
       - name: Move files
         run: |
           rm -rf ./tmp
-          wget https://raw.githubusercontent.com/DustinWin/clash-geoip/release/Country.mmdb -O ./publish/Country.mmdb
-          install -Dp ./geoip.dat ./publish/geoip.dat
           install -Dp ./community/geosite.dat ./publish/geosite.dat
           cd ./publish || exit 1
 
