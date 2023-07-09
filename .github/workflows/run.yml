@@ -60,16 +60,16 @@ jobs:
 
       - name: Generate microsoft
         env:
-          SED: sed '/^\s*#/d' | sed '/payload:/d' | sed 's/- "+.//g' | sed 's/- "/full:/g' | sed 's/"$//' | sed '/^\s*$/d'
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
         run: |
           mkdir -p ./community/mydata
           curl -sSL $MICROSOFT_URL | ${{ env.SED }} > ./community/mydata/microsoft
 
       - name: Generate apple
         env:
-          SED: sed '/^\s*#/d' | sed '/payload:/d' | sed 's/- "+.//g' | sed 's/- "/full:/g' | sed 's/"$//' | sed '/^\s*$/d'
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
         run: |
-          curl -sSL $APPLE_URL | ${{ env.SED }} > ./community/mydata/apple-cn
+          curl -sSL $APPLE_URL | ${{ env.SED }} > ./community/mydata/apple
 
       - name: Generate google-cn
         env:
@@ -85,32 +85,32 @@ jobs:
 
       - name: Generate cn
         env:
-          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d'
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
         run: |
           curl -sSL $CHINAMAX_URL | ${{ env.SED }} > ./community/mydata/cn
           
       - name: Generate direct
         env:
-          SED: sed '/^\s*#/d' | sed '/payload:/d' | sed 's/- "+.//g' | sed 's/- "/full:/g' | sed 's/"$//' | sed '/^\s*$/d'
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
         run: |
           mkdir -p ./community/mydata
           curl -sSL $DIRECT_URL | ${{ env.SED }} > ./community/mydata/direct
 
       - name: Generate proxy
         env:
-          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d'
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
         run: |
           curl -sSL $PROXY_URL | ${{ env.SED }} > ./community/mydata/proxy
           
       - name: Generate ai
         env:
-          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d'
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
         run: |
           curl -sSL $AI_URL | ${{ env.SED }} > ./community/mydata/ai
           
       - name: Generate bing
         env:
-          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d'
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
         run: |
           curl -sSL $BING_URL | ${{ env.SED }} > ./community/mydata/bing
 
