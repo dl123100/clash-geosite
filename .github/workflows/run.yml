@@ -35,6 +35,7 @@ jobs:
           echo "CATEGORY_GAMES_CN_URL=https://rules.kr328.app/category-games@cn.yaml" >> $GITHUB_ENV
           echo "CHINAMAX_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/ChinaMax.list" >> $GITHUB_ENV
           echo "PROXY_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Proxy.list" >> $GITHUB_ENV
+          echo "AI_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/AI.list" >> $GITHUB_ENV
         shell: bash
 
       - name: Checkout Loyalsoldier/domain-list-custom
@@ -91,6 +92,12 @@ jobs:
           SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d'
         run: |
           curl -sSL $PROXY_URL | ${{ env.SED }} > ./community/mydata/proxy
+          
+      - name: Generate ai
+        env:
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d'
+        run: |
+          curl -sSL $AI_URL | ${{ env.SED }} > ./community/mydata/ai
 
       - name: Build geosite.dat file
         run: |
