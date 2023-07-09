@@ -29,13 +29,15 @@ jobs:
         run: |
           echo "RELEASE_NAME=Released on $(date +%Y%m%d%H%M)" >> $GITHUB_ENV
           echo "TAG_NAME=$(date +%Y%m%d%H%M)" >> $GITHUB_ENV
-          echo "MICROSOFT_CN_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/microsoft%40cn.yaml" >> $GITHUB_ENV
-          echo "APPLE_CN_URL=https://rules.kr328.app/apple@cn.yaml" >> $GITHUB_ENV
+          echo "MICROSOFT_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Microsoft.list" >> $GITHUB_ENV
+          echo "APPLE_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Apple.list" >> $GITHUB_ENV
           echo "GOOGLE_CN_URL=https://rules.kr328.app/google@cn.yaml" >> $GITHUB_ENV
           echo "CATEGORY_GAMES_CN_URL=https://rules.kr328.app/category-games@cn.yaml" >> $GITHUB_ENV
           echo "CHINAMAX_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/ChinaMax.list" >> $GITHUB_ENV
+          echo "DIRECT_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Direct.list" >> $GITHUB_ENV
           echo "PROXY_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Proxy.list" >> $GITHUB_ENV
           echo "AI_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/AI.list" >> $GITHUB_ENV
+          echo "BING_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Bing.list" >> $GITHUB_ENV
         shell: bash
 
       - name: Checkout Loyalsoldier/domain-list-custom
@@ -56,18 +58,18 @@ jobs:
           go-version-file: ./custom/go.mod
           cache-dependency-path: ./custom/go.sum
 
-      - name: Generate microsoft-cn
+      - name: Generate microsoft
         env:
           SED: sed '/^\s*#/d' | sed '/payload:/d' | sed 's/- "+.//g' | sed 's/- "/full:/g' | sed 's/"$//' | sed '/^\s*$/d'
         run: |
           mkdir -p ./community/mydata
-          curl -sSL $MICROSOFT_CN_URL | ${{ env.SED }} > ./community/mydata/microsoft-cn
+          curl -sSL $MICROSOFT_URL | ${{ env.SED }} > ./community/mydata/microsoft
 
-      - name: Generate apple-cn
+      - name: Generate apple
         env:
           SED: sed '/^\s*#/d' | sed '/payload:/d' | sed 's/- "+.//g' | sed 's/- "/full:/g' | sed 's/"$//' | sed '/^\s*$/d'
         run: |
-          curl -sSL $APPLE_CN_URL | ${{ env.SED }} > ./community/mydata/apple-cn
+          curl -sSL $APPLE_URL | ${{ env.SED }} > ./community/mydata/apple-cn
 
       - name: Generate google-cn
         env:
@@ -86,6 +88,13 @@ jobs:
           SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d'
         run: |
           curl -sSL $CHINAMAX_URL | ${{ env.SED }} > ./community/mydata/cn
+          
+      - name: Generate direct
+        env:
+          SED: sed '/^\s*#/d' | sed '/payload:/d' | sed 's/- "+.//g' | sed 's/- "/full:/g' | sed 's/"$//' | sed '/^\s*$/d'
+        run: |
+          mkdir -p ./community/mydata
+          curl -sSL $DIRECT_URL | ${{ env.SED }} > ./community/mydata/direct
 
       - name: Generate proxy
         env:
@@ -98,6 +107,12 @@ jobs:
           SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d'
         run: |
           curl -sSL $AI_URL | ${{ env.SED }} > ./community/mydata/ai
+          
+      - name: Generate bing
+        env:
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d'
+        run: |
+          curl -sSL $BING_URL | ${{ env.SED }} > ./community/mydata/bing
 
       - name: Build geosite.dat file
         run: |
