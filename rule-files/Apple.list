@@ -1,10 +1,10 @@
-DOMAIN,testflight.Apple.com
-DOMAIN,books.itunes.Apple.com
-DOMAIN,apps.Apple.com
-DOMAIN,itunes.Apple.com
-DOMAIN,api-glb-sea.smoot.Apple.com
-DOMAIN,lookup-api.Apple.com
-DOMAIN,gspe1-ssl.ls.Apple.com
+DOMAIN,testflight.apple.com
+DOMAIN,books.itunes.apple.com
+DOMAIN,apps.apple.com
+DOMAIN,itunes.apple.com
+DOMAIN,api-glb-sea.smoot.apple.com
+DOMAIN,lookup-api.apple.com
+DOMAIN,gspe1-ssl.ls.apple.com
 DOMAIN,sandbox.itunes.apple.com
 DOMAIN,cvws.icloud-content.com
 DOMAIN-SUFFIX,apple-dns.net
@@ -1637,6 +1637,9 @@ DOMAIN-SUFFIX,store.apple.com.edgekey.net
 DOMAIN-SUFFIX,vertexsmb.com
 DOMAIN-SUFFIX,www.apple.com.edgekey.net
 DOMAIN-SUFFIX,e10499.dsce9.akamaiedge.net
+DOMAIN-SUFFIX,e6858.dscx.akamaiedge.net
+DOMAIN-SUFFIX,e2885.e9.akamaiedge.net
+DOMAIN-SUFFIX,ioshost.qtlcdn.com
 DOMAIN-SUFFIX,ls.apple.com.edgesuite.net
 DOMAIN-SUFFIX,account-paypal.info
 DOMAIN-SUFFIX,account-paypal.net
@@ -1885,3 +1888,5 @@ DOMAIN-SUFFIX,xoom.net.cn
 DOMAIN-SUFFIX,xoom.us
 DOMAIN-SUFFIX,xoomcom.com
 DOMAIN-KEYWORD,paypal
+DOMAIN-SUFFIX,ks-cdn.com
+DOMAIN-SUFFIX,ksyuncdn.com
