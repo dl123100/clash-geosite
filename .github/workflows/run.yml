@@ -35,6 +35,7 @@ jobs:
           echo "CATEGORY_GAMES_CN_URL=https://rules.kr328.app/category-games@cn.yaml" >> $GITHUB_ENV
           echo "CHINAMAX_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/ChinaMax.list" >> $GITHUB_ENV
           echo "DIRECT_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Direct.list" >> $GITHUB_ENV
+          echo "CERT_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Cert.list" >> $GITHUB_ENV
           echo "PROXY_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Proxy.list" >> $GITHUB_ENV
           echo "AI_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/AI.list" >> $GITHUB_ENV
           echo "BING_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Bing.list" >> $GITHUB_ENV
@@ -96,6 +97,13 @@ jobs:
         run: |
           mkdir -p ./community/mydata
           curl -sSL $DIRECT_URL | ${{ env.SED }} > ./community/mydata/direct
+          
+      - name: Generate cert
+        env:
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
+        run: |
+          mkdir -p ./community/mydata
+          curl -sSL $CERT_URL | ${{ env.SED }} > ./community/mydata/cert
 
       - name: Generate proxy
         env:
