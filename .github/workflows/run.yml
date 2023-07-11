@@ -132,12 +132,12 @@ jobs:
       - name: Build geosite.dat file
         run: |
           cd community || exit 1
-          go run ./ --datapath=./mydata --outputname geosite.dat
+          go run ./ --datapath=./mydata --outputname GeoSite.dat
 
       - name: Move files
         run: |
           rm -rf ./tmp
-          install -Dp ./community/geosite.dat ./publish/geosite.dat
+          install -Dp ./community/GeoSite.dat ./publish/GeoSite.dat
           cd ./publish || exit 1
 
       - name: Release and upload assets
