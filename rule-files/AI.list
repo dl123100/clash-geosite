@@ -1,4 +1,5 @@
 DOMAIN-KEYWORD,openai
+DOMAIN-KEYWORD,claude
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,openai.nooc.ink
 DOMAIN-SUFFIX,challenges.cloudflare.com
@@ -50,6 +51,7 @@ DOMAIN-SUFFIX,qr.ae
 DOMAIN-SUFFIX,quora.com
 DOMAIN-SUFFIX,quoracdn.net
 DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,forefront.ai
 DOMAIN-SUFFIX,chi.coreweave.com
