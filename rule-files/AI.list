@@ -24,6 +24,7 @@ DOMAIN-KEYWORD,datadoghq
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomassets.com
 DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,stripe.network
 DOMAIN-SUFFIX,stripecdn.com
