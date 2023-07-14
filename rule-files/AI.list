@@ -53,6 +53,7 @@ DOMAIN-SUFFIX,qr.ae
 DOMAIN-SUFFIX,quora.com
 DOMAIN-SUFFIX,quoracdn.net
 DOMAIN-SUFFIX,anthropic.com
+DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,forefront.ai
