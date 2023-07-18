@@ -33,6 +33,7 @@ jobs:
           echo "APPLE_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Apple.list" >> $GITHUB_ENV
           echo "GOOGLE_CN_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/GoogleDirect.list" >> $GITHUB_ENV
           echo "CATEGORY_GAMES_CN_URL=https://rules.kr328.app/category-games@cn.yaml" >> $GITHUB_ENV
+          echo "GOOGLE_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Google.list" >> $GITHUB_ENV
           echo "CHINAMAX_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/ChinaMax.list" >> $GITHUB_ENV
           echo "DIRECT_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Direct.list" >> $GITHUB_ENV
           echo "CERT_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Cert.list" >> $GITHUB_ENV
@@ -110,6 +111,12 @@ jobs:
           SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
         run: |
           curl -sSL $PROXY_URL | ${{ env.SED }} > ./community/mydata/proxy
+          
+      - name: Generate google
+        env:
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
+        run: |
+          curl -sSL $GOOGLE_URL | ${{ env.SED }} > ./community/mydata/google
           
       - name: Generate ai
         env:
