@@ -66,3 +66,4 @@ DOMAIN-SUFFIX,chi.coreweave.com
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,deepl.com
 DOMAIN,cdn.statically.io
+DOMAIN,stripe-upload-api.s3.us-west-1.amazonaws.com
