@@ -564,6 +564,8 @@ DOMAIN-SUFFIX,vo.msecnd.net
 DOMAIN-SUFFIX,sfx.ms
 DOMAIN,www.tm.ak.prd.aadg.akadns.net
 DOMAIN-SUFFIX,vsmarketplacebadges.dev
+DOMAIN,store-images.s-microsoft.com
+DOMAIN,images-eds-ssl.xboxlive.com
 IP-CIDR,20.190.141.32/32,no-resolve
 IP-CIDR,20.189.173.12/32,no-resolve
 IP-CIDR,52.184.217.37/32,no-resolve
