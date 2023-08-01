@@ -66,5 +66,11 @@ DOMAIN-SUFFIX,chi.coreweave.com
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,deepl.com
 DOMAIN,cdn.statically.io
+DOMAIN,a.nel.cloudflare.com
 DOMAIN,stripe-upload-api.s3.us-west-1.amazonaws.com
 DOMAIN-SUFFIX,client-api.arkoselabs.com
+#DOMAIN,mrodevicemgr.officeapps.live.com
+DOMAIN,fileserviceuploadsperm.blob.core.windows.net
+#DOMAIN,nleditor.osi.office.net
+#DOMAIN,ecs.office.com
+#DOMAIN,officeclient.microsoft.com
