@@ -251,6 +251,10 @@ DOMAIN-SUFFIX,activate.connectify.me
 DOMAIN-SUFFIX,d1.connectify.me
 DOMAIN-SUFFIX,d2.connectify.me
 DOMAIN-SUFFIX,d3.connectify.me
+DOMAIN,sdkconf.avlyun.com
+DOMAIN,ixav-cse.avlyun.com
+DOMAIN-SUFFIX,update.avlyun.sec.miui.com
+DOMAIN,tmfsdk.m.qq.com
 DOMAIN,push.services.mozilla.com
 DOMAIN,autopush.prod.mozaws.net
 DOMAIN,adv.sec.miui.com
