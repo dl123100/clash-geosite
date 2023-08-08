@@ -488,3 +488,9 @@ DOMAIN-SUFFIX,dnsv4.com
 DOMAIN-SUFFIX,dnsv5.com
 DOMAIN-SUFFIX,doh.pub
 DOMAIN-SUFFIX,snapdrop.net
+DOMAIN-SUFFIX,dns.alidns.com
+DOMAIN-SUFFIX,teamviewer.com
+DOMAIN,v6.nexushd.org
+DOMAIN-SUFFIX,1ptba.com
+DOMAIN-SUFFIX,landof.tv
+DOMAIN-SUFFIX,sharkpt.net
