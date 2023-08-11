@@ -276,3 +276,4 @@ DOMAIN,tracking.miui.com
 DOMAIN,diagnosis.ad.xiaomi.com
 DOMAIN,log.ad.xiaomi.com
 DOMAIN,m.track.ad.xiaomi.com
+DOMAIN-SUFFIX,app.chat.xiaomi.net
