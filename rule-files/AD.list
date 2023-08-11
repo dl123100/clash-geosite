@@ -269,3 +269,10 @@ DOMAIN,jupiter.sys.miui.com
 DOMAIN,metok.sys.miui.com
 DOMAIN,api.developer.xiaomi.com
 DOMAIN,hot.browser.miui.com
+DOMAIN-SUFFIX,gjfzpt.cn
+DOMAIN,staging.sec.miui.com
+DOMAIN,data.mistat.xiaomi.com
+DOMAIN,tracking.miui.com
+DOMAIN,diagnosis.ad.xiaomi.com
+DOMAIN,log.ad.xiaomi.com
+DOMAIN,m.track.ad.xiaomi.com
