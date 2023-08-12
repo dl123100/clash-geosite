@@ -41,6 +41,7 @@ jobs:
           echo "AI_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/AI.list" >> $GITHUB_ENV
           echo "BING_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Bing.list" >> $GITHUB_ENV
           echo "AD_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/AD.list" >> $GITHUB_ENV
+          echo "CF_URL=https://rules.kr328.app/cloudflare.yaml" >> $GITHUB_ENV
         shell: bash
 
       - name: Checkout Loyalsoldier/domain-list-custom
@@ -85,6 +86,12 @@ jobs:
           SED: sed '/^\s*#/d' | sed '/payload:/d' | sed 's/- "+.//g' | sed 's/- "/full:/g' | sed 's/"$//' | sed '/^\s*$/d'
         run: |
           curl -sSL $CATEGORY_GAMES_CN_URL | ${{ env.SED }} > ./community/mydata/games-cn
+
+      - name: Generate cloudflare
+        env:
+          SED: sed '/^\s*#/d' | sed '/payload:/d' | sed 's/- "+.//g' | sed 's/- "/full:/g' | sed 's/"$//' | sed '/^\s*$/d'
+        run: |
+          curl -sSL $CF_URL | ${{ env.SED }} > ./community/mydata/cloudflare
 
       - name: Generate cn
         env:
