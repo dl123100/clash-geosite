@@ -72,8 +72,13 @@ IP-CIDR,144.2.15.25/32,no-resolve
 IP-CIDR,108.174.10.24/32,no-resolve
 IP-CIDR,144.2.14.25/32,no-resolve
 IP-CIDR,144.2.12.25/32,no-resolve
-DOMAIN-KEYWORD,linkedin
+DOMAIN-SUFFIX,linkedin.at
+DOMAIN-SUFFIX,linkedin.cn
+DOMAIN-SUFFIX,inkedin.com
+DOMAIN,linkedin.sc.omtrdc.net
 DOMAIN-SUFFIX,licdn.com
+DOMAIN-SUFFIX,licdn.cn
+DOMAIN,licdn.cn.cdn20.com
 DOMAIN-SUFFIX,azureedge.net
 DOMAIN-SUFFIX,clarity.ms
 DOMAIN-SUFFIX,microsoft-falcon.io
