@@ -160,3 +160,11 @@ DOMAIN-SUFFIX,fabric.io
 DOMAIN-SUFFIX,p.sfx.ms
 DOMAIN-SUFFIX,oneclient.sfx.ms
 DOMAIN-SUFFIX,microsoft-tst.com
+DOMAIN-SUFFIX,nelreports.net
+DOMAIN,go.microsoft.com
+DOMAIN,edge.microsoft.com
+DOMAIN,login.microsoftonline.com
+DOMAIN,az15297.vo.msecnd.net
+DOMAIN,aadcdn.msftauth.net
+DOMAIN,login.live.com
+DOMAIN,inference.location.live.net
