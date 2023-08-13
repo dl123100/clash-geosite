@@ -29,7 +29,7 @@ jobs:
         run: |
           echo "RELEASE_NAME=Released on $(date +%Y%m%d%H%M)" >> $GITHUB_ENV
           echo "TAG_NAME=$(date +%Y%m%d%H%M)" >> $GITHUB_ENV
-          echo "MICROSOFT_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Microsoft.list" >> $GITHUB_ENV
+          echo "MICROSOFT_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/ms.txt" >> $GITHUB_ENV
           echo "APPLE_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Apple.list" >> $GITHUB_ENV
           echo "GOOGLE_CN_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/GoogleDirect.list" >> $GITHUB_ENV
           echo "CATEGORY_GAMES_CN_URL=https://rules.kr328.app/category-games@cn.yaml" >> $GITHUB_ENV
