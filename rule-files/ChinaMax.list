@@ -4,8 +4,6 @@ DOMAIN-KEYWORD,alipay
 DOMAIN-KEYWORD,aliyun
 DOMAIN-KEYWORD,baidu
 DOMAIN-KEYWORD,beplay
-DOMAIN-KEYWORD,microsoft
-DOMAIN-KEYWORD,officecdn
 DOMAIN-KEYWORD,taobao
 DOMAIN-KEYWORD,bilibili
 DOMAIN-KEYWORD,hnagroup
@@ -17327,7 +17325,6 @@ DOMAIN-SUFFIX,cn-zhentai.com
 DOMAIN-SUFFIX,cn.msi.com
 DOMAIN-SUFFIX,cn.net
 DOMAIN-SUFFIX,cn.vc
-DOMAIN-SUFFIX,cn.windowssearch.com
 DOMAIN-SUFFIX,cn0-6.com
 DOMAIN-SUFFIX,cn006.com
 DOMAIN-SUFFIX,cn010w.com
@@ -64921,7 +64918,6 @@ DOMAIN-SUFFIX,mitvos.net
 DOMAIN-SUFFIX,mixinshe.com
 DOMAIN-SUFFIX,miyun.com
 DOMAIN-SUFFIX,peijian.com
-DOMAIN-SUFFIX,qsb.browser.miui.srv
 DOMAIN-SUFFIX,timipc.com
 DOMAIN-SUFFIX,tj1-miui-bn-stage01.kscn
 DOMAIN-SUFFIX,wali.com
@@ -66436,8 +66432,6 @@ DOMAIN-SUFFIX,kssdata-yz2-lt.kuaipandata.com
 DOMAIN-SUFFIX,kssdata-yz2.kuaipandata.com
 DOMAIN-SUFFIX,kssm.kuaipandata.com
 DOMAIN-SUFFIX,kssv-w-yz01.kuaipandata.com
-DOMAIN-SUFFIX,miav-cse.avlyun.com
-DOMAIN-SUFFIX,miui-fxcse.avlyun.com
 DOMAIN-SUFFIX,res.mi.baidu.com
 DOMAIN-SUFFIX,restapi.amap.com
 DOMAIN-SUFFIX,singapore01.kuaipandata.com
@@ -67192,7 +67186,6 @@ DOMAIN-SUFFIX,1nmob.com
 DOMAIN-SUFFIX,200022.xyz
 DOMAIN-SUFFIX,2011ly.com
 DOMAIN-SUFFIX,2114.com
-DOMAIN-SUFFIX,21vbluecloud.com
 DOMAIN-SUFFIX,22zw.com
 DOMAIN-SUFFIX,288idc.com
 DOMAIN-SUFFIX,2f.com
@@ -67607,7 +67600,6 @@ DOMAIN-SUFFIX,makepolo.com
 DOMAIN-SUFFIX,maker8.com
 DOMAIN-SUFFIX,maoyigu.com
 DOMAIN-SUFFIX,mccbim.com
-DOMAIN-SUFFIX,mcchcdn.com
 DOMAIN-SUFFIX,mckuai.com
 DOMAIN-SUFFIX,mdeditor.com
 DOMAIN-SUFFIX,mengyuanshucheng.com
@@ -67624,8 +67616,6 @@ DOMAIN-SUFFIX,moeking.me
 DOMAIN-SUFFIX,moreless.io
 DOMAIN-SUFFIX,mox.moe
 DOMAIN-SUFFIX,mp4ba.com
-DOMAIN-SUFFIX,mschcdn.com
-DOMAIN-SUFFIX,msxiaobing.com
 DOMAIN-SUFFIX,mt4v4.com
 DOMAIN-SUFFIX,mtty.com
 DOMAIN-SUFFIX,mtuacg.com
@@ -67838,7 +67828,6 @@ DOMAIN-SUFFIX,xianglute.com
 DOMAIN-SUFFIX,xianjj.com
 DOMAIN-SUFFIX,xiaobd.net
 DOMAIN-SUFFIX,xiaohus.com
-DOMAIN-SUFFIX,xiaoice.com
 DOMAIN-SUFFIX,xiaomingming.org
 DOMAIN-SUFFIX,xiaopi.com
 DOMAIN-SUFFIX,xiaoshuowu.com
@@ -68875,7 +68864,6 @@ DOMAIN-SUFFIX,mpyit.com
 DOMAIN-SUFFIX,qupu123.com
 DOMAIN-SUFFIX,zhenguanyu.biz
 DOMAIN-SUFFIX,im9.com
-DOMAIN-SUFFIX,helpshift.com
 DOMAIN-SUFFIX,71.am
 DOMAIN-SUFFIX,71edge.com
 DOMAIN-SUFFIX,xiaomicp.com
