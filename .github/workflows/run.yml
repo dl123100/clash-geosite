@@ -42,7 +42,7 @@ jobs:
           echo "AD_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/AD.list" >> $GITHUB_ENV
           echo "AMAZON_CN_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/amazon-cn.list" >> $GITHUB_ENV
           echo "AMAZON_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/amazon.list" >> $GITHUB_ENV
-          echo "CF_URL=https://rules.kr328.app/cloudflare.yaml" >> $GITHUB_ENV
+          echo "CF_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/cloudflare.list" >> $GITHUB_ENV
         shell: bash
 
       - name: Checkout Loyalsoldier/domain-list-custom
@@ -84,7 +84,7 @@ jobs:
 
       - name: Generate cloudflare
         env:
-          SED: sed '/^\s*#/d' | sed '/payload:/d' | sed 's/- "+.//g' | sed 's/- "/full:/g' | sed 's/"$//' | sed '/^\s*$/d'
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
         run: |
           curl -sSL $CF_URL | ${{ env.SED }} > ./community/mydata/cloudflare
 
