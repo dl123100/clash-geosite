@@ -92,7 +92,6 @@ DOMAIN-SUFFIX,ocsp.apple.com.mwcname.com
 DOMAIN-SUFFIX,swscan.apple.com
 DOMAIN-SUFFIX,swscan.apple.com.akadns.net
 DOMAIN-SUFFIX,swscan-lb.apple.com.akadns.net
-DOMAIN-SUFFIX,swscan.g.aaplimg.com
 DOMAIN-SUFFIX,swscan.apple.com.mwcname.com
 DOMAIN-SUFFIX,swscan-cdn.origin-apple.com.akadns.net
 DOMAIN-SUFFIX,gdmf.apple.com.mwcname.com
