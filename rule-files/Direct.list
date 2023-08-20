@@ -145,6 +145,7 @@ DOMAIN-SUFFIX,125.100.in-addr.arpa
 DOMAIN-SUFFIX,126.100.in-addr.arpa
 DOMAIN-SUFFIX,127.100.in-addr.arpa
 IP-CIDR,23.21.150.121/24,no-resolve
+DOMAIN,asusrouter.com
 DOMAIN,www.asusrouter.com
 DOMAIN,connectivitycheck.platform.hicloud.com
 DOMAIN,1337.abcvg.info
@@ -496,3 +497,11 @@ DOMAIN-SUFFIX,landof.tv
 DOMAIN-SUFFIX,sharkpt.net
 DOMAIN-SUFFIX,comicat.org
 DOMAIN,qing.cleargrass.com
+DOMAIN-SUFFIX,tplinkwifi.net
+DOMAIN-SUFFIX,wifi.cmcc
+DOMAIN-SUFFIX,networkcheck.kde.org
+DOMAIN,instant.arubanetworks.com
+DOMAIN,setmeup.arubanetworks.com
+DOMAIN,router.asus.com
+DOMAIN-SUFFIX,plex.direct
+DOMAIN-SUFFIX,tplogin.cn
