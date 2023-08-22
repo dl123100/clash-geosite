@@ -868,9 +868,7 @@ DOMAIN-SUFFIX,mdn.dev
 DOMAIN-SUFFIX,pocket-image-cache.com
 DOMAIN-SUFFIX,rust-lang.org
 DOMAIN-SUFFIX,rustup.rs
-DOMAIN-SUFFIX,seamonkey-project.org
 DOMAIN-SUFFIX,sentry.prod.mozaws.net
-DOMAIN-SUFFIX,thunderbird.net
 DOMAIN-SUFFIX,techhub.social
 DOMAIN-SUFFIX,digitaloceanspaces.com
 DOMAIN-SUFFIX,vultrobjects.com
@@ -898,7 +896,6 @@ DOMAIN-SUFFIX,s3.amazonaws.com
 DOMAIN-SUFFIX,s3.us-west-2.amazonaws.com
 DOMAIN-KEYWORD,web-assets.zendesk
 DOMAIN-KEYWORD,-res.cloudinary.com
-DOMAIN-SUFFIX,s3.amazonaws.com
 DOMAIN-SUFFIX,s3-eu-west-3.amazonaws.com
 DOMAIN-SUFFIX,s3-website.eu-west-3.amazonaws.com
 DOMAIN-SUFFIX,s3.dualstack.eu-west-3.amazonaws.com
@@ -963,7 +960,6 @@ DOMAIN-SUFFIX,imgurinc.com
 DOMAIN-SUFFIX,threads.net
 DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,ubuntu-touch.io
-DOMAIN-SUFFIX,ubuntu.com
 DOMAIN-SUFFIX,ubuntu.net
 DOMAIN-SUFFIX,ubuntuforums.org
 DOMAIN-SUFFIX,canonical.com
@@ -973,10 +969,6 @@ DOMAIN-SUFFIX,launchpadlibrarian.net
 DOMAIN-SUFFIX,launchpadlibrarian.org
 DOMAIN-SUFFIX,snapcraft.io
 DOMAIN-SUFFIX,snapstore.io
-DOMAIN-SUFFIX,ubuntu-touch.io
-DOMAIN-SUFFIX,ubuntu.com
-DOMAIN-SUFFIX,ubuntu.net
-DOMAIN-SUFFIX,ubuntuforums.org
 DOMAIN-SUFFIX,duolingo.cn
 DOMAIN-SUFFIX,duolingo.com
 DOMAIN-SUFFIX,c.mi.com
@@ -995,7 +987,6 @@ DOMAIN-SUFFIX,openlibrary.org
 DOMAIN-SUFFIX,err.sh
 DOMAIN-SUFFIX,hyper.is
 DOMAIN-SUFFIX,nextjs.org
-DOMAIN-SUFFIX,now.sh
 DOMAIN-SUFFIX,static.fun
 DOMAIN-SUFFIX,title.sh
 DOMAIN-SUFFIX,turborepo.org
