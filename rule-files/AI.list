@@ -70,6 +70,8 @@ DOMAIN-SUFFIX,client-api.arkoselabs.com
 #DOMAIN,mrodevicemgr.officeapps.live.com
 DOMAIN-SUFFIX,statsig.com
 DOMAIN-SUFFIX,mixpanel.com
+DOMAIN-SUFFIX,grazie.ai
+DOMAIN-SUFFIX,grazie.aws.intellij.net
 DOMAIN,fileserviceuploadsperm.blob.core.windows.net
 #DOMAIN,nleditor.osi.office.net
 #DOMAIN,ecs.office.com
