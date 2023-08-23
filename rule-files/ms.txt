@@ -473,3 +473,4 @@ DOMAIN-SUFFIX,livetileedge.dsx.mp.microsoft.com.edgekey.net
 DOMAIN-SUFFIX,vo.msecnd.net
 DOMAIN,www.tm.ak.prd.aadg.akadns.net
 DOMAIN-SUFFIX,vsmarketplacebadges.dev
+DOMAIN-SUFFIX,scorecardresearch.com
