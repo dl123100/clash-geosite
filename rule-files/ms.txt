@@ -474,3 +474,4 @@ DOMAIN-SUFFIX,vo.msecnd.net
 DOMAIN,www.tm.ak.prd.aadg.akadns.net
 DOMAIN-SUFFIX,vsmarketplacebadges.dev
 DOMAIN-SUFFIX,scorecardresearch.com
+DOMAIN-SUFFIX,prod-streaming-video-msn-com.akamaized.net
