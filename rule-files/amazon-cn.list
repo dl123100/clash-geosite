@@ -69,3 +69,8 @@ DOMAIN-SUFFIX,yamaxun.cn
 DOMAIN-SUFFIX,z.cn
 DOMAIN,images-cn-8.ssl-images-amazon.com
 DOMAIN,images-cn.ssl-images-amazon.com
+DOMAIN,images-cn-4.ssl-images-amazon.com
+DOMAIN,ec4.images-amazon.com
+DOMAIN,ec8.images-amazon.com
+DOMAIN-KEYWORD,awsdns-cn-
+DOMAIN-SUFFIX,route53.cn
