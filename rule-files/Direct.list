@@ -473,6 +473,11 @@ DOMAIN-SUFFIX,time2.google.com
 DOMAIN-SUFFIX,time3.google.com
 DOMAIN-SUFFIX,time4.google.com
 DOMAIN-SUFFIX,pool.ntp.org
+DOMAIN,hk.pool.ntp.org
+DOMAIN,asia.pool.ntp.org
+DOMAIN,sg.pool.ntp.org
+DOMAIN,tw.pool.ntp.org
+DOMAIN,jp.pool.ntp.org
 DOMAIN-SUFFIX,time.windows.com
 DOMAIN-SUFFIX,time-ios.apple.com
 DOMAIN-SUFFIX,dns.pub
