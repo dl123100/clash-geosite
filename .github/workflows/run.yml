@@ -154,7 +154,7 @@ jobs:
         run: |
           cd community || exit 1
           go run ./ --datapath=./mydata --outputname GeoSite.dat
-          cp -fpPR ./community/mydata ./publish
+          cp -fpPR ./mydata ./publish
 
       - name: Move files
         run: |
