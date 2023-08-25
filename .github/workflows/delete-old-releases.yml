@@ -1,0 +1,20 @@
+name: Delete old releases
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 22 * * *'
+
+jobs:
+  del_runs:
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    steps:
+      - name: Delete releases runs
+        uses: dev-drprasad/delete-older-releases@v0.2
+        with:
+          repo: dl123100/clash-geosite
+          keep_latest: 3
+          delete_tag_pattern:
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
