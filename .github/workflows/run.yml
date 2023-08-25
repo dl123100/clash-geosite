@@ -22,7 +22,7 @@ jobs:
         with:
           tag_name: latest
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          delete_release: false
+          delete_release: true
           repo: dl123100/clash-geosite
 
       - name: Set variables
