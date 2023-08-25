@@ -160,6 +160,20 @@ jobs:
         run: |
           rm -rf ./tmp
           install -Dp ./community/GeoSite.dat ./publish/GeoSite.dat
+          install -Dp ./community/mydata/microsoft ./publish/microsoft.txt
+          install -Dp ./community/mydata/apple ./publish/apple.txt
+          install -Dp ./community/mydata/google-cn ./publish/google-cn.txt
+          install -Dp ./community/mydata/cloudflare ./publish/cloudflare.txt
+          install -Dp ./community/mydata/cn ./publish/cn.txt
+          install -Dp ./community/mydata/direct ./publish/direct.txt
+          install -Dp ./community/mydata/cert ./publish/cert.txt
+          install -Dp ./community/mydata/proxy ./publish/proxy.txt
+          install -Dp ./community/mydata/google ./publish/google.txt
+          install -Dp ./community/mydata/ai ./publish/ai.txt
+          install -Dp ./community/mydata/bing ./publish/bing.txt
+          install -Dp ./community/mydata/amazon ./publish/amazon.txt
+          install -Dp ./community/mydata/amazon-cn ./publish/amazon-cn.txt
+          install -Dp ./community/mydata/ad ./publish/ad.txt
           cd ./publish || exit 1
 
       - name: Release and upload assets
