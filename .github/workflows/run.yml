@@ -45,6 +45,12 @@ jobs:
           echo "CF_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Cloudflare.list" >> $GITHUB_ENV
         shell: bash
 
+      - name: Checkout Loyalsoldier/domain-list-custom
+        uses: actions/checkout@v3
+        with:
+          repository: Loyalsoldier/domain-list-custom
+          path: custom
+
       - name: Setup Go
         uses: actions/setup-go@v4
         with:
