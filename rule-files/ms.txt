@@ -474,3 +474,11 @@ DOMAIN,www.tm.ak.prd.aadg.akadns.net
 DOMAIN-SUFFIX,vsmarketplacebadges.dev
 DOMAIN-SUFFIX,scorecardresearch.com
 DOMAIN-SUFFIX,prod-streaming-video-msn-com.akamaized.net
+DOMAIN-SUFFIX,21vbc.com
+DOMAIN-SUFFIX,21vbluecloud.com
+DOMAIN-SUFFIX,21vbluecloud.net
+DOMAIN-SUFFIX,aggresmart.com
+DOMAIN-SUFFIX,blueaggrestore.com
+DOMAIN-SUFFIX,bluecloudprod.com
+DOMAIN-SUFFIX,engkoo.com
+DOMAIN-SUFFIX,o365cn.com
