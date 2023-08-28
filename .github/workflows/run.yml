@@ -29,7 +29,7 @@ jobs:
         run: |
           echo "RELEASE_NAME=Released on $(date +%Y%m%d%H%M)" >> $GITHUB_ENV
           echo "TAG_NAME=$(date +%Y%m%d%H%M)" >> $GITHUB_ENV
-          echo "MICROSOFT_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/ms.txt" >> $GITHUB_ENV
+          echo "MICROSOFT_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Microsoft.list" >> $GITHUB_ENV
           echo "APPLE_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Apple.list" >> $GITHUB_ENV
           echo "GOOGLE_CN_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/GoogleDirect.list" >> $GITHUB_ENV
           echo "GOOGLE_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Google.list" >> $GITHUB_ENV
@@ -40,22 +40,10 @@ jobs:
           echo "AI_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/AI.list" >> $GITHUB_ENV
           echo "BING_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Bing.list" >> $GITHUB_ENV
           echo "AD_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/AD.list" >> $GITHUB_ENV
-          echo "AMAZON_CN_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/amazon-cn.list" >> $GITHUB_ENV
-          echo "AMAZON_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/amazon.list" >> $GITHUB_ENV
-          echo "CF_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/cloudflare.list" >> $GITHUB_ENV
+          echo "AMAZON_CN_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Amazon-CN.list" >> $GITHUB_ENV
+          echo "AMAZON_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Amazon.list" >> $GITHUB_ENV
+          echo "CF_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Cloudflare.list" >> $GITHUB_ENV
         shell: bash
-
-      - name: Checkout Loyalsoldier/domain-list-custom
-        uses: actions/checkout@v3
-        with:
-          repository: Loyalsoldier/domain-list-custom
-          path: custom
-
-      - name: Checkout v2fly/domain-list-community
-        uses: actions/checkout@v3
-        with:
-          repository: v2fly/domain-list-community
-          path: community
 
       - name: Setup Go
         uses: actions/setup-go@v4
