@@ -51,6 +51,12 @@ jobs:
           repository: Loyalsoldier/domain-list-custom
           path: custom
 
+      - name: Checkout v2fly/domain-list-community
+        uses: actions/checkout@v3
+        with:
+          repository: v2fly/domain-list-community
+          path: community
+
       - name: Setup Go
         uses: actions/setup-go@v4
         with:
