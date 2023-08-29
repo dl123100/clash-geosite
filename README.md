@@ -13,6 +13,7 @@
 
 - [@blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script)
 - [@LM-Firefly/Rules](https://github.com/LM-Firefly/Rules)
+- [@Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)
 - [@v2fly/domain-list-community](https://github.com/v2fly/domain-list-community)
 - [@felixonmars/dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list)
 - [@gfwlist/gfwlist](https://github.com/gfwlist/gfwlist)
