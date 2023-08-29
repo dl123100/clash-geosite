@@ -18,5 +18,6 @@
 - [@felixonmars/dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list)
 - [@gfwlist/gfwlist](https://github.com/gfwlist/gfwlist)
 - [@Loukky/gfwlist-by-loukky](https://github.com/Loukky/gfwlist-by-loukky)
+- [@Sebastian‘s Surge Rule](https://ruleset.isagood.day/ruleset.html)
 - [@Mythologyli/ZJU-Rule](https://github.com/Mythologyli/ZJU-Rule)
 - [@MitaZ/Better_Filter](https://github.com/MitaZ/Better_Filter)
