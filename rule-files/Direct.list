@@ -416,6 +416,7 @@ IP-CIDR,91.216.110.52/32,no-resolve
 IP-CIDR6,2001:1b10:1000:8101:0:242:ac11:2/128,no-resolve
 IP-CIDR6,2001:470:1:189:0:1:2:3/128,no-resolve
 DOMAIN-SUFFIX,time.nist.gov
+DOMAIN-SUFFIX,worldtimeapi.org
 DOMAIN-SUFFIX,0.openwrt.pool.ntp.org
 DOMAIN-SUFFIX,1.openwrt.pool.ntp.org
 DOMAIN-SUFFIX,2.openwrt.pool.ntp.org
