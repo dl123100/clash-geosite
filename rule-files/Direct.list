@@ -36,7 +36,6 @@ DOMAIN-SUFFIX,setmeup.arubanetworks.com
 DOMAIN-SUFFIX,acl4.ssr
 DOMAIN-SUFFIX,router.ctc
 DOMAIN-SUFFIX,network-test.debian.org
-DOMAIN-SUFFIX,connectivitycheck.gstatic.com
 DOMAIN-SUFFIX,captive.apple.com
 DOMAIN-SUFFIX,resolver1.opendns.com
 DOMAIN-SUFFIX,detectportal.firefox.com
