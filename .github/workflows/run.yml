@@ -34,7 +34,7 @@ jobs:
           echo "GOOGLE_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Google.list" >> $GITHUB_ENV
           echo "CHINAMAX_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/ChinaMax.list" >> $GITHUB_ENV
           echo "DIRECT_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Direct.list" >> $GITHUB_ENV
-          echo "CERT_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Cert.list" >> $GITHUB_ENV
+          echo "GOOGLECN_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/GoogleDirect.list" >> $GITHUB_ENV
           echo "PROXY_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Proxy.list" >> $GITHUB_ENV
           echo "AI_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/AI.list" >> $GITHUB_ENV
           echo "BING_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Bing.list" >> $GITHUB_ENV
@@ -85,12 +85,12 @@ jobs:
           mkdir -p ./community/mydata
           curl -sSL $DIRECT_URL | ${{ env.SED }} > ./community/mydata/direct
           
-      - name: Generate cert
+      - name: Generate googlecn
         env:
           SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
         run: |
           mkdir -p ./community/mydata
-          curl -sSL $CERT_URL | ${{ env.SED }} > ./community/mydata/cert
+          curl -sSL $GOOGLECN_URL | ${{ env.SED }} > ./community/mydata/googlecn
 
       - name: Generate proxy
         env:
@@ -136,7 +136,7 @@ jobs:
           install -Dp ./community/mydata/apple ./publish/apple.txt
           install -Dp ./community/mydata/cn ./publish/cn.txt
           install -Dp ./community/mydata/direct ./publish/direct.txt
-          install -Dp ./community/mydata/cert ./publish/cert.txt
+          install -Dp ./community/mydata/googlecn ./publish/googlecn.txt
           install -Dp ./community/mydata/proxy ./publish/proxy.txt
           install -Dp ./community/mydata/google ./publish/google.txt
           install -Dp ./community/mydata/ai ./publish/ai.txt
