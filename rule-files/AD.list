@@ -277,3 +277,7 @@ DOMAIN,diagnosis.ad.xiaomi.com
 DOMAIN,log.ad.xiaomi.com
 DOMAIN,m.track.ad.xiaomi.com
 DOMAIN-SUFFIX,app.chat.xiaomi.net
+DOMAIN-SUFFIX,sb-ssl.google.com
+DOMAIN-SUFFIX,safebrowsing.googleapis.com
+DOMAIN-SUFFIX,safebrowsing.clients.google.com
+DOMAIN-SUFFIX,safebrowsing-cache.google.com
