@@ -640,7 +640,6 @@ DOMAIN-SUFFIX,古博.com
 DOMAIN-SUFFIX,咕果.com
 DOMAIN-SUFFIX,谷歌.com
 DOMAIN-SUFFIX,.youtube
-DOMAIN-SUFFIX,ggpht.cn
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,withyoutube.com
@@ -819,4 +818,3 @@ DOMAIN,bard.google.com
 DOMAIN,labs.google.com
 DOMAIN,amp.akamaized.net
 DOMAIN-SUFFIX,cloud.cupronickel.goog
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com
