@@ -3,7 +3,6 @@ DOMAIN-SUFFIX,jsdelivr.com
 DOMAIN-SUFFIX,jsdelivr.net
 DOMAIN-SUFFIX,statically.io
 DOMAIN-SUFFIX,githack.com
-DOMAIN-SUFFIX,aka.ms
 DOMAIN-SUFFIX,dependabot.com
 DOMAIN-SUFFIX,ghcr.io
 DOMAIN-SUFFIX,git.io
@@ -68,7 +67,6 @@ DOMAIN-SUFFIX,pypi.io
 DOMAIN-SUFFIX,pypi.org
 DOMAIN-SUFFIX,python.org
 DOMAIN-SUFFIX,pythonhosted.org
-DOMAIN-SUFFIX,pythonDOMAINed.org
 DOMAIN-KEYWORD,hcaptcha
 DOMAIN-SUFFIX,hcaptcha.com
 DOMAIN-SUFFIX,tampermonkey.net
@@ -1121,10 +1119,7 @@ DOMAIN-SUFFIX,lua.org
 DOMAIN-SUFFIX,macports.org
 DOMAIN-SUFFIX,mariadb.org
 DOMAIN-SUFFIX,mathoverflow.net
-DOMAIN-SUFFIX,mcr.microsoft.com
 DOMAIN-SUFFIX,metacpan.org
-DOMAIN-SUFFIX,microsoftreactor.cn
-DOMAIN-SUFFIX,microsoftreactor.com.cn
 DOMAIN-SUFFIX,mingw.org
 DOMAIN-SUFFIX,mobatek.net
 DOMAIN-SUFFIX,mochajs.org
