@@ -39,7 +39,6 @@ DOMAIN-SUFFIX,ekahau.com
 DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,sonic.net
 DOMAIN-SUFFIX,razzolink.com
-DOMAIN-SUFFIX,speed.cloudflare.com
 DOMAIN-SUFFIX,speed.dler.io
 DOMAIN-SUFFIX,webtest.net
 DOMAIN-SUFFIX,testdebit.info
@@ -204,7 +203,6 @@ DOMAIN,2580.work
 DOMAIN,1x1.a-mo.net
 DOMAIN-SUFFIX,edns.ip-api.com
 DOMAIN,speed.riverside.rocks
-DOMAIN,any.pops.fastly-analytics.com
 DOMAIN,1596384882.rsc.cdn77.org
 DOMAIN,test.b-cdn.net
 DOMAIN,testvideo.b-cdn.net
@@ -216,12 +214,3 @@ DOMAIN,ovh-cdn.perfops.io
 DOMAIN,cdnperf.cachefly.net
 DOMAIN,d3888oxgux3fey.cloudfront.net
 DOMAIN,vercel-cors-three.vercel.app
-DOMAIN,1694453483441-5etf62f45no.u.fastly-analytics.com
-DOMAIN,1694453482214-5plzcrd7aqj.u.fastly-analytics.com
-DOMAIN,1694453480581-tiuhc4wyhrd.u.fastly-analytics.com
-DOMAIN,1694453479139-7j4qpkbbld3.u.fastly-analytics.com
-DOMAIN,1694453477911-1e6ob6ke0vz.u.fastly-analytics.com
-DOMAIN,1694453476273-3v2u7iog9jv.u.fastly-analytics.com
-DOMAIN,1694453474346-626i2aifczk.u.fastly-analytics.com
-DOMAIN,1694453466829-l60o4k0rm1l.u.fastly-analytics.com
-DOMAIN,1694453458774-7k8j441n86i.u.fastly-analytics.com

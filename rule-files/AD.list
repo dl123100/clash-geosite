@@ -281,3 +281,9 @@ DOMAIN-SUFFIX,sb-ssl.google.com
 DOMAIN-SUFFIX,safebrowsing.googleapis.com
 DOMAIN-SUFFIX,safebrowsing.clients.google.com
 DOMAIN-SUFFIX,safebrowsing-cache.google.com
+DOMAIN-SUFFIX,fastly-analytics.com
+DOMAIN-SUFFIX,fastly-insights.com
+DOMAIN-SUFFIX,clarium.global.ssl.fastly.net
+DOMAIN-SUFFIX,confiant-integrations.global.ssl.fastly.net
+DOMAIN-SUFFIX,dfapvmql-q.global.ssl.fastly.net
+DOMAIN-SUFFIX,fyrsbckgi-c.global.ssl.fastly.net
