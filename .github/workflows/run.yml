@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout codebase
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
@@ -34,6 +34,7 @@ jobs:
           echo "GOOGLE_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Google.list" >> $GITHUB_ENV
           echo "CHINAMAX_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/ChinaMax.list" >> $GITHUB_ENV
           echo "DIRECT_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Direct.list" >> $GITHUB_ENV
+          echo "IP_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/IP.list" >> $GITHUB_ENV
           echo "GOOGLECN_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/GoogleDirect.list" >> $GITHUB_ENV
           echo "PROXY_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Proxy.list" >> $GITHUB_ENV
           echo "AI_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/AI.list" >> $GITHUB_ENV
@@ -115,6 +116,12 @@ jobs:
           SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
         run: |
           curl -sSL $BING_URL | ${{ env.SED }} > ./community/mydata/bing
+
+      - name: Generate ip
+        env:
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
+        run: |
+          curl -sSL $IP_URL | ${{ env.SED }} > ./community/mydata/ip
           
       - name: Generate ad
         env:
@@ -141,6 +148,7 @@ jobs:
           install -Dp ./community/mydata/google ./publish/google.txt
           install -Dp ./community/mydata/ai ./publish/ai.txt
           install -Dp ./community/mydata/bing ./publish/bing.txt
+          install -Dp ./community/mydata/ip ./publish/ip.txt
           install -Dp ./community/mydata/ad ./publish/ad.txt
           cd ./publish || exit 1
 
