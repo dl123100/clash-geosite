@@ -19300,8 +19300,6 @@ DOMAIN-SUFFIX,dkskcloud.com
 DOMAIN-SUFFIX,dky.cc
 DOMAIN-SUFFIX,dkybpc.com
 DOMAIN-SUFFIX,dl.djicdn.com
-DOMAIN,dl.steam.clngaa.com
-DOMAIN,dl.steam.ksyna.com
 DOMAIN-SUFFIX,dl.ubnt.com
 DOMAIN-SUFFIX,dl0728.com
 DOMAIN-SUFFIX,dl158.net
@@ -51628,9 +51626,6 @@ DOMAIN-SUFFIX,sszgit.com
 DOMAIN-SUFFIX,sszhg.com
 DOMAIN-SUFFIX,sszjnc.com
 DOMAIN-SUFFIX,sszzz.com
-DOMAIN,st.dl.bscstorage.net
-DOMAIN,st.dl.eccdnx.com
-DOMAIN,st.dl.pinyuncloud.com
 DOMAIN-SUFFIX,st001.com
 DOMAIN-SUFFIX,st12121.net
 DOMAIN-SUFFIX,st123.com
@@ -51726,12 +51721,9 @@ DOMAIN-SUFFIX,steamchina.com
 DOMAIN-SUFFIX,steamcn.com
 DOMAIN,steamcommunity-a.akamaihd.net
 DOMAIN-SUFFIX,steamdd.com
-DOMAIN,steampipe.steamcontent.tnkjmec.com
-DOMAIN-SUFFIX,steampowered.com.8686c.com
 DOMAIN-SUFFIX,steampp.net
 DOMAIN-SUFFIX,steamproxy.net
 DOMAIN-SUFFIX,steamrepcn.com
-DOMAIN,steamstatic.com.8686c.com
 DOMAIN-SUFFIX,steamxdf.com
 DOMAIN-SUFFIX,stec.net
 DOMAIN-SUFFIX,stedu.net
