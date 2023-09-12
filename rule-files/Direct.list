@@ -442,3 +442,10 @@ DOMAIN-SUFFIX,2xfree.org
 DOMAIN-SUFFIX,kamept.com
 DOMAIN-KEYWORD,qcloud
 DOMAIN-KEYWORD,myqnapcloud
+DOMAIN-SUFFIX,checkip.synology.com
+DOMAIN-SUFFIX,checkipv6.synology.com
+DOMAIN-SUFFIX,checkport.synology.com
+DOMAIN-SUFFIX,ddns.synology.com
+DOMAIN-SUFFIX,account.synology.com
+DOMAIN-SUFFIX,checkipv6.quickconnect.to
+DOMAIN-SUFFIX,global.quickconnect.to
