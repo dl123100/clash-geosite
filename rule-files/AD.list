@@ -320,3 +320,7 @@ DOMAIN-SUFFIX,abssqr.cn
 DOMAIN-SUFFIX,wifipix.com
 DOMAIN-SUFFIX,wifipix.cn
 DOMAIN,tpstelemetry.tencent.com
+DOMAIN-SUFFIX,httpdns.alicdn.com
+DOMAIN-SUFFIX,httpdns-api.aliyuncs.com
+DOMAIN-SUFFIX,httpdns-sc.aliyuncs.com
+DOMAIN,httpdns.browser.miui.com
