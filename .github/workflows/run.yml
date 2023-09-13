@@ -29,7 +29,6 @@ jobs:
         run: |
           echo "RELEASE_NAME=Released on $(date +%Y%m%d%H%M)" >> $GITHUB_ENV
           echo "TAG_NAME=$(date +%Y%m%d%H%M)" >> $GITHUB_ENV
-          echo "MICROSOFT_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Microsoft.list" >> $GITHUB_ENV
           echo "APPLE_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Apple.list" >> $GITHUB_ENV
           echo "GOOGLE_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Google.list" >> $GITHUB_ENV
           echo "CHINAMAX_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/ChinaMax.list" >> $GITHUB_ENV
@@ -60,13 +59,6 @@ jobs:
         with:
           go-version-file: ./custom/go.mod
           cache-dependency-path: ./custom/go.sum
-
-      - name: Generate microsoft
-        env:
-          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
-        run: |
-          mkdir -p ./community/mydata
-          curl -sSL $MICROSOFT_URL | ${{ env.SED }} > ./community/mydata/microsoft
 
       - name: Generate apple
         env:
@@ -130,12 +122,6 @@ jobs:
         run: |
           curl -sSL $AD_URL | ${{ env.SED }} > ./community/mydata/ad
 
-      - name: Generate game
-        env:
-          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
-        run: |
-          curl -sSL $GAME_URL | ${{ env.SED }} > ./community/mydata/game
-
       - name: Build geosite.dat file
         run: |
           cd community || exit 1
@@ -146,7 +132,6 @@ jobs:
         run: |
           rm -rf ./tmp
           install -Dp ./community/GeoSite.dat ./publish/GeoSite.dat
-          install -Dp ./community/mydata/microsoft ./publish/microsoft.txt
           install -Dp ./community/mydata/apple ./publish/apple.txt
           install -Dp ./community/mydata/cn ./publish/cn.txt
           install -Dp ./community/mydata/direct ./publish/direct.txt
@@ -157,7 +142,6 @@ jobs:
           install -Dp ./community/mydata/bing ./publish/bing.txt
           install -Dp ./community/mydata/ip ./publish/ip.txt
           install -Dp ./community/mydata/ad ./publish/ad.txt
-          install -Dp ./community/mydata/game ./publish/game.txt
           cd ./publish || exit 1
 
       - name: Release and upload assets

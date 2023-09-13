@@ -125,8 +125,6 @@ DOMAIN-SUFFIX,favorites.live.com
 DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,onedrive
 DOMAIN-KEYWORD,skydrive
-PROCESS-NAME,onedrive
-PROCESS-NAME,onedriveupdater
 DOMAIN-SUFFIX,bn1301.storage.live.com
 DOMAIN-SUFFIX,store-images.s-microsoft.com
 DOMAIN-SUFFIX,tts.speech.microsoft.com
@@ -168,6 +166,7 @@ DOMAIN,az15297.vo.msecnd.net
 DOMAIN,aadcdn.msftauth.net
 DOMAIN,login.live.com
 DOMAIN,inference.location.live.net
+DOMAIN,cn.img.stb.s-msn.com
 DOMAIN,api-edge.cognitive.microsofttranslator.com
 DOMAIN,mobile.events.data.microsoft.com
 DOMAIN,dmd.metaservices.microsoft.com
