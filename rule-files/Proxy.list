@@ -1257,3 +1257,6 @@ DOMAIN,ocsp.sectigo.com
 DOMAIN-SUFFIX,public-trust.com
 DOMAIN-SUFFIX,api.snapcraft.io
 DOMAIN-SUFFIX,godaddy.com
+DOMAIN-SUFFIX,ss2.us
+DOMAIN-SUFFIX,amazontrust.com
+DOMAIN,ocsp.godaddy.com.akadns.net
