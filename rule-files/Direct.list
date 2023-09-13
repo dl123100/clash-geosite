@@ -345,6 +345,7 @@ DOMAIN-SUFFIX,ntp4.aliyun.com
 DOMAIN-SUFFIX,ntp5.aliyun.com
 DOMAIN-SUFFIX,ntp6.aliyun.com
 DOMAIN-SUFFIX,ntp7.aliyun.com
+DOMAIN-SUFFIX,ntp.ubuntu.com
 DOMAIN-SUFFIX,time.pool.aliyun.com
 DOMAIN-SUFFIX,time1.aliyun.com
 DOMAIN-SUFFIX,time2.aliyun.com
