@@ -43,13 +43,13 @@ jobs:
         shell: bash
 
       - name: Checkout Loyalsoldier/domain-list-custom
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: Loyalsoldier/domain-list-custom
           path: custom
 
       - name: Checkout v2fly/domain-list-community
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: v2fly/domain-list-community
           path: community
