@@ -4,6 +4,7 @@ DOMAIN-SUFFIX,applicationinsights.io
 DOMAIN-SUFFIX,applicationinsights.net
 DOMAIN-SUFFIX,aria.ms
 DOMAIN-SUFFIX,asp.net
+DOMAIN-SUFFIX,atom.io
 DOMAIN-SUFFIX,azure-devices-int.net
 DOMAIN-SUFFIX,azure-devices.net
 DOMAIN-SUFFIX,azure-dns.com
@@ -52,6 +53,7 @@ DOMAIN-SUFFIX,cosmosdb.net
 DOMAIN-SUFFIX,crmdynint-gcc.com
 DOMAIN-SUFFIX,crmdynint.com
 DOMAIN-SUFFIX,crossborderexpansion.com
+DOMAIN-SUFFIX,dependabot.com
 DOMAIN-SUFFIX,devopsms.com
 DOMAIN-SUFFIX,docs.com
 DOMAIN-SUFFIX,dynamics.com
@@ -190,7 +192,11 @@ DOMAIN-SUFFIX,msocsp.com
 DOMAIN-SUFFIX,msturing.org
 DOMAIN-SUFFIX,msudalosti.com
 DOMAIN-SUFFIX,mymicrosoft.com
+DOMAIN-SUFFIX,myoctocat.com
 DOMAIN-SUFFIX,nextechafrica.net
+DOMAIN-SUFFIX,npm.community
+DOMAIN-SUFFIX,npmjs.com
+DOMAIN-SUFFIX,npmjs.org
 DOMAIN-SUFFIX,nxta.org
 DOMAIN-SUFFIX,o365weve-dev.com
 DOMAIN-SUFFIX,o365weve-ppe.com
@@ -200,6 +206,7 @@ DOMAIN-SUFFIX,office.com
 DOMAIN-SUFFIX,office.net
 DOMAIN-SUFFIX,onenote.net
 DOMAIN-SUFFIX,onestore.ms
+DOMAIN-SUFFIX,opensource.guide
 DOMAIN-SUFFIX,opticsforthecloud.net
 DOMAIN-SUFFIX,outingsapp.com
 DOMAIN-SUFFIX,outlook.com
@@ -212,6 +219,7 @@ DOMAIN-SUFFIX,powershellgallery.com
 DOMAIN-SUFFIX,projectmurphy.net
 DOMAIN-SUFFIX,projectsangam.com
 DOMAIN-SUFFIX,pxt.io
+DOMAIN-SUFFIX,repo.new
 DOMAIN-SUFFIX,s-microsoft.com
 DOMAIN-SUFFIX,s-msft.com
 DOMAIN-SUFFIX,s-msn.com
@@ -237,6 +245,7 @@ DOMAIN-SUFFIX,videobreakdown.com
 DOMAIN-SUFFIX,videoindexer.ai
 DOMAIN-SUFFIX,vsallin.net
 DOMAIN-SUFFIX,vscode-cdn.net
+DOMAIN-SUFFIX,vscode-unpkg.net
 DOMAIN-SUFFIX,wbd.ms
 DOMAIN-SUFFIX,what-fan.net
 DOMAIN-SUFFIX,.windows
@@ -269,8 +278,10 @@ DOMAIN-SUFFIX,live.com.akadns.net
 DOMAIN-SUFFIX,sclive.net
 DOMAIN-SUFFIX,wlxrs.com
 DOMAIN-SUFFIX,aicscience.com
+DOMAIN-SUFFIX,msxiaobing.com
 DOMAIN-SUFFIX,msxiaoice.com
 DOMAIN-SUFFIX,renlifang.com
+DOMAIN-SUFFIX,xiaoice.com
 DOMAIN-SUFFIX,cortana.ai
 DOMAIN-SUFFIX,aadrm.com
 DOMAIN-SUFFIX,acompli.net
@@ -322,9 +333,18 @@ DOMAIN-SUFFIX,g.akamaiedge.net
 DOMAIN-SUFFIX,prod-video-cms-rt-microsoft-com.akamaized.net
 DOMAIN-SUFFIX,statics-marketingsites-neu-ms-com.akamaized.net
 DOMAIN-SUFFIX,windows.com.akadns.net
+DOMAIN-SUFFIX,vscode-webview.net
 DOMAIN-SUFFIX,wakapi.dev
 DOMAIN-SUFFIX,officeppe.net
 DOMAIN,www.tm.ak.prd.aadg.akadns.net
 DOMAIN-SUFFIX,scorecardresearch.com
 DOMAIN-SUFFIX,prod-streaming-video-msn-com.akamaized.net
+DOMAIN-SUFFIX,21vbc.com
+DOMAIN-SUFFIX,21vbluecloud.com
+DOMAIN-SUFFIX,21vbluecloud.net
+DOMAIN-SUFFIX,aggresmart.com
+DOMAIN-SUFFIX,blueaggrestore.com
+DOMAIN-SUFFIX,bluecloudprod.com
+DOMAIN-SUFFIX,engkoo.com
+DOMAIN-SUFFIX,o365cn.com
 DOMAIN-SUFFIX,officeppe.com
