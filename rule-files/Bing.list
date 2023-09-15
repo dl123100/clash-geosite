@@ -210,7 +210,6 @@ DOMAIN-SUFFIX,windows.net
 DOMAIN-SUFFIX,azure-mobile.net
 DOMAIN-SUFFIX,azurecontainer.io
 DOMAIN-SUFFIX,cloudapp.net
-DOMAIN,store-images.s-microsoft.com
 DOMAIN,vscode-sync.trafficmanager.net
 DOMAIN,vscode-sync-insiders.trafficmanager.net
 DOMAIN,bingsettingssearch.trafficmanager.net
@@ -232,8 +231,6 @@ DOMAIN,statics-marketingsites-wcus-ms-com.akamaized.net
 DOMAIN,vsmarketplacebadge.apphb.com
 DOMAIN,azuremarketplace.microsoft.com
 DOMAIN,crl.microsoft.com
-DOMAIN,developer.microsoft.com
-DOMAIN,download.visualstudio.microsoft.com
 DOMAIN-SUFFIX,adaptivecards.io
 DOMAIN-SUFFIX,api-extractor.com
 DOMAIN-SUFFIX,apisof.net
@@ -286,3 +283,16 @@ DOMAIN-SUFFIX,vfsforgit.org
 DOMAIN-SUFFIX,vsassets.io
 DOMAIN-SUFFIX,vscode.dev
 DOMAIN-SUFFIX,xamarin.com
+DOMAIN-SUFFIX,vscode-cdn.net
+DOMAIN-SUFFIX,vscode-unpkg.net
+DOMAIN-SUFFIX,vsmarketplacebadges.dev
+DOMAIN-SUFFIX,atom.io
+DOMAIN-SUFFIX,dependabot.com
+DOMAIN-SUFFIX,myoctocat.com
+DOMAIN-SUFFIX,npm.community
+DOMAIN-SUFFIX,npmjs.com
+DOMAIN-SUFFIX,npmjs.org
+DOMAIN-SUFFIX,opensource.guide
+DOMAIN-SUFFIX,repo.new
+DOMAIN-SUFFIX,vscode-webview.net
+DOMAIN,ajax.microsoft.com
