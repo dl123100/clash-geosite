@@ -31,7 +31,7 @@ jobs:
           echo "TAG_NAME=$(date +%Y%m%d%H%M)" >> $GITHUB_ENV
           echo "APPLE_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Apple.list" >> $GITHUB_ENV
           echo "GOOGLE_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Google.list" >> $GITHUB_ENV
-          echo "CHINAMAX_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/ChinaMax.list" >> $GITHUB_ENV
+          echo "CN_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/CN.list" >> $GITHUB_ENV
           echo "DIRECT_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Direct.list" >> $GITHUB_ENV
           echo "IP_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/IP.list" >> $GITHUB_ENV
           echo "GOOGLECN_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/GoogleDirect.list" >> $GITHUB_ENV
@@ -40,7 +40,6 @@ jobs:
           echo "BING_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Bing.list" >> $GITHUB_ENV
           echo "MS_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Microsoft.list" >> $GITHUB_ENV
           echo "AD_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/AD.list" >> $GITHUB_ENV
-          echo "GAME_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Game.list" >> $GITHUB_ENV
         shell: bash
 
       - name: Checkout Loyalsoldier/domain-list-custom
@@ -78,7 +77,7 @@ jobs:
         env:
           SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
         run: |
-          curl -sSL $CHINAMAX_URL | ${{ env.SED }} > ./community/mydata/cn
+          curl -sSL $CN_URL | ${{ env.SED }} > ./community/mydata/cn
           
       - name: Generate direct
         env:
@@ -150,6 +149,7 @@ jobs:
           install -Dp ./community/mydata/bing ./publish/bing.txt
           install -Dp ./community/mydata/ip ./publish/ip.txt
           install -Dp ./community/mydata/ad ./publish/ad.txt
+          install -Dp ./community/mydata/microsoft ./publish/microsoft.txt
           cd ./publish || exit 1
 
       - name: Release and upload assets
