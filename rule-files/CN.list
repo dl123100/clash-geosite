@@ -67959,3 +67959,10 @@ DOMAIN-SUFFIX,中国反钓鱼网站联盟.中国
 DOMAIN-SUFFIX,中国广播电视总台.中国
 DOMAIN-SUFFIX,中国互联网络信息中心.中国
 DOMAIN-SUFFIX,中国万网.中国
+DOMAIN,crl.alphassl.com
+DOMAIN,crl2.alphassl.com
+DOMAIN,global.prd.cdn.globalsign.com
+DOMAIN,ocsp.globalsign.com
+DOMAIN,ocsp2.globalsign.com
+DOMAIN,secure.globalsign.com
+DOMAIN,secure2.alphassl.com
