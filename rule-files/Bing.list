@@ -148,3 +148,4 @@ DOMAIN,cn.img.stb.s-msn.com
 DOMAIN,api-edge.cognitive.microsofttranslator.com
 DOMAIN-SUFFIX,edge-skype-com.s-0001.s-msedge.net
 DOMAIN-SUFFIX,skypedata.akadns.net
+DOMAIN-SUFFIX,skype-edf.akadns.net
