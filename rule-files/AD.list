@@ -249,6 +249,7 @@ DOMAIN-SUFFIX,auth.be.sec.miui.com
 DOMAIN,sun-cdn.advividnetwork.com
 DOMAIN,data.sec.miui.com
 DOMAIN,api.comm.miui.com
+DOMAIN,adv.sec.intl.miui.com
 DOMAIN,sdkconfig.ad.xiaomi.com
 DOMAIN,api.ad.xiaomi.com
 DOMAIN,sdkconf.avlyun.com
@@ -447,3 +448,5 @@ DOMAIN,music.httpdns.c.163.com
 DOMAIN,httpdns.browser.miui.com
 DOMAIN,httpdns.meituan.com
 DOMAIN,kuaishou.httpdns.pro
+DOMAIN-SUFFIX,umc.danuoyi.alicdn.com
+DOMAIN-SUFFIX,httpdns.bcelive.com
