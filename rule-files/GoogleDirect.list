@@ -19,6 +19,7 @@ DOMAIN-SUFFIX,connectivitycheck.gstatic.com
 DOMAIN-SUFFIX,imasdk.googleapis.com
 DOMAIN-SUFFIX,redirector.gvt1.com
 DOMAIN-SUFFIX,cache.pack.google.com
+DOMAIN,cdn.ampproject.org
 DOMAIN-SUFFIX,clickserve.dartsearch.net
 DOMAIN-SUFFIX,crl.pki.goog
 DOMAIN-SUFFIX,dl.google.com
