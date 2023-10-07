@@ -138,7 +138,7 @@ DOMAIN-SUFFIX,oneclient.sfx.ms
 DOMAIN-SUFFIX,microsoft-tst.com
 DOMAIN-SUFFIX,nelreports.net
 DOMAIN,go.microsoft.com
-DOMAIN,edge.microsoft.com
+DOMAIN-SUFFIX,edge.microsoft.com
 DOMAIN,login.microsoftonline.com
 DOMAIN,az15297.vo.msecnd.net
 DOMAIN,aadcdn.msftauth.net
@@ -149,3 +149,9 @@ DOMAIN,api-edge.cognitive.microsofttranslator.com
 DOMAIN-SUFFIX,edge-skype-com.s-0001.s-msedge.net
 DOMAIN-SUFFIX,skypedata.akadns.net
 DOMAIN-SUFFIX,skype-edf.akadns.net
+DOMAIN,location.microsoft.com
+DOMAIN,az739826.vo.msecnd.net
+DOMAIN,prod.rewardsplatform.microsoft.com
+DOMAIN,sb.scorecardresearch.com
+DOMAIN,graph.microsoft.com
+DOMAIN-SUFFIX,bingviz.com
