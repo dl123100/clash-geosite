@@ -134,7 +134,7 @@ jobs:
         env:
           SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
         run: |
-          curl -sSL $MEDIA_URL | ${{ env.SED }} > ./community/mydata/ad
+          curl -sSL $MEDIA_URL | ${{ env.SED }} > ./community/mydata/media
 
       - name: Build geosite.dat file
         run: |
