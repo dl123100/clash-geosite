@@ -140,6 +140,7 @@ DOMAIN-SUFFIX,slackhq.com
 DOMAIN-SUFFIX,petalsearch.com
 DOMAIN-SUFFIX,global.market.xiaomi.com
 DOMAIN-SUFFIX,globalnileapi.market.xiaomi.com
+DOMAIN-SUFFIX,xiaomi.eu
 DOMAIN-KEYWORD,fuqing
 DOMAIN-SUFFIX,dingyuedizhi.com
 DOMAIN-SUFFIX,esm.sh
@@ -1033,6 +1034,7 @@ DOMAIN-SUFFIX,vercel.live
 DOMAIN-SUFFIX,vercel.pub
 DOMAIN-SUFFIX,vercel.sh
 DOMAIN-SUFFIX,vercel.store
+DOMAIN-SUFFIX,vercel.ai
 DOMAIN-SUFFIX,zeit-world.co.uk
 DOMAIN-SUFFIX,zeit-world.com
 DOMAIN-SUFFIX,zeit-world.net
@@ -1586,3 +1588,7 @@ DOMAIN-SUFFIX,notion.com
 DOMAIN-SUFFIX,notion.new
 DOMAIN-SUFFIX,notion.site
 DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,vscodium.com
+DOMAIN-SUFFIX,vuejs.org
+DOMAIN-SUFFIX,resilio.com
+DOMAIN-SUFFIX,open-vsx.org
