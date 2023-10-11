@@ -964,6 +964,14 @@ DOMAIN-SUFFIX,s3-website.nl-ams.scw.cloud
 DOMAIN-SUFFIX,s3.nl-ams.scw.cloud
 DOMAIN-SUFFIX,s3-website.fr-par.scw.cloud
 DOMAIN-SUFFIX,s3.fr-par.scw.cloud
+DOMAIN-SUFFIX,s3.isk02.sakurastorage.jp
+DOMAIN-SUFFIX,s3.isk01.sakurastorage.jp
+DOMAIN-SUFFIX,pages.dev
+DOMAIN-SUFFIX,workers.dev
+DOMAIN-SUFFIX,cloudflare-ipfs.com
+DOMAIN-SUFFIX,cf-ipfs.com
+DOMAIN-KEYWORD,dsn.algolia.net
+DOMAIN-SUFFIX,usercontent.goog
 DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,imgur.io
 DOMAIN-SUFFIX,imgurinc.com
