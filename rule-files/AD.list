@@ -474,3 +474,4 @@ DOMAIN,api-iam.intercom.io
 DOMAIN,nexus-websocket-a.intercom.io
 DOMAIN-SUFFIX,statsigapi.net
 DOMAIN-SUFFIX,wifiapi.micloud.xiaomi.net
+DOMAIN,sec-cdn.static.xiaomi.net
