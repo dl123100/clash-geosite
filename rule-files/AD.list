@@ -467,3 +467,11 @@ DOMAIN,ops.in.zhihu.com
 DOMAIN,page-modular.zhihu.com
 DOMAIN,walletpay.zhihu.com
 DOMAIN,web-er.zhihu.com
+DOMAIN-SUFFIX,sentry.io
+DOMAIN,widget.intercom.io
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN,api-iam.intercom.io
+DOMAIN,nexus-websocket-a.intercom.io
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN,sdk-api-v1.singular.net
+DOMAIN,api2.amplitude.com
