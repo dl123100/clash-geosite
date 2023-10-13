@@ -42,6 +42,7 @@ jobs:
           echo "AD_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/AD.list" >> $GITHUB_ENV
           echo "MEDIA_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/ProxyMedia.list" >> $GITHUB_ENV
           echo "TG_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Telegram.list" >> $GITHUB_ENV
+          echo "SOCIALMEDIA_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/SocialMedia.list" >> $GITHUB_ENV
         shell: bash
 
       - name: Checkout Loyalsoldier/domain-list-custom
@@ -137,11 +138,17 @@ jobs:
         run: |
           curl -sSL $MEDIA_URL | ${{ env.SED }} > ./community/mydata/media
 
-      - name: Generate media
+      - name: Generate tg
         env:
           SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
         run: |
           curl -sSL $TG_URL | ${{ env.SED }} > ./community/mydata/tg
+
+      - name: Generate socialmedia
+        env:
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
+        run: |
+          curl -sSL $SOCIALMEDIA_URL | ${{ env.SED }} > ./community/mydata/socialmedia
 
       - name: Build geosite.dat file
         run: |
@@ -166,6 +173,7 @@ jobs:
           install -Dp ./community/mydata/microsoft ./publish/microsoft.txt
           install -Dp ./community/mydata/media ./publish/media.txt
           install -Dp ./community/mydata/tg ./publish/tg.txt
+          install -Dp ./community/mydata/socialmedia ./publish/socialmedia.txt
           cd ./publish || exit 1
 
       - name: Release and upload assets
