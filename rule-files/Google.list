@@ -805,6 +805,7 @@ DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,translate.googleapis.com
 DOMAIN-SUFFIX,translation.googleapis.com
+DOMAIN-SUFFIX,googleapis.com
 DOMAIN,imap.gmail.com
 DOMAIN,smtp.gmail.com
 DOMAIN,bard.google.com
