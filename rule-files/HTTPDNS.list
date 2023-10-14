@@ -1,4 +1,5 @@
 DOMAIN,dns.jd.com
+DOMAIN,httpdns.m.jd.com
 DOMAIN,dns.weibo.cn
 DOMAIN,dns.weixin.qq.com
 DOMAIN,dns.weixin.qq.com.cn
@@ -6,6 +7,7 @@ DOMAIN,httpdns-api.aliyuncs.com
 DOMAIN,httpdns-sc.aliyuncs.com
 DOMAIN,httpdns.alicdn.com
 DOMAIN,httpdns.baidu.com
+DOMAIN,httpsdns.baidu.com
 DOMAIN,httpdns.baidubce.com
 DOMAIN,httpdns.bilivideo.com
 DOMAIN,httpdns.c.cdnhwc2.com
@@ -13,10 +15,11 @@ DOMAIN,httpdns.music.163.com
 DOMAIN,httpdns.n.netease.com
 DOMAIN,httpdns.push.oppomobile.com
 DOMAIN,httpdns.volcengineapi.com
-DOMAIN,httpsdns.baidu.com
 DOMAIN,lofter.httpdns.c.163.com
 DOMAIN,music.httpdns.c.163.com
 DOMAIN,httpdns.browser.miui.com
 DOMAIN,httpdns.meituan.com
 DOMAIN,kuaishou.httpdns.pro
 DOMAIN-SUFFIX,httpdns.bcelive.com
+DOMAIN,httpdns.xdapp.com
+DOMAIN,httpdns.byteoversea.com
