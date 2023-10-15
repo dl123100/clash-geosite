@@ -69404,3 +69404,7 @@ DOMAIN-SUFFIX,71edge.com
 DOMAIN-SUFFIX,iq.com
 DOMAIN-SUFFIX,app.so
 DOMAIN-SUFFIX,mindstore.io
+DOMAIN,steamcdn-a.akamaihd.net
+DOMAIN-SUFFIX,steamserver.net
+DOMAIN,steamcdn-a.akamaihd.net
+DOMAIN-SUFFIX,steamserver.net
