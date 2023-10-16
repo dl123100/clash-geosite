@@ -74,7 +74,7 @@ IP-CIDR,144.2.14.25/32,no-resolve
 IP-CIDR,144.2.12.25/32,no-resolve
 DOMAIN-SUFFIX,linkedin.at
 DOMAIN-SUFFIX,linkedin.cn
-DOMAIN-SUFFIX,inkedin.com
+DOMAIN-SUFFIX,linkedin.com
 DOMAIN,linkedin.sc.omtrdc.net
 DOMAIN-SUFFIX,licdn.com
 DOMAIN-SUFFIX,licdn.cn
@@ -155,3 +155,12 @@ DOMAIN,prod.rewardsplatform.microsoft.com
 DOMAIN,sb.scorecardresearch.com
 DOMAIN,graph.microsoft.com
 DOMAIN-SUFFIX,bingviz.com
+DOMAIN,teams.events.data.microsoft.com
+DOMAIN-SUFFIX,teams.cdn.live.net
+DOMAIN-SUFFIX,teams.live.com
+DOMAIN-SUFFIX,teams.microsoft.com
+DOMAIN,e122475.dscg.akamaiedge.net
+DOMAIN-SUFFIX,bizographics.com
+DOMAIN-SUFFIX,l-0005.dc-msedge.net
+DOMAIN-SUFFIX,l-0005.l-msedge.net
+DOMAIN-SUFFIX,lnkd.in

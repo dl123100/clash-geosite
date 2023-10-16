@@ -40,11 +40,12 @@ jobs:
           echo "BING_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Bing.list" >> $GITHUB_ENV
           echo "MS_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Microsoft.list" >> $GITHUB_ENV
           echo "AD_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/AD.list" >> $GITHUB_ENV
-          echo "MEDIA_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/ProxyMedia.list" >> $GITHUB_ENV
+          echo "STREAMING_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Streaming.list" >> $GITHUB_ENV
           echo "TG_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Telegram.list" >> $GITHUB_ENV
           echo "SOCIALMEDIA_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/SocialMedia.list" >> $GITHUB_ENV
           echo "HTTPDNS_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/HTTPDNS.list" >> $GITHUB_ENV
           echo "YOUTUBE_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Youtube.list" >> $GITHUB_ENV
+          echo "TIKTOK_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Tiktok.list" >> $GITHUB_ENV
         shell: bash
 
       - name: Checkout Loyalsoldier/domain-list-custom
@@ -134,17 +135,17 @@ jobs:
         run: |
           curl -sSL $AD_URL | ${{ env.SED }} > ./community/mydata/ad
 
-      - name: Generate media
+      - name: Generate streaming
         env:
           SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
         run: |
-          curl -sSL $MEDIA_URL | ${{ env.SED }} > ./community/mydata/media
+          curl -sSL $STREAMING_URL | ${{ env.SED }} > ./community/mydata/streaming
 
-      - name: Generate tg
+      - name: Generate telegram
         env:
           SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
         run: |
-          curl -sSL $TG_URL | ${{ env.SED }} > ./community/mydata/tg
+          curl -sSL $TG_URL | ${{ env.SED }} > ./community/mydata/telegram
 
       - name: Generate socialmedia
         env:
@@ -163,6 +164,12 @@ jobs:
           SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
         run: |
           curl -sSL $YOUTUBE_URL | ${{ env.SED }} > ./community/mydata/youtube
+
+      - name: Generate tiktok
+        env:
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
+        run: |
+          curl -sSL $TIKTOK_URL | ${{ env.SED }} > ./community/mydata/tiktok
 
       - name: Build geosite.dat file
         run: |
@@ -185,11 +192,12 @@ jobs:
           install -Dp ./community/mydata/ip ./publish/ip.txt
           install -Dp ./community/mydata/ad ./publish/ad.txt
           install -Dp ./community/mydata/microsoft ./publish/microsoft.txt
-          install -Dp ./community/mydata/media ./publish/media.txt
-          install -Dp ./community/mydata/tg ./publish/tg.txt
+          install -Dp ./community/mydata/streaming ./publish/streaming.txt
+          install -Dp ./community/mydata/telegram ./publish/telegram.txt
           install -Dp ./community/mydata/socialmedia ./publish/socialmedia.txt
           install -Dp ./community/mydata/httpdns ./publish/httpdns.txt
           install -Dp ./community/mydata/youtube ./publish/youtube.txt
+          install -Dp ./community/mydata/tiktok ./publish/tiktok.txt
           cd ./publish || exit 1
 
       - name: Release and upload assets
