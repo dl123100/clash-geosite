@@ -31,6 +31,8 @@ DOMAIN-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net
 DOMAIN,github-production-release-asset-2e65be.s3.amazonaws.com
 DOMAIN,github-production-user-asset-6210df.s3.amazonaws.com
 DOMAIN,github-production-repository-file-5c1aeb.s3.amazonaws.com
+DOMAIN-SUFFIX,github.map.fastly.net
+DOMAIN-SUFFIX,github.global.ssl.fastly.net
 DOMAIN-SUFFIX,npm.community
 DOMAIN-SUFFIX,npmjs.com
 DOMAIN-SUFFIX,npmjs.org
@@ -55,8 +57,6 @@ DOMAIN-SUFFIX,spring.io
 DOMAIN-SUFFIX,spring.net
 DOMAIN-SUFFIX,stackoverflow.com
 DOMAIN-SUFFIX,sstatic.net
-DOMAIN,github.map.fastly.net
-DOMAIN,github.global.ssl.fastly.net
 DOMAIN-SUFFIX,nvidia.cn
 DOMAIN-SUFFIX,ubuntu.com
 DOMAIN-SUFFIX,ubuntu.cn
@@ -163,10 +163,6 @@ DOMAIN-SUFFIX,dropboxpartners.com
 DOMAIN-SUFFIX,dropboxstatic.com
 DOMAIN-SUFFIX,getdropbox.com
 DOMAIN-SUFFIX,paper-attachments.s3.amazonaws.com
-DOMAIN,redditstatic.s3.amazonaws.com
-DOMAIN,redditgifts.s3.amazonaws.com
-DOMAIN,reddit-image.s3.amazonaws.com
-DOMAIN,reddit-uploaded-media.s3-accelerate.amazonaws.com
 DOMAIN-SUFFIX,stboy.net
 DOMAIN-SUFFIX,tt1069.com
 DOMAIN-SUFFIX,soutong.men
