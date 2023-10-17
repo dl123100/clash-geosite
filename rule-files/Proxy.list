@@ -646,6 +646,7 @@ DOMAIN-SUFFIX,globalsign.com
 DOMAIN-SUFFIX,globalsign.net
 DOMAIN-SUFFIX,phicdn.net
 DOMAIN-SUFFIX,dcocsp.cn
+DOMAIN,crt.sectigo.com
 DOMAIN,ocsp.sectigo.com
 DOMAIN-SUFFIX,api.snapcraft.io
 DOMAIN-SUFFIX,godaddy.com
