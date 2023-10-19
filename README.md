@@ -24,3 +24,4 @@
 - [@Mythologyli/ZJU-Rule](https://github.com/Mythologyli/ZJU-Rule)
 - [@MitaZ/Better_Filter](https://github.com/MitaZ/Better_Filter)
 - [@Elysian-Realme/FuGfConfig](https://github.com/Elysian-Realme/FuGfConfig)
+- [@antonme/ipnames](https://github.com/antonme/ipnames)
