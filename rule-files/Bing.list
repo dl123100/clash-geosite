@@ -33,6 +33,8 @@ DOMAIN-SUFFIX,biying.com
 DOMAIN-SUFFIX,biying.com.cn
 DOMAIN,www-bingapis-com.e-0001.e-msedge.net
 DOMAIN,bing-shopping.microsoft-falcon.io.b-0005.b-msedge.net
+DOMAIN,cdn.sapphire.microsoftapp.net
+DOMAIN,sapphire.api.microsoftapp.net
 DOMAIN-SUFFIX,bing.com.edgekey.net
 DOMAIN-SUFFIX,bing.com.trafficmanager.net
 DOMAIN,bingadsacademy-prod.azurewebsites.net
