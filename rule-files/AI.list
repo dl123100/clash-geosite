@@ -79,3 +79,5 @@ DOMAIN,nleditor.osi.office.net
 #DOMAIN,officeclient.microsoft.com
 DOMAIN,cdn.usefathom.com
 DOMAIN-SUFFIX,livekit.cloud
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,browser-intake-datadoghq.com
