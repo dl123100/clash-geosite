@@ -78,4 +78,4 @@ DOMAIN,nleditor.osi.office.net
 #DOMAIN,ecs.office.com
 #DOMAIN,officeclient.microsoft.com
 DOMAIN,cdn.usefathom.com
-DOMAIN,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,livekit.cloud
