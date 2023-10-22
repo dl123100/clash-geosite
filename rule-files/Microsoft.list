@@ -307,10 +307,6 @@ DOMAIN-SUFFIX,visualstudio.com
 DOMAIN-SUFFIX,visualstudio.eu
 DOMAIN-SUFFIX,visualstudio.net
 DOMAIN-SUFFIX,vsallin.net
-DOMAIN-SUFFIX,vsassets.io
-DOMAIN-SUFFIX,vscode-cdn.net
-DOMAIN-SUFFIX,vscode-unpkg.net
-DOMAIN-SUFFIX,vscode.dev
 DOMAIN-SUFFIX,wbd.ms
 DOMAIN-SUFFIX,what-fan.net
 DOMAIN-SUFFIX,.windows
@@ -411,8 +407,6 @@ DOMAIN-SUFFIX,g.akamaiedge.net
 DOMAIN-SUFFIX,prod-video-cms-rt-microsoft-com.akamaized.net
 DOMAIN-SUFFIX,statics-marketingsites-neu-ms-com.akamaized.net
 DOMAIN-SUFFIX,windows.com.akadns.net
-DOMAIN-SUFFIX,vscode-webview.net
-DOMAIN-SUFFIX,wakapi.dev
 DOMAIN-SUFFIX,officeppe.net
 DOMAIN-SUFFIX,livetileedge.dsx.mp.microsoft.com.edgekey.net
 DOMAIN,www.tm.ak.prd.aadg.akadns.net
