@@ -76,7 +76,7 @@ DOMAIN-SUFFIX,bizographics.com
 DOMAIN-SUFFIX,bj1.api.bing.com
 DOMAIN-SUFFIX,bluehatnights.com
 DOMAIN,cdn.sapphire.microsoftapp.net
-DOMAIN,centralus.cloudapp.azure.com
+DOMAIN-SUFFIX,cloudapp.azure.com
 DOMAIN-SUFFIX,clarity.ms
 DOMAIN-SUFFIX,cn.bing.com
 DOMAIN-SUFFIX,cn.bing.net
@@ -98,7 +98,6 @@ DOMAIN-SUFFIX,discoverbing.com
 DOMAIN-SUFFIX,ditu.live.com
 DOMAIN-SUFFIX,dotnetcli.blob.core.windows.net
 DOMAIN,e122475.dscg.akamaiedge.net
-DOMAIN,eastus.cloudapp.azure.com
 DOMAIN,ecs.office.com
 DOMAIN-SUFFIX,edge.microsoft.com
 DOMAIN-SUFFIX,edge-skype-com.s-0001.s-msedge.net
@@ -199,7 +198,6 @@ DOMAIN-SUFFIX,teams.live.com
 DOMAIN-SUFFIX,teams.microsoft.com
 DOMAIN-SUFFIX,tts.speech.microsoft.com
 DOMAIN-SUFFIX,virtualearth.net
-DOMAIN-SUFFIX,westus.cloudapp.azure.com
 DOMAIN-SUFFIX,winmp.cn
 DOMAIN-SUFFIX,working-bing-int.com
 DOMAIN,www-bingapis-com.e-0001.e-msedge.net
