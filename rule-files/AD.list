@@ -445,3 +445,4 @@ DOMAIN,api.mixpanel.com
 DOMAIN,events.split.io
 DOMAIN-SUFFIX,pubnative.net
 DOMAIN-SUFFIX,pubmatic.com
+DOMAIN,auth.split.io
