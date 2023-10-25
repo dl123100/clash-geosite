@@ -59,7 +59,6 @@ DOMAIN-SUFFIX,charticulator.com
 DOMAIN-SUFFIX,cloudapp.net
 DOMAIN-SUFFIX,cloudappsecurity.com
 DOMAIN-SUFFIX,codethemicrobit.com
-DOMAIN-SUFFIX,cortanaanalytics.com
 DOMAIN-SUFFIX,cortanaskills.com
 DOMAIN-SUFFIX,cosmosdb.info
 DOMAIN-SUFFIX,cosmosdb.net
@@ -111,8 +110,6 @@ DOMAIN-SUFFIX,jwt.ms
 DOMAIN-SUFFIX,kidgrid.tv
 DOMAIN-SUFFIX,kumo.com
 DOMAIN-SUFFIX,latampartneruniversity.com
-DOMAIN-SUFFIX,live.com
-DOMAIN-SUFFIX,live.com.au
 DOMAIN-SUFFIX,live.eu
 DOMAIN-SUFFIX,live.net
 DOMAIN-SUFFIX,livingyourambition.com
@@ -320,13 +317,11 @@ DOMAIN-SUFFIX,windowscommunity.net
 DOMAIN-SUFFIX,windowsmarketplace.com
 DOMAIN-SUFFIX,windowsphone-int.com
 DOMAIN-SUFFIX,windowsphone.com
-DOMAIN-SUFFIX,windowssearch.com
 DOMAIN-SUFFIX,windowsupdate.com
 DOMAIN-SUFFIX,winhec.com
 DOMAIN-SUFFIX,winhec.net
 DOMAIN-SUFFIX,xamarin.com
 DOMAIN-SUFFIX,yammer.com
-DOMAIN,default.exp-tas.com
 DOMAIN,img-prod-cms-rt-microsoft-com.akamaized.net
 DOMAIN,mwf-service.akamaized.net
 DOMAIN,officecdn-microsoft-com.akamaized.net
@@ -355,7 +350,6 @@ DOMAIN-SUFFIX,msxiaobing.com
 DOMAIN-SUFFIX,msxiaoice.com
 DOMAIN-SUFFIX,renlifang.com
 DOMAIN-SUFFIX,xiaoice.com
-DOMAIN-SUFFIX,cortana.ai
 DOMAIN-SUFFIX,aadrm.com
 DOMAIN-SUFFIX,acompli.net
 DOMAIN-SUFFIX,assets-yammer.com
@@ -434,7 +428,6 @@ DOMAIN-SUFFIX,onedrive.net
 DOMAIN-SUFFIX,onedrive.org
 DOMAIN-SUFFIX,photos.live.com
 DOMAIN-SUFFIX,sharepoint.com
-DOMAIN-SUFFIX,sharepointonline.com
 DOMAIN-SUFFIX,skydrive.wns.windows.com
 DOMAIN,img-prod-cms-rt-microsoft-com.akamaized.net
 DOMAIN,logincdn.msauth.net
