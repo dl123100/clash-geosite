@@ -257,6 +257,7 @@ DOMAIN,ixav-cse.avlyun.com
 DOMAIN-SUFFIX,avlyun.sec.miui.com
 DOMAIN-SUFFIX,log.avlyun.sec.intl.miui.com
 DOMAIN-SUFFIX,mazu.sec.miui.com
+DOMAIN,proxy.sec.miui.com
 DOMAIN,tmfsdk.m.qq.com
 DOMAIN,qsb.browser.miui.com
 DOMAIN,o2o.api.xiaomi.com
@@ -446,3 +447,4 @@ DOMAIN,events.split.io
 DOMAIN-SUFFIX,pubnative.net
 DOMAIN-SUFFIX,pubmatic.com
 DOMAIN,auth.split.io
+DOMAIN,sdk.split.io
