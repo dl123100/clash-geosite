@@ -5,7 +5,6 @@ DOMAIN-KEYWORD,ipv6test
 DOMAIN-SUFFIX,whatismyip.akamai.com
 DOMAIN-SUFFIX,changeip.com
 DOMAIN-SUFFIX,dnsapi.cn
-DOMAIN-SUFFIX,api.ipify.org
 DOMAIN-SUFFIX,api.nn.ci
 DOMAIN-SUFFIX,ifconfig.me
 DOMAIN-SUFFIX,ifconfig.io
@@ -26,7 +25,6 @@ DOMAIN-SUFFIX,ipaddress.com
 DOMAIN-SUFFIX,ipdata.co
 DOMAIN-SUFFIX,db-ip.com
 DOMAIN-SUFFIX,ipstack.com
-DOMAIN-SUFFIX,edns.ip-api.com
 DOMAIN,api.hpbp.io
 DOMAIN,ip.bjango.com
 DOMAIN-SUFFIX,whatismyip.com
@@ -46,3 +44,21 @@ DOMAIN-SUFFIX,chapangzhan.com
 DOMAIN-SUFFIX,boce.com
 DOMAIN,api.leo.moe
 DOMAIN,checkip.amazonaws.com
+DOMAIN-SUFFIX,my-ip.io
+DOMAIN-SUFFIX,seeip.org
+DOMAIN-SUFFIX,ipapi.co
+DOMAIN-SUFFIX,abstractapi.com
+DOMAIN-SUFFIX,whoisxmlapi.com
+DOMAIN-SUFFIX,whatsmyip.com
+DOMAIN-SUFFIX,geoapify.com
+DOMAIN-SUFFIX,ifconfig.co
+DOMAIN-SUFFIX,ip.gs
+DOMAIN-SUFFIX,ipworld.info
+DOMAIN-SUFFIX,ipapi.com
+DOMAIN-SUFFIX,ip125.com
+DOMAIN-SUFFIX,extreme-ip-lookup.com
+DOMAIN-SUFFIX,ip.nf
+DOMAIN-SUFFIX,ipwhois.app
+DOMAIN-SUFFIX,myexternalip.com
+DOMAIN-SUFFIX,myip.com
+DOMAIN-SUFFIX,42.pl
