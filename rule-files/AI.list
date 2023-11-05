@@ -31,7 +31,8 @@ DOMAIN-SUFFIX,intercomassets.com
 DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,stripe.network
 DOMAIN-SUFFIX,stripecdn.com
-DOMAIN-SUFFIX,invoice.stripe.com
+DOMAIN-SUFFIX,stspg-customer.com
+DOMAIN-SUFFIX,static.metafi.codefi.network
 DOMAIN-SUFFIX,compute-pipe.com
 DOMAIN-SUFFIX,edgecompute.app
 DOMAIN-SUFFIX,linguee.com
@@ -81,7 +82,8 @@ DOMAIN,nleditor.osi.office.net
 #DOMAIN,ecs.office.com
 #DOMAIN,officeclient.microsoft.com
 DOMAIN,cdn.usefathom.com
-DOMAIN-SUFFIX,livekit.cloud
+DOMAIN-SUFFIX,host.livekit.cloud
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,browser-intake-datadoghq.com
