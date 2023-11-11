@@ -89,3 +89,4 @@ DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,browser-intake-datadoghq.com
 DOMAIN,fp-async-webps-prod.webpubsub.azure.com
 DOMAIN,fp-async-webps-staging.webpubsub.azure.com
+DOMAIN-SUFFIX,chatgpt.com
