@@ -60,6 +60,7 @@ DOMAIN-SUFFIX,dnsv3.com
 DOMAIN-SUFFIX,dnsv4.com
 DOMAIN-SUFFIX,dnsv5.com
 DOMAIN-SUFFIX,doh.pub
+DOMAIN-SUFFIX,dot.pub
 DOMAIN-SUFFIX,douyu.com
 DOMAIN-SUFFIX,douyu.tv
 DOMAIN-SUFFIX,douyuscdn.com
@@ -560,3 +561,4 @@ DOMAIN-SUFFIX,yufuid.com.cn
 DOMAIN-SUFFIX,ywurl.cn
 DOMAIN-SUFFIX,yximg.cn
 DOMAIN-SUFFIX,zjump.cn
+DOMAIN-SUFFIX,tfogc.com
