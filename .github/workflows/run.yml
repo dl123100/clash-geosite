@@ -230,7 +230,7 @@ jobs:
       - name: Build geosite.dat file
         run: |
           cd community || exit 1
-          go run ./ --datapath=./mydata --outputname GeoSite.dat
+          go run ./ --datapath=./mydata --outputname geosite.dat
           cp -fpPR ./mydata ./publish
 
       - name: Move files
