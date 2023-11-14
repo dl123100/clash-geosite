@@ -237,7 +237,6 @@ jobs:
         run: |
           rm -rf ./tmp
           install -Dp ./community/geosite.dat ./publish/geosite.dat
-          install -Dp ./geosite.dat.sha256sum ./publish/
           install -Dp ./community/mydata/apple ./publish/apple.txt
           install -Dp ./community/mydata/cn ./publish/cn.txt
           install -Dp ./community/mydata/direct ./publish/direct.txt
