@@ -327,8 +327,6 @@ DOMAIN,speed.newclicktelecom.com.br
 DOMAIN,askeycsit.dyndns-ip.com
 DOMAIN,test.infoconnecttelecom.com.br
 DOMAIN,cdnperf.cachefly.net
-DOMAIN,test.b-cdn.net
-DOMAIN,testvideo.b-cdn.net
 DOMAIN,perfops.gcorelabs.com
 DOMAIN,perfops.r.worldssl.net
 DOMAIN,perfops.s.llnwi.net
@@ -360,7 +358,6 @@ DOMAIN-SUFFIX,wlvpn.com
 DOMAIN-SUFFIX,tri.co.id
 DOMAIN-SUFFIX,hgc.com.hk
 DOMAIN-SUFFIX,faznet.co.id
-DOMAIN-SUFFIX,api.skk.moe
 DOMAIN,wireless-mgmt.nezperce.org
 DOMAIN,ymt.ymsr.cloud
 DOMAIN,virtualdc.cloudhost.asia
@@ -419,7 +416,6 @@ DOMAIN,1x1.a-mo.net
 DOMAIN,st-be-rm2.infra.garr.it
 DOMAIN,1596384882.rsc.cdn77.org
 DOMAIN,d3888oxgux3fey.cloudfront.net
-DOMAIN,vercel-cors-three.vercel.app
 DOMAIN-SUFFIX,fdcservers.net
 DOMAIN-SUFFIX,noc.vvsu.ru
 DOMAIN-SUFFIX,testdebit.info
