@@ -8396,7 +8396,17 @@ DOMAIN-SUFFIX,aliyuncdn.com
 DOMAIN-SUFFIX,aliyun-cdn.com
 DOMAIN-SUFFIX,aliyuncdn.net
 DOMAIN-SUFFIX,aliyunceng.com
-DOMAIN-SUFFIX,aliyuncs.com
+DOMAIN-SUFFIX,oss-cn-beijing.aliyuncs.com
+DOMAIN-SUFFIX,oss-cn-guangzhou.aliyuncs.com
+DOMAIN-SUFFIX,oss-cn-chengdu.aliyuncs.com
+DOMAIN-SUFFIX,oss-cn-huhehaote.aliyuncs.com
+DOMAIN-SUFFIX,oss-cn-zhangjiakou.aliyuncs.com
+DOMAIN-SUFFIX,oss-cn-wulanchabu.aliyuncs.com
+DOMAIN-SUFFIX,oss-cn-shenzhen.aliyuncs.com
+DOMAIN-SUFFIX,oss-cn-shanghai.aliyuncs.com
+DOMAIN-SUFFIX,oss-cn-qingdao.aliyuncs.com
+DOMAIN-SUFFIX,oss-cn-hangzhou.aliyuncs.com
+DOMAIN-SUFFIX,oss-cn-nanjing.aliyuncs.com
 DOMAIN-SUFFIX,aliyundaiwei.com
 DOMAIN-SUFFIX,aliyunddos0002.com
 DOMAIN-SUFFIX,aliyunddos0003.com
@@ -27428,7 +27438,6 @@ DOMAIN-SUFFIX,hellocq.net
 DOMAIN-SUFFIX,hellodive.com
 DOMAIN-SUFFIX,hellof1.com
 DOMAIN-SUFFIX,helloflask.com
-DOMAIN-SUFFIX,hellofontpreview.oss-cn-beijing.aliyuncs.com
 DOMAIN-SUFFIX,hellogame.net
 DOMAIN-SUFFIX,hellogithub.com
 DOMAIN-SUFFIX,helloglobal.com
@@ -27449,7 +27458,6 @@ DOMAIN-SUFFIX,hellotw.com
 DOMAIN-SUFFIX,helloweba.com
 DOMAIN-SUFFIX,helloweba.net
 DOMAIN-SUFFIX,hellowebfont.com
-DOMAIN-SUFFIX,hellowebfonts.oss-cn-beijing.aliyuncs.com
 DOMAIN-SUFFIX,hellowgame.com
 DOMAIN-SUFFIX,helloworld.net
 DOMAIN-SUFFIX,helloxjn.com
@@ -43317,7 +43325,6 @@ DOMAIN-SUFFIX,ospp.com
 DOMAIN-SUFFIX,osredm.com
 DOMAIN-SUFFIX,oss.link
 DOMAIN-SUFFIX,oss.so
-DOMAIN-SUFFIX,oss-cn-beijing-aliyuncs.com
 DOMAIN-SUFFIX,o-star.cc
 DOMAIN-SUFFIX,os-v.com
 DOMAIN-SUFFIX,osvlabs.com
@@ -67842,3 +67849,9 @@ DOMAIN-SUFFIX,中国反钓鱼网站联盟.中国
 DOMAIN-SUFFIX,中国广播电视总台.中国
 DOMAIN-SUFFIX,中国互联网络信息中心.中国
 DOMAIN-SUFFIX,中国万网.中国
+DOMAIN-SUFFIX,supvan.com
+DOMAIN,tesla-cdn.thron.com
+DOMAIN-SUFFIX,solarcity.com
+DOMAIN-SUFFIX,tesla.com
+DOMAIN-SUFFIX,teslamotors.com
+DOMAIN-SUFFIX,ts.la

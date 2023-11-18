@@ -87,6 +87,7 @@ DOMAIN-SUFFIX,vimeostatus.com
 DOMAIN,vimeo-hp-videos.global.ssl.fastly.net
 DOMAIN,vimeo-video.map.fastly.net
 DOMAIN,vimeo.map.fastly.net
+DOMAIN-KEYWORD,vod-adaptive.akamaized.net
 DOMAIN-KEYWORD,abematv.akamaized.net
 DOMAIN-SUFFIX,abema-tv.com
 DOMAIN-SUFFIX,abema.io
