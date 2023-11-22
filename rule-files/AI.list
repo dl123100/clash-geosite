@@ -93,3 +93,6 @@ DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,datadog.pool.ntp.org
 DOMAIN-SUFFIX,launchdarkly.com
+DOMAIN-SUFFIX,observeit.net
+DOMAIN-SUFFIX,algolia.net
+DOMAIN,static.cloudflareinsights.com
