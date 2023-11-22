@@ -91,3 +91,4 @@ DOMAIN,fp-async-webps-prod.webpubsub.azure.com
 DOMAIN,fp-async-webps-staging.webpubsub.azure.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,datadog.pool.ntp.org
