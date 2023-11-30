@@ -96,3 +96,6 @@ DOMAIN-SUFFIX,launchdarkly.com
 DOMAIN-SUFFIX,observeit.net
 DOMAIN-SUFFIX,algolia.net
 DOMAIN,static.cloudflareinsights.com
+DOMAIN,firefly-ps.adobe.io
+DOMAIN,firefly-ai.adobe.io
+DOMAIN-SUFFIX,adobelogin.com

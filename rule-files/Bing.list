@@ -66,7 +66,6 @@ DOMAIN-SUFFIX,bingtoolbar.com
 DOMAIN-SUFFIX,bingtranslator.com
 DOMAIN-SUFFIX,bingvisualsearch.com
 DOMAIN-SUFFIX,bingviz.com
-DOMAIN-SUFFIX,bingviz.microsoftapp.net
 DOMAIN-SUFFIX,bingworld.com
 DOMAIN-SUFFIX,binngroup.co.uk
 DOMAIN-SUFFIX,biying.cn
@@ -75,7 +74,18 @@ DOMAIN-SUFFIX,biying.com.cn
 DOMAIN-SUFFIX,bizographics.com
 DOMAIN-SUFFIX,bj1.api.bing.com
 DOMAIN-SUFFIX,bluehatnights.com
+DOMAIN,bingclientmsa.sapphire.microsoftapp.net
 DOMAIN,cdn.sapphire.microsoftapp.net
+DOMAIN,comminity.sapphire.microsoftapp.net
+DOMAIN,gateway.bingviz.microsoftapp.net
+DOMAIN,rewardscdn.sapphire.microsoftapp.net
+DOMAIN,sapphire.api.microsoftapp.net
+DOMAIN,prod-streaming-video-msn-com.akamaized.net
+DOMAIN,img-s-msn-com.akamaized.net
+DOMAIN,zem.outbrainimg.com
+DOMAIN,obs.cheqzone.com
+DOMAIN,b1-sadc1.zemanta.com
+DOMAIN,b1t-sadc1.zemanta.com
 DOMAIN-SUFFIX,cloudapp.azure.com
 DOMAIN-SUFFIX,clarity.ms
 DOMAIN-SUFFIX,cn.bing.com
@@ -173,7 +183,6 @@ DOMAIN,outlook.office365.com
 DOMAIN-SUFFIX,p.sfx.ms
 DOMAIN,prod.rewardsplatform.microsoft.com
 DOMAIN-SUFFIX,renovacionoffice.com
-DOMAIN,sapphire.api.microsoftapp.net
 DOMAIN,sb.scorecardresearch.com
 DOMAIN-SUFFIX,sf.prod.athena.msrareservices.com
 DOMAIN-SUFFIX,sfbridge.prod.athena.msrareservices.com
