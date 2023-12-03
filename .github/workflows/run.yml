@@ -55,6 +55,7 @@ jobs:
           echo "SteamCN_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/SteamDirect.list" >> $GITHUB_ENV
           echo "Academic_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Academic.list" >> $GITHUB_ENV
           echo "NTP_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/NTP.list" >> $GITHUB_ENV
+          echo "PikpakDirect_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/PikpakDirect.list" >> $GITHUB_ENV
           echo "Custom_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Custom.list" >> $GITHUB_ENV
         shell: bash
 
@@ -241,6 +242,12 @@ jobs:
         run: |
           curl -sSL $Custom_URL | ${{ env.SED }} > ./community/mydata/custom
 
+      - name: Generate pikpakdirect
+        env:
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
+        run: |
+          curl -sSL $PikpakDirect_URL | ${{ env.SED }} > ./community/mydata/pikpakdirect
+
       - name: Build geosite.dat file
         run: |
           cd community || exit 1
@@ -293,6 +300,7 @@ jobs:
           install -Dp ./community/mydata/academic ./publish/academic.txt
           install -Dp ./community/mydata/ntp ./publish/ntp.txt
           install -Dp ./community/mydata/custom ./publish/custom.txt
+          install -Dp ./community/mydata/pikpakdirect ./publish/pikpakdirect.txt
           cd ./publish || exit 1
           sha256sum geosite.dat > geosite.dat.sha256sum
           sha256sum geosite.db > geosite.db.sha256sum
