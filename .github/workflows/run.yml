@@ -45,6 +45,7 @@ jobs:
           echo "SOCIALMEDIA_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/SocialMedia.list" >> $GITHUB_ENV
           echo "HTTPDNS_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/HTTPDNS.list" >> $GITHUB_ENV
           echo "YOUTUBE_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Youtube.list" >> $GITHUB_ENV
+          echo "ByteDance_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/ByteDance.list" >> $GITHUB_ENV
           echo "TIKTOK_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Tiktok.list" >> $GITHUB_ENV
           echo "ST_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/SpeedTest.list" >> $GITHUB_ENV
           echo "TRACKER_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Tracker.list" >> $GITHUB_ENV
@@ -176,6 +177,12 @@ jobs:
         run: |
           curl -sSL $YOUTUBE_URL | ${{ env.SED }} > ./community/mydata/youtube
 
+      - name: Generate bytedance
+        env:
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
+        run: |
+          curl -sSL $ByteDance_URL | ${{ env.SED }} > ./community/mydata/bytedance
+
       - name: Generate tiktok
         env:
           SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
@@ -289,6 +296,7 @@ jobs:
           install -Dp ./community/mydata/socialmedia ./publish/socialmedia.txt
           install -Dp ./community/mydata/httpdns ./publish/httpdns.txt
           install -Dp ./community/mydata/youtube ./publish/youtube.txt
+          install -Dp ./community/mydata/bytedance ./publish/bytedance.txt
           install -Dp ./community/mydata/tiktok ./publish/tiktok.txt
           install -Dp ./community/mydata/tracker ./publish/tracker.txt
           install -Dp ./community/mydata/tencent ./publish/tencent.txt
