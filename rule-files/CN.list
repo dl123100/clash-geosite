@@ -12511,7 +12511,6 @@ DOMAIN-SUFFIX,bzxz.net
 DOMAIN-SUFFIX,bzxzk.net
 DOMAIN-SUFFIX,bzzfq5.com
 DOMAIN-SUFFIX,c.citic
-DOMAIN,c.s-microsoft.com
 DOMAIN-SUFFIX,c.team
 DOMAIN-SUFFIX,c052kzyp55.com
 DOMAIN-SUFFIX,c0f1lk250w.com
@@ -19686,8 +19685,6 @@ DOMAIN,download.microsoft.com
 DOMAIN-SUFFIX,download.prss.microsoft.com
 DOMAIN,download.visualstudio.microsoft.com
 DOMAIN-SUFFIX,download.windowsupdate.com
-DOMAIN,download.xboxlive.com
-DOMAIN,download-ssl.xbox.com
 DOMAIN-SUFFIX,downok.com
 DOMAIN-SUFFIX,downos.com
 DOMAIN-SUFFIX,downpp.com
@@ -39789,7 +39786,6 @@ DOMAIN-SUFFIX,microlz.com
 DOMAIN-SUFFIX,micromsc.net
 DOMAIN-SUFFIX,microrui.net
 DOMAIN-SUFFIX,micro-servs.com
-DOMAIN-KEYWORD,microsoft
 DOMAIN-SUFFIX,microstern.com
 DOMAIN-SUFFIX,microvcard.com
 DOMAIN-SUFFIX,microvirt.com
@@ -59191,7 +59187,6 @@ DOMAIN-SUFFIX,xazzg.com
 DOMAIN-SUFFIX,xazzp.com
 DOMAIN-SUFFIX,xazzs.com
 DOMAIN-SUFFIX,xb.app
-DOMAIN,xb.dlservice.microsoft.com
 DOMAIN-SUFFIX,xb21cn.com
 DOMAIN-SUFFIX,xb2s.com
 DOMAIN-SUFFIX,xba123.com
