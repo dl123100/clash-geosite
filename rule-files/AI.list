@@ -99,3 +99,4 @@ DOMAIN,static.cloudflareinsights.com
 DOMAIN,firefly-ps.adobe.io
 DOMAIN,firefly-ai.adobe.io
 DOMAIN-SUFFIX,adobelogin.com
+DOMAIN-SUFFIX,segment.io
