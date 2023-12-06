@@ -84,6 +84,7 @@ DOMAIN,nleditor.osi.office.net
 DOMAIN,cdn.usefathom.com
 DOMAIN-SUFFIX,host.livekit.cloud
 DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,turn.livekit.cloud
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,browser-intake-datadoghq.com
