@@ -58,6 +58,7 @@ jobs:
           echo "NTP_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/NTP.list" >> $GITHUB_ENV
           echo "PikpakDirect_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/PikpakDirect.list" >> $GITHUB_ENV
           echo "Custom_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Custom.list" >> $GITHUB_ENV
+          echo "GitHub_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/GitHub.list" >> $GITHUB_ENV
         shell: bash
 
       - name: Checkout Loyalsoldier/domain-list-custom
@@ -134,6 +135,12 @@ jobs:
           SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
         run: |
           curl -sSL $BING_URL | ${{ env.SED }} > ./community/mydata/bing
+
+      - name: Generate github
+        env:
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
+        run: |
+          curl -sSL $GitHub_URL | ${{ env.SED }} > ./community/mydata/github
 
       - name: Generate ip
         env:
@@ -309,6 +316,7 @@ jobs:
           install -Dp ./community/mydata/ntp ./publish/ntp.txt
           install -Dp ./community/mydata/custom ./publish/custom.txt
           install -Dp ./community/mydata/pikpakdirect ./publish/pikpakdirect.txt
+          install -Dp ./community/mydata/github ./publish/github.txt
           cd ./publish || exit 1
           sha256sum geosite.dat > geosite.dat.sha256sum
           sha256sum geosite.db > geosite.db.sha256sum
