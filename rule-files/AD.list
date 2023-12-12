@@ -88,6 +88,7 @@ DOMAIN,r.apkpure.net
 DOMAIN,t.apkpure.net
 DOMAIN,api.sve.cc
 DOMAIN-SUFFIX,u3.ucweb.com
+DOMAIN,lookup.api.bsb.baidu.com
 DOMAIN-SUFFIX,3dns-1.adobe.com
 DOMAIN-SUFFIX,3dns-2.adobe.com
 DOMAIN-SUFFIX,3dns-3.adobe.com
@@ -463,3 +464,13 @@ DOMAIN,sdk.split.io
 DOMAIN,all-c-master-tutk.iotcplatform.com
 DOMAIN,event.csdn.net
 DOMAIN,safebrowsing.urlsec.qq.com
+DOMAIN,ads.exoclick.com
+DOMAIN,pv.vipads.cc
+DOMAIN,www.vipads.live
+DOMAIN-SUFFIX,adxadserv.com
+DOMAIN-SUFFIX,jads.co
+DOMAIN-SUFFIX,juicyads.com
+DOMAIN,a.magsrv.com
+DOMAIN,s.magsrv.com
+DOMAIN,a.orbsrv.com
+DOMAIN,s.orbsrv.com
