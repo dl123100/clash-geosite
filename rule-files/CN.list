@@ -40735,8 +40735,6 @@ DOMAIN-SUFFIX,msddp.com
 DOMAIN-SUFFIX,msfpay.com
 DOMAIN,msg.xboxlive.com
 DOMAIN-SUFFIX,msgcarry.com
-DOMAIN,msgr.dlservice.microsoft.com
-DOMAIN,msgruser.dlservice.microsoft.com
 DOMAIN-SUFFIX,msgtjj.com
 DOMAIN-SUFFIX,mshandong.com
 DOMAIN-SUFFIX,mshare.cc
@@ -45050,7 +45048,6 @@ DOMAIN-SUFFIX,qgyksr.com
 DOMAIN-SUFFIX,qgysj.org
 DOMAIN-SUFFIX,qgyyzs.net
 DOMAIN-SUFFIX,qgzzz.com
-DOMAIN,qh.dlservice.microsoft.com
 DOMAIN-SUFFIX,qh.la
 DOMAIN-SUFFIX,qh24.com
 DOMAIN-SUFFIX,qh5800.com
@@ -49808,7 +49805,6 @@ DOMAIN-SUFFIX,siluke.tw
 DOMAIN-SUFFIX,siluke5.com
 DOMAIN-SUFFIX,silukeke.com
 DOMAIN-SUFFIX,siluwu.com
-DOMAIN,silverlight.dlservice.microsoft.com
 DOMAIN-SUFFIX,sim.djicdn.com
 DOMAIN-SUFFIX,sim800.com
 DOMAIN-SUFFIX,simagic.com
@@ -50246,7 +50242,6 @@ DOMAIN-SUFFIX,slsteel.com
 DOMAIN-SUFFIX,slswx7.com
 DOMAIN-SUFFIX,sltg2019.com
 DOMAIN-SUFFIX,sltv.net
-DOMAIN,slupdate.dlservice.microsoft.com
 DOMAIN-SUFFIX,slwh-dfh.com
 DOMAIN-SUFFIX,slwwedding.com
 DOMAIN-SUFFIX,slzsxx.com
@@ -58005,7 +58000,6 @@ DOMAIN-SUFFIX,wkyaoye.com
 DOMAIN-SUFFIX,wkzf.com
 DOMAIN-SUFFIX,wkzk.com
 DOMAIN-SUFFIX,wkzuche.com
-DOMAIN,wl.dlservice.microsoft.com
 DOMAIN-SUFFIX,wl369.com
 DOMAIN-SUFFIX,wlanadmin.com
 DOMAIN-SUFFIX,wlanbanlv.com
@@ -67538,3 +67532,9 @@ DOMAIN-SUFFIX,djicdn.com
 DOMAIN-SUFFIX,djiops.com
 DOMAIN-SUFFIX,djiservice.org
 DOMAIN-SUFFIX,skypixel.com
+DOMAIN,res.cdn.office.net
+DOMAIN,res-h3.public.cdn.office.net
+DOMAIN,res-1.cdn.office.net
+DOMAIN,res-geo.cdn.office.net
+DOMAIN,outlook-1.cdn.office.net
+DOMAIN,b.c2r.ts.cdn.office.net
