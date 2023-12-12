@@ -82,6 +82,8 @@ DOMAIN,rewardscdn.sapphire.microsoftapp.net
 DOMAIN,sapphire.api.microsoftapp.net
 DOMAIN,prod-streaming-video-msn-com.akamaized.net
 DOMAIN,img-s-msn-com.akamaized.net
+DOMAIN,msn-com.akamaized.net
+DOMAIN,static-spartan-neu-s-msn-com.akamaized.net
 DOMAIN,zem.outbrainimg.com
 DOMAIN,obs.cheqzone.com
 DOMAIN,b1-sadc1.zemanta.com
@@ -195,6 +197,10 @@ DOMAIN-SUFFIX,skypeassets.com
 DOMAIN-SUFFIX,skypeassets.net
 DOMAIN-SUFFIX,skypedata.akadns.net
 DOMAIN-SUFFIX,skype-edf.akadns.net
+DOMAIN-SUFFIX,skype-dns.akadns.net
+DOMAIN-SUFFIX,skype-registar.akadns.net
+DOMAIN-SUFFIX,skype-dsn.akadns.net
+DOMAIN-SUFFIX,skyprod.akadns.net
 DOMAIN-SUFFIX,skypeforbusiness.com
 DOMAIN-SUFFIX,spoprod-a.akamaihd.net
 DOMAIN-SUFFIX,sprinklesapp.com
