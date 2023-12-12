@@ -351,6 +351,10 @@ DOMAIN,geolocation.onetrust.com
 DOMAIN-SUFFIX,cloudflareinsights.com
 DOMAIN,img-s-msn-com.akamaized.net
 DOMAIN,browser.events.data.msn.com
+DOMAIN,browser.events.data.msn.cn
+DOMAIN,web.vortex.data.microsoft.cn
+DOMAIN,web.vortex.data.microsoft.com
+DOMAIN,pipe.aria.microsoft.com
 DOMAIN,0.r.msn.com
 DOMAIN,a.ads1.msn.com
 DOMAIN,a.ads2.msn.com
@@ -377,6 +381,8 @@ DOMAIN,toolbar.msn.com
 DOMAIN,ntp.msn.com
 DOMAIN,ntp.msn.cn
 DOMAIN,assets.msn.cn
+DOMAIN,api.msn.cn
+DOMAIN,c.msn.cn
 DOMAIN,api.msn.com
 DOMAIN,mobile.events.data.microsoft.com
 DOMAIN-SUFFIX,vortex-win.data.microsoft.com
