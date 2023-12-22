@@ -31,6 +31,16 @@ DOMAIN,twitter-badges.s3.amazonaws.com
 DOMAIN-SUFFIX,twitter.com.edgekey.net
 DOMAIN-SUFFIX,twimg0-0.akamaihd.net
 DOMAIN,d2rdfnizen5apl.cloudfront.net
+DOMAIN-SUFFIX,x.com
+DOMAIN,cs45.wac.edgecastcdn.net
+DOMAIN,cs672.wac.edgecastcdn.net
+DOMAIN,cs531.wpc.edgecastcdn.net
+DOMAIN,cs296.wpc.edgecastcdn.net
+DOMAIN,cs41.wac.edgecastcdn.net
+DOMAIN,cs479.wac.edgecastcdn.net
+DOMAIN,cs322.wac.edgecastcdn.net
+DOMAIN,cs672.wac.edgecastcdn.net
+DOMAIN,eip-ntt.video.twimg.com.akahost.net
 DOMAIN,redditstatic.s3.amazonaws.com
 DOMAIN,redditgifts.s3.amazonaws.com
 DOMAIN,reddit-image.s3.amazonaws.com
@@ -731,7 +741,6 @@ DOMAIN-SUFFIX,pinterest.global.map.fastly.net
 DOMAIN-SUFFIX,pinterest.com.edgekey.net
 DOMAIN-SUFFIX,pinimg.com.edgekey.net
 DOMAIN-SUFFIX,threads.net
-DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,cmx.im
 DOMAIN-SUFFIX,mastodon.social
 DOMAIN-SUFFIX,mastodon.cloud
