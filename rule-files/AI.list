@@ -101,3 +101,4 @@ DOMAIN,firefly-ps.adobe.io
 DOMAIN,firefly-ai.adobe.io
 DOMAIN-SUFFIX,adobelogin.com
 DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,openaidev.ghost.io
