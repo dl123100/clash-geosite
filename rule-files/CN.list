@@ -15629,7 +15629,6 @@ DOMAIN-SUFFIX,cn.msi.com
 DOMAIN-SUFFIX,cn.net
 DOMAIN-SUFFIX,cn.vc
 DOMAIN-SUFFIX,cn.vu
-DOMAIN,cn.windowssearch.com
 DOMAIN-SUFFIX,cn006.com
 DOMAIN-SUFFIX,cn010w.com
 DOMAIN-SUFFIX,cn0434.com
@@ -16138,7 +16137,6 @@ DOMAIN-SUFFIX,cntuw.com
 DOMAIN-SUFFIX,cntv.com
 DOMAIN-SUFFIX,cntwg.com
 DOMAIN-SUFFIX,cnuninet.net
-DOMAIN,cnupgrade.microsoft.com
 DOMAIN-SUFFIX,cnur.com
 DOMAIN-SUFFIX,cnutcon.com
 DOMAIN-SUFFIX,cnuuu.com
@@ -17140,7 +17138,6 @@ DOMAIN-SUFFIX,ctkq.com
 DOMAIN-SUFFIX,ct-laser.com
 DOMAIN-SUFFIX,ctlcdn.com
 DOMAIN-SUFFIX,ctlcdn.net
-DOMAIN,ctldl.windowsupdate.com
 DOMAIN-SUFFIX,ctlife.tv
 DOMAIN-SUFFIX,ctmcdn.com
 DOMAIN-SUFFIX,ctmcdn.net
@@ -18359,7 +18356,6 @@ DOMAIN-SUFFIX,dev-dh.com
 DOMAIN-SUFFIX,develenv.com
 DOMAIN-SUFFIX,developer.dji.com
 DOMAIN-SUFFIX,developer.htcvive.com
-DOMAIN,developer.microsoft.com
 DOMAIN-SUFFIX,developer.vive.com
 DOMAIN-SUFFIX,devemi.com
 DOMAIN-SUFFIX,devework.com
@@ -18990,7 +18986,6 @@ DOMAIN-SUFFIX,dksgames.com
 DOMAIN-SUFFIX,dkskcloud.com
 DOMAIN-SUFFIX,dky.cc
 DOMAIN-SUFFIX,dkybpc.com
-DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
 DOMAIN-SUFFIX,dl.djicdn.com
 DOMAIN-SUFFIX,dl.ubnt.com
 DOMAIN-SUFFIX,dl0728.com
@@ -19220,7 +19215,6 @@ DOMAIN-SUFFIX,doclass.com
 DOMAIN-SUFFIX,docpe.com
 DOMAIN-SUFFIX,docs.cdnetworks.com
 DOMAIN-SUFFIX,docs.djicdn.com
-DOMAIN,docs.microsoft.com
 DOMAIN-SUFFIX,docschina.org
 DOMAIN-SUFFIX,docsou.com
 DOMAIN-SUFFIX,doctorcom.com
@@ -19510,10 +19504,6 @@ DOMAIN-SUFFIX,downkr.com
 DOMAIN-SUFFIX,downkuai.com
 DOMAIN,download.epicgames.com
 DOMAIN,download.jetbrains.com
-DOMAIN,download.microsoft.com
-DOMAIN-SUFFIX,download.prss.microsoft.com
-DOMAIN,download.visualstudio.microsoft.com
-DOMAIN-SUFFIX,download.windowsupdate.com
 DOMAIN-SUFFIX,downok.com
 DOMAIN-SUFFIX,downos.com
 DOMAIN-SUFFIX,downpp.com
@@ -22912,7 +22902,6 @@ DOMAIN-SUFFIX,frostwing98.com
 DOMAIN-SUFFIX,fr-trading.com
 DOMAIN-SUFFIX,fruitday.com
 DOMAIN-SUFFIX,frysb.com
-DOMAIN,fs.microsoft.com
 DOMAIN-SUFFIX,fs0757.com
 DOMAIN-SUFFIX,fs121.com
 DOMAIN-SUFFIX,fs31.com
@@ -42228,8 +42217,6 @@ DOMAIN-SUFFIX,ofenka.com
 DOMAIN-SUFFIX,offcn.com
 DOMAIN-SUFFIX,offerstrack.net
 DOMAIN-SUFFIX,offer-wow.com
-DOMAIN-KEYWORD,officecdn
-DOMAIN,officecdn.microsoft.com
 DOMAIN-SUFFIX,office-cn.net
 DOMAIN-SUFFIX,officectrl.com
 DOMAIN-SUFFIX,office-peixun.com
@@ -47761,7 +47748,6 @@ DOMAIN-SUFFIX,sdwdxl.com
 DOMAIN-SUFFIX,sdwenlian.com
 DOMAIN-SUFFIX,sdwgyy.com
 DOMAIN-SUFFIX,sdwscgs.com
-DOMAIN,sdx.microsoft.com
 DOMAIN-SUFFIX,sd-xd.net
 DOMAIN-SUFFIX,sdxietong.com
 DOMAIN-SUFFIX,sdxinboao.com
@@ -50701,7 +50687,6 @@ DOMAIN-SUFFIX,storage-asset.msi.com
 DOMAIN-SUFFIX,storagesemicon.com
 DOMAIN-SUFFIX,store.dji.com
 DOMAIN-SUFFIX,store-cdn.huami.com
-DOMAIN,storeedgefd.dsx.mp.microsoft.com
 DOMAIN-SUFFIX,storkapp.me
 DOMAIN-SUFFIX,stormorai.com
 DOMAIN-SUFFIX,stormsend1.djicdn.com
@@ -57910,8 +57895,6 @@ DOMAIN-SUFFIX,wscloudcdn.com
 DOMAIN-SUFFIX,wscloudcdn.org
 DOMAIN-SUFFIX,wscloudsec.com
 DOMAIN-SUFFIX,wscloudvpn.com
-DOMAIN,wscont1.apps.microsoft.com
-DOMAIN,wscont2.apps.microsoft.com
 DOMAIN-SUFFIX,wscrm.net
 DOMAIN-SUFFIX,wscso.com
 DOMAIN-SUFFIX,wscstrace.com
@@ -58281,7 +58264,6 @@ DOMAIN-SUFFIX,www.gov.mo
 DOMAIN-SUFFIX,www.htc.com
 DOMAIN-SUFFIX,www.htcsense.com
 DOMAIN,www.layuicdn.com
-DOMAIN,www.microsoft.com
 DOMAIN-SUFFIX,www.nike.com
 DOMAIN-SUFFIX,www.redhat.com
 DOMAIN-SUFFIX,www.samsung.com
@@ -58751,7 +58733,6 @@ DOMAIN-SUFFIX,xd0.com
 DOMAIN-SUFFIX,xd0731.com
 DOMAIN-SUFFIX,xd57.com
 DOMAIN-SUFFIX,xdapp.com
-DOMAIN,x-dash-public.rec.mp.microsoft.com
 DOMAIN-SUFFIX,xdbcb8.com
 DOMAIN-SUFFIX,xdc.at
 DOMAIN-SUFFIX,xdcdn.com
@@ -66897,12 +66878,5 @@ DOMAIN-SUFFIX,djicdn.com
 DOMAIN-SUFFIX,djiops.com
 DOMAIN-SUFFIX,djiservice.org
 DOMAIN-SUFFIX,skypixel.com
-DOMAIN,res.cdn.office.net
-DOMAIN,res-h3.public.cdn.office.net
-DOMAIN,res-1.cdn.office.net
-DOMAIN,res-geo.cdn.office.net
-DOMAIN,outlook-1.cdn.office.net
-DOMAIN,b.c2r.ts.cdn.office.net
 DOMAIN-SUFFIX,giiiis.com
 DOMAIN-SUFFIX,gh-proxy.com
-DOMAIN,learn.microsoft.com

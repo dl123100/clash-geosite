@@ -39,6 +39,7 @@ jobs:
           echo "AI_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/AI.list" >> $GITHUB_ENV
           echo "BING_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Bing.list" >> $GITHUB_ENV
           echo "MS_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Microsoft.list" >> $GITHUB_ENV
+          echo "MSCN_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/MicrosoftCN.list" >> $GITHUB_ENV
           echo "AD_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/AD.list" >> $GITHUB_ENV
           echo "STREAMING_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Streaming.list" >> $GITHUB_ENV
           echo "TG_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Telegram.list" >> $GITHUB_ENV
@@ -90,6 +91,12 @@ jobs:
           SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
         run: |
           curl -sSL $MS_URL | ${{ env.SED }} > ./community/mydata/microsoft
+
+      - name: Generate microsoftcn
+        env:
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
+        run: |
+          curl -sSL $MSCN_URL | ${{ env.SED }} > ./community/mydata/microsoftcn
 
       - name: Generate cn
         env:
