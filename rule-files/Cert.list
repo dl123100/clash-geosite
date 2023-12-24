@@ -1,5 +1,4 @@
 DOMAIN-SUFFIX,freessl.com
-DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,trustasiassl.com
 DOMAIN-SUFFIX,geotrust.com
 DOMAIN-SUFFIX,public-trust.com
@@ -28,6 +27,9 @@ DOMAIN-SUFFIX,globalsign.com
 DOMAIN-SUFFIX,globalsign.net
 DOMAIN-SUFFIX,phicdn.net
 DOMAIN-SUFFIX,dcocsp.cn
-DOMAIN,ocsp.sectigo.com
-DOMAIN-SUFFIX,public-trust.com
+DOMAIN-SUFFIX,crt.sectigo.com
+DOMAIN-SUFFIX,ocsp.sectigo.com
+DOMAIN-SUFFIX,ss2.us
+DOMAIN-SUFFIX,amazontrust.com
+DOMAIN,ocsp.godaddy.com.akadns.net
 IP-CIDR,152.195.38.76/32,no-resolve
