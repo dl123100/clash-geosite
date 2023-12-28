@@ -108,7 +108,6 @@ DOMAIN-SUFFIX,adobe-dns-3.adobe.com
 DOMAIN-SUFFIX,adobe-dns-4.adobe.com
 DOMAIN-SUFFIX,adobe-dns.adobe.com
 DOMAIN-SUFFIX,adobeereg.com
-DOMAIN-SUFFIX,crl.versign.net
 DOMAIN-SUFFIX,ereg.adobe.com
 DOMAIN-SUFFIX,ereg.wip.adobe.com
 DOMAIN-SUFFIX,ereg.wip1.adobe.com
@@ -303,11 +302,6 @@ DOMAIN,hd-preview.browser.miui.com
 DOMAIN,nav.browser.miui.com
 DOMAIN,reader.browser.miui.com
 DOMAIN,abtest.mistat.xiaomi.com
-DOMAIN-SUFFIX,sb-ssl.google.com
-DOMAIN-SUFFIX,safebrowsing.googleapis.com
-DOMAIN-SUFFIX,safebrowsing.clients.google.com
-DOMAIN-SUFFIX,safebrowsing-cache.google.com
-DOMAIN-SUFFIX,fastly-insights.com
 DOMAIN-SUFFIX,clarium.global.ssl.fastly.net
 DOMAIN-SUFFIX,confiant-integrations.global.ssl.fastly.net
 DOMAIN-SUFFIX,dfapvmql-q.global.ssl.fastly.net
@@ -349,7 +343,6 @@ DOMAIN-SUFFIX,cmp.quantcast.com
 DOMAIN-SUFFIX,branch.io
 DOMAIN,in.appcenter.ms
 DOMAIN,geolocation.onetrust.com
-DOMAIN-SUFFIX,cloudflareinsights.com
 DOMAIN,browser.events.data.msn.com
 DOMAIN,browser.events.data.msn.cn
 DOMAIN,web.vortex.data.microsoft.cn
