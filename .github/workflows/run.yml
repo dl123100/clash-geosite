@@ -301,7 +301,6 @@ jobs:
           install -Dp ./community/mydata/ntp ./publish/ntp.txt
           install -Dp ./community/mydata/pikpakdirect ./publish/pikpakdirect.txt
           install -Dp ./community/mydata/github ./publish/github.txt
-          install -Dp ./community/mydata/cert ./publish/cert.txt
           cd ./publish || exit 1
           sha256sum geosite.dat > geosite.dat.sha256sum
 
