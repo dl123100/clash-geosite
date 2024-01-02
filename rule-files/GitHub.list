@@ -34,4 +34,5 @@ DOMAIN-SUFFIX,github-cloud.s3.amazonaws.com
 DOMAIN-SUFFIX,github-com.s3.amazonaws.com
 DOMAIN-SUFFIX,githubnext.com
 DOMAIN-SUFFIX,help-github.com
+DOMAIN-SUFFIX,octocaptcha.com
 DOMAIN-KEYWORD,github
