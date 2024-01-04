@@ -456,8 +456,10 @@ DOMAIN-SUFFIX,goοglе.com
 DOMAIN-SUFFIX,gridaware.app
 DOMAIN-SUFFIX,gsrc.io
 DOMAIN-SUFFIX,gsuite.com
+DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,gv.com
 DOMAIN-SUFFIX,gvt0.com
+DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,gvt3.com
 DOMAIN-SUFFIX,gvt5.com
@@ -648,3 +650,5 @@ DOMAIN-SUFFIX,neverware.com
 DOMAIN-SUFFIX,new.day
 DOMAIN-SUFFIX,opensourceinsight.dev
 DOMAIN-SUFFIX,opensourceinsights.dev
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+DOMAIN-SUFFIX,googleapis.cn
