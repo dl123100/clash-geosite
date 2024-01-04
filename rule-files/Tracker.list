@@ -2,7 +2,6 @@ DOMAIN-KEYWORD,tracker
 DOMAIN-KEYWORD,announce
 DOMAIN-KEYWORD,torrent
 DOMAIN,vps02.net.orel.ru
-DOMAIN,tp.m-team.cc
 DOMAIN,bt.piratbit.club
 DOMAIN,download.nerocloud.me
 DOMAIN,00.mercax.com
@@ -69,7 +68,7 @@ DOMAIN,blackcats-games.net
 DOMAIN,blackz.ro
 DOMAIN,blokas.io
 DOMAIN,bluebird-hd.org
-DOMAIN,blutopia.xyz
+DOMAIN,blutopia.cc
 DOMAIN,bms-hosxp.com
 DOMAIN,bobbialbano.com
 DOMAIN,breakbttext.xyz
@@ -237,6 +236,7 @@ DOMAIN,ln.mtahost.co
 DOMAIN,loushao.net
 DOMAIN,lztr.me
 DOMAIN-SUFFIX,m-team.cc
+DOMAIN-SUFFIX,m-team.io
 DOMAIN,madsrevolution.net
 DOMAIN,mail.realliferpg.de
 DOMAIN,mail2.zelenaya.net
