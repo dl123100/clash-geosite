@@ -333,17 +333,10 @@ DOMAIN,perfops.r.worldssl.net
 DOMAIN,perfops.s.llnwi.net
 DOMAIN,test-perfops.haproxy.com
 DOMAIN,ovh-cdn.perfops.io
-DOMAIN,perf.keyyo.net
-DOMAIN,speed.cable-giant.com.tw
 DOMAIN,myspeed.giantcomm.net
 DOMAIN,speed.vis21.net
 DOMAIN,myspeed.tnc.co.id
-DOMAIN,hl-speed.twmbroadband.com
-DOMAIN,mct-speed.twmbroadband.com
-DOMAIN,yjl-speed.twmbroadband.com
-DOMAIN,gvc-speed.twmbroadband.com
 DOMAIN,brc-spdtst-srv.convergeict.com
-DOMAIN,uc-speed.kbro.com.tw
 DOMAIN,speed.riverside.rocks
 DOMAIN-SUFFIX,speed.dler.io
 DOMAIN,suksp1.myaisfibre.com
@@ -354,7 +347,6 @@ DOMAIN,vnmhcmspt1.vietnamobile.com.vn
 DOMAIN,fast.kabi.tk
 DOMAIN,ptnsp1.myaisfibre.com
 DOMAIN,tcspt2.friday.tw
-DOMAIN,cugspeed.chinaunicomglobal.com
 DOMAIN-SUFFIX,wlvpn.com
 DOMAIN-SUFFIX,tri.co.id
 DOMAIN-SUFFIX,hgc.com.hk

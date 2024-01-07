@@ -122,7 +122,7 @@ DOMAIN-SUFFIX,meetfasttrack.com
 DOMAIN-SUFFIX,meetyourdevices.com
 DOMAIN-SUFFIX,mepn.com
 DOMAIN-SUFFIX,microbit.org
-DOMAIN-SUFFIX,.microsoft
+DOMAIN-SUFFIX,microsoft
 DOMAIN-SUFFIX,microsoft-int.com
 DOMAIN-SUFFIX,microsoft-ppe.com
 DOMAIN-SUFFIX,microsoft-sap-events.com
@@ -306,7 +306,7 @@ DOMAIN-SUFFIX,visualstudio.net
 DOMAIN-SUFFIX,vsallin.net
 DOMAIN-SUFFIX,wbd.ms
 DOMAIN-SUFFIX,what-fan.net
-DOMAIN-SUFFIX,.windows
+DOMAIN-SUFFIX,windows
 DOMAIN-SUFFIX,windows-int.net
 DOMAIN-SUFFIX,windows.com
 DOMAIN-SUFFIX,windows.net
