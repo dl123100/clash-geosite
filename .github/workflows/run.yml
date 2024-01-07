@@ -57,7 +57,6 @@ jobs:
           echo "SteamCN_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/SteamDirect.list" >> $GITHUB_ENV
           echo "Academic_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Academic.list" >> $GITHUB_ENV
           echo "NTP_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/NTP.list" >> $GITHUB_ENV
-          echo "PikpakDirect_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/PikpakDirect.list" >> $GITHUB_ENV
           echo "GitHub_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/GitHub.list" >> $GITHUB_ENV
         shell: bash
 
@@ -256,22 +255,24 @@ jobs:
         run: |
           curl -sSL $NTP_URL | ${{ env.SED }} > ./community/mydata/ntp
 
-      - name: Generate pikpakdirect
-        env:
-          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
-        run: |
-          curl -sSL $PikpakDirect_URL | ${{ env.SED }} > ./community/mydata/pikpakdirect
-
       - name: Build geosite.dat file
         run: |
           cd community || exit 1
           go run ./ --datapath=./mydata --outputname geosite.dat
           cp -fpPR ./mydata ./publish
 
+      - name: Build geosite.db file
+        env:
+          NO_SKIP: true
+        run: |
+          go install -trimpath -ldflags="-s -w -buildid=" github.com/metacubex/geo/cmd/geo@master
+          geo convert site -i v2ray -o sing -f geosite.db ./community/geosite.dat
+
       - name: Move files
         run: |
           rm -rf ./tmp
           install -Dp ./community/geosite.dat ./publish/geosite.dat
+          install -Dp ./geosite.db ./publish/geosite.db
           install -Dp ./community/mydata/apple ./publish/apple.txt
           install -Dp ./community/mydata/cn ./publish/cn.txt
           install -Dp ./community/mydata/direct ./publish/direct.txt
@@ -299,7 +300,6 @@ jobs:
           install -Dp ./community/mydata/steamcn ./publish/steamcn.txt
           install -Dp ./community/mydata/academic ./publish/academic.txt
           install -Dp ./community/mydata/ntp ./publish/ntp.txt
-          install -Dp ./community/mydata/pikpakdirect ./publish/pikpakdirect.txt
           install -Dp ./community/mydata/github ./publish/github.txt
           cd ./publish || exit 1
           sha256sum geosite.dat > geosite.dat.sha256sum
