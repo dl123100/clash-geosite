@@ -293,7 +293,7 @@ jobs:
           install -Dp ./community/mydata/tiktok ./publish/tiktok.txt
           install -Dp ./community/mydata/tracker ./publish/tracker.txt
           install -Dp ./community/mydata/tencent ./publish/tencent.txt
-          install -Dp ./community/mydata/tencent ./publish/jd.txt
+          install -Dp ./community/mydata/jd ./publish/jd.txt
           install -Dp ./community/mydata/dns ./publish/dns.txt
           install -Dp ./community/mydata/speedtest ./publish/speedtest.txt
           install -Dp ./community/mydata/speedtest ./publish/bilibili.txt
@@ -303,6 +303,7 @@ jobs:
           install -Dp ./community/mydata/github ./publish/github.txt
           cd ./publish || exit 1
           sha256sum geosite.dat > geosite.dat.sha256sum
+          sha256sum geosite.db > geosite.db.sha256sum
 
       - name: Release and upload assets
         uses: svenstaro/upload-release-action@v2
