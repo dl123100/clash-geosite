@@ -268,25 +268,10 @@ jobs:
           go run ./ --datapath=./mydata --outputname geosite.dat
           cp -fpPR ./mydata ./publish
 
-      - name: Checkout soffchen/sing-geosite
-        uses: actions/checkout@v4
-        with:
-          repository: soffchen/sing-geosite
-          path: sing-geosite
-  
-      - name: Build geosite.db file
-        env:
-          NO_SKIP: true
-        run: |
-          cd sing-geosite || exit 1
-          cp ../community/geosite.dat ./
-          go run -v . geosite.dat geosite.db
-
       - name: Move files
         run: |
           rm -rf ./tmp
           install -Dp ./community/geosite.dat ./publish/geosite.dat
-          install -Dp ./sing-geosite/geosite.db ./publish/geosite.db
           install -Dp ./community/mydata/apple ./publish/apple.txt
           install -Dp ./community/mydata/cn ./publish/cn.txt
           install -Dp ./community/mydata/direct ./publish/direct.txt
@@ -318,7 +303,6 @@ jobs:
           install -Dp ./community/mydata/github ./publish/github.txt
           cd ./publish || exit 1
           sha256sum geosite.dat > geosite.dat.sha256sum
-          sha256sum geosite.db > geosite.db.sha256sum
 
       - name: Release and upload assets
         uses: svenstaro/upload-release-action@v2
