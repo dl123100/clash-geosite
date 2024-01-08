@@ -60,6 +60,11 @@ jobs:
           echo "GitHub_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/GitHub.list" >> $GITHUB_ENV
           echo "ALIBABA_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Alibaba.list" >> $GITHUB_ENV
           echo "MT_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Meituan.list" >> $GITHUB_ENV
+          echo "JP_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/StreamingJP.list" >> $GITHUB_ENV
+          echo "TW_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/StreamingTW.list" >> $GITHUB_ENV
+          echo "UK_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/StreamingUK.list" >> $GITHUB_ENV
+          echo "HK_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/StreamingHK.list" >> $GITHUB_ENV
+          echo "US_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/StreamingUS.list" >> $GITHUB_ENV
         shell: bash
 
       - name: Checkout Loyalsoldier/domain-list-custom
@@ -269,6 +274,36 @@ jobs:
         run: |
           curl -sSL $MT_URL | ${{ env.SED }} > ./community/mydata/meituan
 
+      - name: Generate jp
+        env:
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
+        run: |
+          curl -sSL $JP_URL | ${{ env.SED }} > ./community/mydata/jp
+
+      - name: Generate tw
+        env:
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
+        run: |
+          curl -sSL $TW_URL | ${{ env.SED }} > ./community/mydata/tw
+
+      - name: Generate uk
+        env:
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
+        run: |
+          curl -sSL $UK_URL | ${{ env.SED }} > ./community/mydata/uk
+
+      - name: Generate hk
+        env:
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
+        run: |
+          curl -sSL $HK_URL | ${{ env.SED }} > ./community/mydata/hk
+
+      - name: Generate us
+        env:
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
+        run: |
+          curl -sSL $US_URL | ${{ env.SED }} > ./community/mydata/us
+
       - name: Build geosite.dat file
         run: |
           cd community || exit 1
@@ -287,36 +322,6 @@ jobs:
           rm -rf ./tmp
           install -Dp ./community/geosite.dat ./publish/geosite.dat
           install -Dp ./geosite.db ./publish/geosite.db
-          install -Dp ./community/mydata/apple ./publish/apple.txt
-          install -Dp ./community/mydata/cn ./publish/cn.txt
-          install -Dp ./community/mydata/direct ./publish/direct.txt
-          install -Dp ./community/mydata/googlecn ./publish/googlecn.txt
-          install -Dp ./community/mydata/proxy ./publish/proxy.txt
-          install -Dp ./community/mydata/google ./publish/google.txt
-          install -Dp ./community/mydata/ai ./publish/ai.txt
-          install -Dp ./community/mydata/bing ./publish/bing.txt
-          install -Dp ./community/mydata/ip ./publish/ip.txt
-          install -Dp ./community/mydata/ad ./publish/ad.txt
-          install -Dp ./community/mydata/microsoft ./publish/microsoft.txt
-          install -Dp ./community/mydata/streaming ./publish/streaming.txt
-          install -Dp ./community/mydata/telegram ./publish/telegram.txt
-          install -Dp ./community/mydata/socialmedia ./publish/socialmedia.txt
-          install -Dp ./community/mydata/httpdns ./publish/httpdns.txt
-          install -Dp ./community/mydata/youtube ./publish/youtube.txt
-          install -Dp ./community/mydata/bytedance ./publish/bytedance.txt
-          install -Dp ./community/mydata/tiktok ./publish/tiktok.txt
-          install -Dp ./community/mydata/tracker ./publish/tracker.txt
-          install -Dp ./community/mydata/tencent ./publish/tencent.txt
-          install -Dp ./community/mydata/jd ./publish/jd.txt
-          install -Dp ./community/mydata/dns ./publish/dns.txt
-          install -Dp ./community/mydata/speedtest ./publish/speedtest.txt
-          install -Dp ./community/mydata/speedtest ./publish/bilibili.txt
-          install -Dp ./community/mydata/steamcn ./publish/steamcn.txt
-          install -Dp ./community/mydata/academic ./publish/academic.txt
-          install -Dp ./community/mydata/ntp ./publish/ntp.txt
-          install -Dp ./community/mydata/github ./publish/github.txt
-          install -Dp ./community/mydata/alibaba ./publish/alibaba.txt
-          install -Dp ./community/mydata/meituan ./publish/meituan.txt
           cd ./publish || exit 1
           sha256sum geosite.dat > geosite.dat.sha256sum
           sha256sum geosite.db > geosite.db.sha256sum
