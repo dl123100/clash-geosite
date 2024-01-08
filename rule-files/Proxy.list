@@ -243,7 +243,6 @@ DOMAIN-SUFFIX,web.app
 DOMAIN-SUFFIX,firebaseapp.com
 DOMAIN-SUFFIX,csb.app
 DOMAIN-SUFFIX,azurestaticapps.net
-DOMAIN-KEYWORD,vod-adaptive.akamaized.net
 DOMAIN-SUFFIX,s3.amazonaws.com
 DOMAIN-SUFFIX,s3.us-west-2.amazonaws.com
 DOMAIN-KEYWORD,web-assets.zendesk
@@ -796,10 +795,6 @@ DOMAIN-SUFFIX,yourdigitalrebatecenter.com
 DOMAIN-SUFFIX,yusercontent.com
 DOMAIN-SUFFIX,you-get.org
 DOMAIN-SUFFIX,zeronet.io
-DOMAIN-SUFFIX,signal.art
-DOMAIN-SUFFIX,signal.org
-DOMAIN-SUFFIX,signalusers.org
-DOMAIN-SUFFIX,whispersystems.org
 DOMAIN-SUFFIX,apkpure.com
 DOMAIN-SUFFIX,cdnpure.com
 DOMAIN-SUFFIX,pureapk.com
