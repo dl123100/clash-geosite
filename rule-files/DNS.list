@@ -6,9 +6,6 @@ DOMAIN,family.cloudflare-dns.com
 DOMAIN,mozilla.cloudflare-dns.com
 DOMAIN,one.one.one.one
 DOMAIN,security.cloudflare-dns.com
-DOMAIN,8888.google
-DOMAIN,dns.google
-DOMAIN,dns.google.com
 DOMAIN,adblock.mydns.network
 DOMAIN,applied-privacy.net
 DOMAIN,cdn-doh.ssnm.xyz
