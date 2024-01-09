@@ -13,7 +13,6 @@ DOMAIN-SUFFIX,beacons.gcp.gvt2.com
 DOMAIN-SUFFIX,beacons-handoff.gcp.gvt2.com
 DOMAIN-SUFFIX,beacons.gvt2.com
 DOMAIN-SUFFIX,beacons3.gvt2.com
-DOMAIN-SUFFIX,beacons5.gvt3.com
 DOMAIN-SUFFIX,checkin.gstatic.com
 DOMAIN-SUFFIX,clientservices.googleapis.com
 DOMAIN-SUFFIX,imasdk.googleapis.com
@@ -196,3 +195,5 @@ DOMAIN-SUFFIX,r4---sn-2x3elnel.googlevideo.com
 DOMAIN-SUFFIX,google.cn
 DOMAIN-SUFFIX,ampproject.org.cn
 DOMAIN-SUFFIX,g.cn
+DOMAIN,connectivitycheck.gstatic.com
+DOMAIN,services.googleapis.cn
