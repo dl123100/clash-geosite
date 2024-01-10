@@ -516,3 +516,4 @@ DOMAIN,edge-prod-wst.env.au.au-msedge.net
 DOMAIN,elasticshed.au.au-msedge.net
 DOMAIN,tlu.graystore.au-msedge.net
 DOMAIN-SUFFIX,l-msedge.net
+DOMAIN-SUFFIX,azureedge.us
