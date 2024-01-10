@@ -189,11 +189,8 @@ DOMAIN-SUFFIX,r2---sn-2x3elnee.googlevideo.com
 DOMAIN-SUFFIX,r3---sn-2x3elnee.googlevideo.com
 DOMAIN-SUFFIX,r4---sn-2x3elnee.googlevideo.com
 DOMAIN-SUFFIX,r4---sn-2x3elnel.googlevideo.com
-DOMAIN-SUFFIX,r4---sn-2x3elnel.googlevideo.com
-DOMAIN-SUFFIX,r4---sn-2x3elnel.googlevideo.com
-DOMAIN-SUFFIX,r4---sn-2x3elnel.googlevideo.com
 DOMAIN-SUFFIX,google.cn
 DOMAIN-SUFFIX,ampproject.org.cn
 DOMAIN-SUFFIX,g.cn
-DOMAIN,connectivitycheck.gstatic.com
 DOMAIN,services.googleapis.cn
+DOMAIN,connectivitycheck.gstatic.com
