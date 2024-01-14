@@ -76,7 +76,7 @@ DOMAIN-SUFFIX,statsig.com
 DOMAIN,api-js.mixpanel.com
 DOMAIN,api.mixpanel.com
 DOMAIN-SUFFIX,grazie.ai
-DOMAIN-SUFFIX,grazie.aws.intellij.net
+DOMAIN-SUFFIX,aws.intellij.net
 DOMAIN,fileserviceuploadsperm.blob.core.windows.net
 DOMAIN,nleditor.osi.office.net
 #DOMAIN,ecs.office.com
