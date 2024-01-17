@@ -65,6 +65,7 @@ jobs:
           echo "UK_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/StreamingUK.list" >> $GITHUB_ENV
           echo "HK_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/StreamingHK.list" >> $GITHUB_ENV
           echo "US_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/StreamingUS.list" >> $GITHUB_ENV
+          echo "Reddit_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Reddit.list" >> $GITHUB_ENV
         shell: bash
 
       - name: Checkout Loyalsoldier/domain-list-custom
@@ -303,6 +304,12 @@ jobs:
           SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
         run: |
           curl -sSL $US_URL | ${{ env.SED }} > ./community/mydata/us
+
+      - name: Generate reddit
+        env:
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
+        run: |
+          curl -sSL $Reddit_URL | ${{ env.SED }} > ./community/mydata/reddit
 
       - name: Build geosite.dat file
         run: |
