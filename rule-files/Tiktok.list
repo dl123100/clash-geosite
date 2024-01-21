@@ -12,6 +12,7 @@ DOMAIN-SUFFIX,bytedapm.com
 DOMAIN-SUFFIX,bytegecko-i18n.com
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,byteoversea.net
+DOMAIN-SUFFIX,byteoversea.net.byteigtm.com
 DOMAIN-SUFFIX,ibytedtos.com
 DOMAIN-SUFFIX,ibyteimg.com
 DOMAIN-SUFFIX,ipstatp.com
@@ -24,9 +25,20 @@ DOMAIN-SUFFIX,tik-tokapi.com
 DOMAIN-SUFFIX,tiktok.com
 DOMAIN-SUFFIX,tiktokcdn-us.com
 DOMAIN-SUFFIX,tiktokcdn-us.com.akamaized.net
+DOMAIN-SUFFIX,tiktokcdn-us.com.atomile.com
 DOMAIN-SUFFIX,tiktokcdn.com
 DOMAIN-SUFFIX,tiktokcdn.com.akamaized.net
 DOMAIN-SUFFIX,tiktokcdn.com.edgesuite.net
+DOMAIN-SUFFIX,tiktokcdn.com.atomile.com
+DOMAIN-SUFFIX,tiktokcdn.com.c.worldfcdn.com
+DOMAIN-SUFFIX,tiktokcdn.com.rocket-cdn.com
+DOMAIN-SUFFIX,tiktokcdn.com.qlivecdn.com
+DOMAIN-SUFFIX,tiktokcdn.com.tlivepush.com
+DOMAIN-SUFFIX,tiktokv.com.c.worldfcdn2.com
+DOMAIN-SUFFIX,ttlivecdn.com.c.worldfcdn.com
+DOMAIN-SUFFIX,ttlivecdn.com.akamaized.net
+DOMAIN-SUFFIX,ttlivecdn.com.wsdvs.com
+DOMAIN-SUFFIX,tiktokcdn.liveplay.myqcloud.com
 DOMAIN-SUFFIX,tiktokd.net
 DOMAIN-SUFFIX,tiktokd.org
 DOMAIN-SUFFIX,tiktokv.com
@@ -42,7 +54,6 @@ DOMAIN-SUFFIX,ttoversea.net
 DOMAIN-SUFFIX,ttoverseaus.net
 DOMAIN-KEYWORD,tlivecdn.com
 DOMAIN-KEYWORD,ttlivecdn.com
-DOMAIN-SUFFIX,ttlivecdn.com.akamaized.net
 DOMAIN-SUFFIX,bytefcdn-oversea.com
 DOMAIN-SUFFIX,lf1-ttcdn-tos.pstatp.com
 DOMAIN-SUFFIX,pull-f3-hs.pstatp.com		
@@ -69,3 +80,4 @@ DOMAIN-SUFFIX,ciciai.com
 DOMAIN-SUFFIX,coze.com
 DOMAIN-SUFFIX,tiktok.bytedance.map.fastly.net
 DOMAIN-SUFFIX,tiktokmusic.app
+DOMAIN-SUFFIX,musemuse.cn
