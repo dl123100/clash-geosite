@@ -405,3 +405,5 @@ DOMAIN,s.magsrv.com
 DOMAIN,a.orbsrv.com
 DOMAIN,s.orbsrv.com
 DOMAIN,api.statsig.com
+DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,app-measurement.com
