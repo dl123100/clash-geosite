@@ -409,3 +409,6 @@ DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,appsflyer.tk
 DOMAIN-SUFFIX,appsflyersdk.com
+DOMAIN,firebaseinstallations.googleapis.com
+DOMAIN,firebase.googleapis.com
+DOMAIN,firebaselogging-pa.googleapis.com
