@@ -407,3 +407,5 @@ DOMAIN,s.orbsrv.com
 DOMAIN,api.statsig.com
 DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,app-measurement.com
+DOMAIN-SUFFIX,appsflyer.tk
+DOMAIN-SUFFIX,appsflyersdk.com
