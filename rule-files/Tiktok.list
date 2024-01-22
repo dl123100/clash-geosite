@@ -1,6 +1,7 @@
 DOMAIN,lf16-effectcdn.byteeffecttos-g.com
 DOMAIN,lf16-pkgcdn.pitaya-clientai.com
 DOMAIN,p16-tiktokcdn-com.akamaized.net
+DOMAIN,v16-tiktokcdn-com.akamaized.net
 DOMAIN-SUFFIX,byteoversea.com.edgekey.net
 DOMAIN-SUFFIX,byteoversea.com.edgesuite.net
 DOMAIN-SUFFIX,tiktokv.com.edgesuite.net
@@ -16,8 +17,11 @@ DOMAIN-SUFFIX,byteoversea.net
 DOMAIN-SUFFIX,byteoversea.net.byteigtm.com
 DOMAIN-SUFFIX,ibytedtos.com
 DOMAIN-SUFFIX,ibyteimg.com
+DOMAIN-SUFFIX,ibyteimg.com.akamaized.net
+DOMAIN-SUFFIX,ibyteimg.com.edgesuite.net
 DOMAIN-SUFFIX,ipstatp.com
 DOMAIN-SUFFIX,isnssdk.com
+DOMAIN-SUFFIX,isnssdk.com.edgekey.net
 DOMAIN-SUFFIX,sgsnssdk.com
 DOMAIN-SUFFIX,muscdn.com
 DOMAIN-SUFFIX,muscdn.com.akamaized.net
@@ -93,6 +97,7 @@ DOMAIN-SUFFIX,tiktokmusic.app
 DOMAIN-SUFFIX,musemuse.cn
 DOMAIN,api.snapkit.com
 DOMAIN-SUFFIX,byteicdn.com
+DOMAIN-SUFFIX,byteicdn.com.akamaized.net
 DOMAIN-SUFFIX,bytetcdn.com
 DOMAIN,a2047.r.akamai.net
 DOMAIN,a741.dscw155.akamai.net
@@ -101,6 +106,7 @@ DOMAIN,a747.us.akamai.net
 DOMAIN,a2047.mm2.akamai.net
 DOMAIN-SUFFIX,hypstarcdn.com
 DOMAIN-SUFFIX,hypstarcdn.com.akamaized.net
+DOMAIN-SUFFIX,hypstarcdn.com.edgesuite.net
 DOMAIN-SUFFIX,bytewlb.akadns.net
 DOMAIN-SUFFIX,bytegeo.akadns.net
 DOMAIN-SUFFIX,bytedance.akadns.net
@@ -121,5 +127,20 @@ DOMAIN-SUFFIX,dttorhs584ri4.cloudfront.net
 DOMAIN-SUFFIX,dzsu313agxr9l.cloudfront.net
 DOMAIN-SUFFIX,xzcs3zlph.com
 DOMAIN-SUFFIX,xzcs3zlph.com.edgesuite.net
+DOMAIN-SUFFIX,xzcs3zlph.com.akamaized.net
 DOMAIN-SUFFIX,toutiao50.com
 DOMAIN-SUFFIX,toutiao50.com.edgesuite.net
+DOMAIN-SUFFIX,m-p16.akamaized.net
+DOMAIN-SUFFIX,m-v16.akamaized.net
+DOMAIN-SUFFIX,mpak-odec1.akamaized.net
+DOMAIN-SUFFIX,mpak-sinc1.akamaized.net
+DOMAIN-SUFFIX,mpak-ssgc1.akamaized.net
+DOMAIN-SUFFIX,mpak-suse1.akamaized.net
+DOMAIN-SUFFIX,p16-sg-default.akamaized.net
+DOMAIN-SUFFIX,p16-sg-default.edgesuite.net
+DOMAIN-SUFFIX,p16-va-default.akamaized.net
+DOMAIN-SUFFIX,p16-va-default.edgesuite.net
+DOMAIN-SUFFIX,p16hypstarcdn-a.akamaihd.net
+DOMAIN-SUFFIX,p16hypstarcdn-a.akamaihd.net.edgesuite.net
+DOMAIN-SUFFIX,s16-hypstarcdn-com.akamaized.net
+DOMAIN-SUFFIX,v16m-default.akamaized.net
