@@ -16,6 +16,11 @@ DOMAIN-SUFFIX,spotify-com.akamaized.net
 DOMAIN-SUFFIX,spotifynewsroom.jp
 DOMAIN-SUFFIX,spotilocal.com
 DOMAIN-SUFFIX,tospotify.com
+DOMAIN,spotify.test-app.link
+DOMAIN,spotify.app.link
+DOMAIN,spotify-alternate.app.link
+DOMAIN,spotify-alternate.test-app.link
+DOMAIN,spotify.link
 DOMAIN,audio4-ak-spotify-com.akamaized.net
 DOMAIN,cdn-spotify-experiments.conductrics.com
 DOMAIN,heads-ak-spotify-com.akamaized.net
