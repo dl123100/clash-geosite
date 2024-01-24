@@ -9,6 +9,7 @@ DOMAIN-SUFFIX,tiktokv.com.edgekey.net
 DOMAIN-SUFFIX,tiktok.com.edgesuite.net
 DOMAIN-SUFFIX,tiktokv.com.cdn.cloudflare.net
 DOMAIN-SUFFIX,bytedapm.com
+DOMAIN-SUFFIX,bytedapm.com.edgesuite.net
 DOMAIN-SUFFIX,bytegecko-i18n.com
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,byteoversea.com.bytegeo.akadns.net
@@ -16,6 +17,7 @@ DOMAIN-SUFFIX,byteoversea.com.srip.net
 DOMAIN-SUFFIX,byteoversea.net
 DOMAIN-SUFFIX,byteoversea.net.byteigtm.com
 DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,ibytedtos.com.edgesuite.net
 DOMAIN-SUFFIX,ibyteimg.com
 DOMAIN-SUFFIX,ibyteimg.com.akamaized.net
 DOMAIN-SUFFIX,ibyteimg.com.edgesuite.net
@@ -38,6 +40,7 @@ DOMAIN-SUFFIX,tiktok.com
 DOMAIN-SUFFIX,tiktokcdn-us.com
 DOMAIN-SUFFIX,tiktokcdn-us.com.akamaized.net
 DOMAIN-SUFFIX,tiktokcdn-us.com.atomile.com
+DOMAIN-SUFFIX,tiktokcdn-us.com.edgesuite.net
 DOMAIN-SUFFIX,tiktokcdn.com
 DOMAIN-SUFFIX,tiktokcdn.com.akamaized.net
 DOMAIN-SUFFIX,tiktokcdn.com.edgesuite.net
@@ -93,6 +96,7 @@ DOMAIN-SUFFIX,tiktokcdn-in.com
 DOMAIN-SUFFIX,ciciai.com
 DOMAIN-SUFFIX,coze.com
 DOMAIN-SUFFIX,tiktok.bytedance.map.fastly.net
+DOMAIN,video.bytedance.map.fastly.net
 DOMAIN-SUFFIX,tiktokmusic.app
 DOMAIN-SUFFIX,musemuse.cn
 DOMAIN,api.snapkit.com
@@ -104,6 +108,10 @@ DOMAIN,a741.dscw155.akamai.net
 DOMAIN,a1678.dsct.akamai.net
 DOMAIN,a747.us.akamai.net
 DOMAIN,a2047.mm2.akamai.net
+DOMAIN,e28622.api1.akamaiedge.net
+DOMAIN,e28622.api2.akamaiedge.net
+DOMAIN,e28622.api4.akamaiedge.net
+DOMAIN,a1899.b.akamai.net
 DOMAIN-SUFFIX,hypstarcdn.com
 DOMAIN-SUFFIX,hypstarcdn.com.akamaized.net
 DOMAIN-SUFFIX,hypstarcdn.com.edgesuite.net
