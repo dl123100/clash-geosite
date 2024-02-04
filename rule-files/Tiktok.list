@@ -1,5 +1,5 @@
 DOMAIN,lf16-effectcdn.byteeffecttos-g.com
-DOMAIN,lf16-pkgcdn.pitaya-clientai.com
+DOMAIN-SUFFIX,pitaya-clientai.com
 DOMAIN,p16-tiktokcdn-com.akamaized.net
 DOMAIN,v16-tiktokcdn-com.akamaized.net
 DOMAIN-SUFFIX,byteoversea.com.edgekey.net
@@ -119,6 +119,7 @@ DOMAIN,e28622.api1.akamaiedge.net
 DOMAIN,e28622.api2.akamaiedge.net
 DOMAIN,e28622.api4.akamaiedge.net
 DOMAIN,e35058.a.akamaiedge.net
+DOMAIN,a1826.v.akamai.net
 DOMAIN,a1845.b.akamai.net
 DOMAIN,a1849.b.akamai.net
 DOMAIN,a1039.b.akamai.net
