@@ -8,9 +8,11 @@ DOMAIN-SUFFIX,tiktokv.com.edgesuite.net
 DOMAIN-SUFFIX,tiktokv.com.edgekey.net
 DOMAIN-SUFFIX,tiktok.com.edgesuite.net
 DOMAIN-SUFFIX,tiktokv.com.cdn.cloudflare.net
+DOMAIN-SUFFIX,tiktokv.com.c.worldfcdn.com
 DOMAIN-SUFFIX,bytedapm.com
 DOMAIN-SUFFIX,bytedapm.com.edgesuite.net
 DOMAIN-SUFFIX,bytegecko-i18n.com
+DOMAIN-SUFFIX,byteglb.com
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,byteoversea.com.bytegeo.akadns.net
 DOMAIN-SUFFIX,byteoversea.com.srip.net
@@ -41,6 +43,7 @@ DOMAIN-SUFFIX,tiktokcdn-us.com
 DOMAIN-SUFFIX,tiktokcdn-us.com.akamaized.net
 DOMAIN-SUFFIX,tiktokcdn-us.com.atomile.com
 DOMAIN-SUFFIX,tiktokcdn-us.com.edgesuite.net
+DOMAIN-SUFFIX,tiktokcdn-eu.com
 DOMAIN-SUFFIX,tiktokcdn.com
 DOMAIN-SUFFIX,tiktokcdn.com.akamaized.net
 DOMAIN-SUFFIX,tiktokcdn.com.edgesuite.net
@@ -57,6 +60,7 @@ DOMAIN-SUFFIX,tiktokcdn.liveplay.myqcloud.com
 DOMAIN-SUFFIX,tiktokd.net
 DOMAIN-SUFFIX,tiktokd.org
 DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,tiktokv.eu
 DOMAIN-KEYWORD,musical.ly
 DOMAIN,musically.app.link
 DOMAIN,musically-alternate.app.link
@@ -65,6 +69,7 @@ DOMAIN-SUFFIX,musical.ly.edgesuite.net
 DOMAIN-SUFFIX,topbuzz.com
 DOMAIN-KEYWORD,tiktok
 DOMAIN-SUFFIX,capcut.com
+DOMAIN-SUFFIX,ttdns2.com
 DOMAIN-SUFFIX,ttwstatic.com
 DOMAIN-SUFFIX,ttwstatic.com.edgesuite.net
 DOMAIN-SUFFIX,ttoversea.net
@@ -72,6 +77,7 @@ DOMAIN-SUFFIX,ttoverseaus.net
 DOMAIN-KEYWORD,tlivecdn.com
 DOMAIN-KEYWORD,ttlivecdn.com
 DOMAIN-SUFFIX,bytefcdn-oversea.com
+DOMAIN-SUFFIX,bytefcdn-ttpeu.com
 DOMAIN-SUFFIX,lf1-ttcdn-tos.pstatp.com
 DOMAIN-SUFFIX,pull-f3-hs.pstatp.com		
 DOMAIN-SUFFIX,pull-f5-hs.flive.pstatp.com		
@@ -169,3 +175,9 @@ DOMAIN-SUFFIX,p16hypstarcdn-a.akamaihd.net
 DOMAIN-SUFFIX,p16hypstarcdn-a.akamaihd.net.edgesuite.net
 DOMAIN-SUFFIX,s16-hypstarcdn-com.akamaized.net
 DOMAIN-SUFFIX,v16m-default.akamaized.net
+DOMAIN-SUFFIX,tiktokshop.com
+DOMAIN-SUFFIX,tiktokglobalshop.com
+DOMAIN-SUFFIX,tiktokglobalshopv.com
+DOMAIN-SUFFIX,tiktok.in
+DOMAIN-SUFFIX,tiktokv.us
+DOMAIN-SUFFIX,tiktokstaticb.com
