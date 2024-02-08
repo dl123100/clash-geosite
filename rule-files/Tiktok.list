@@ -101,8 +101,7 @@ DOMAIN-SUFFIX,sf6-ttcdn-tos.pstatp.com
 DOMAIN-SUFFIX,tiktokcdn-in.com
 DOMAIN-SUFFIX,ciciai.com
 DOMAIN-SUFFIX,coze.com
-DOMAIN-SUFFIX,tiktok.bytedance.map.fastly.net
-DOMAIN,video.bytedance.map.fastly.net
+DOMAIN-SUFFIX,bytedance.map.fastly.net
 DOMAIN-SUFFIX,tiktokmusic.app
 DOMAIN-SUFFIX,musemuse.cn
 DOMAIN,api.snapkit.com
