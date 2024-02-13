@@ -421,3 +421,4 @@ DOMAIN,graph.facebook.com
 DOMAIN-SUFFIX,huawei.facebook.com
 DOMAIN-SUFFIX,platform.facebook.com
 DOMAIN-SUFFIX,dns.facebook.com
+DOMAIN,cdn.onesignal.com
