@@ -174,3 +174,5 @@ DOMAIN-SUFFIX,imok.run
 DOMAIN-SUFFIX,radiko.jp
 DOMAIN,mobile-collector.newrelic.com
 DOMAIN,api.growthpush.com
+DOMAIN-SUFFIX,waqi.info
+DOMAIN-SUFFIX,aqicn.org
