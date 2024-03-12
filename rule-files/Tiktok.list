@@ -18,6 +18,7 @@ DOMAIN-SUFFIX,byteoversea.com.bytegeo.akadns.net
 DOMAIN-SUFFIX,byteoversea.com.srip.net
 DOMAIN-SUFFIX,byteoversea.net
 DOMAIN-SUFFIX,byteoversea.net.byteigtm.com
+DOMAIN-SUFFIX,byteintlapi.com
 DOMAIN-SUFFIX,ibytedtos.com
 DOMAIN-SUFFIX,ibytedtos.com.edgesuite.net
 DOMAIN-SUFFIX,ibyteimg.com
@@ -99,7 +100,6 @@ DOMAIN-SUFFIX,sf1-ttcdn-tos.pstatp.com
 DOMAIN-SUFFIX,sf16-ttcdn-tos.ipstatp.com		
 DOMAIN-SUFFIX,sf6-ttcdn-tos.pstatp.com
 DOMAIN-SUFFIX,tiktokcdn-in.com
-DOMAIN-SUFFIX,ciciai.com
 DOMAIN-SUFFIX,coze.com
 DOMAIN-SUFFIX,bytedance.map.fastly.net
 DOMAIN-SUFFIX,tiktokmusic.app
@@ -180,3 +180,4 @@ DOMAIN-SUFFIX,tiktokglobalshopv.com
 DOMAIN-SUFFIX,tiktok.in
 DOMAIN-SUFFIX,tiktokv.us
 DOMAIN-SUFFIX,tiktokstaticb.com
+DOMAIN-SUFFIX,yhgfb-static.com
