@@ -320,6 +320,7 @@ DOMAIN-SUFFIX,ubuntu.net
 DOMAIN-SUFFIX,ubuntuforums.org
 DOMAIN-SUFFIX,canonical.com
 DOMAIN-SUFFIX,launchpad.net
+DOMAIN-SUFFIX,launchpadcontent.net
 DOMAIN-SUFFIX,launchpadlibrarian.com
 DOMAIN-SUFFIX,launchpadlibrarian.net
 DOMAIN-SUFFIX,launchpadlibrarian.org
@@ -800,6 +801,7 @@ DOMAIN-SUFFIX,yusercontent.com
 DOMAIN-SUFFIX,you-get.org
 DOMAIN-SUFFIX,zeronet.io
 DOMAIN-SUFFIX,apkpure.com
+DOMAIN-SUFFIX,apkpure.net
 DOMAIN-SUFFIX,cdnpure.com
 DOMAIN-SUFFIX,pureapk.com
 DOMAIN-SUFFIX,winudf.com
@@ -931,3 +933,4 @@ DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,v2ex.co
 DOMAIN-SUFFIX,hostloc.net
 DOMAIN-SUFFIX,hostloc.wiki
+DOMAIN,cdn.js7k.com

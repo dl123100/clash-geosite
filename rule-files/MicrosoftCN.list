@@ -2,8 +2,11 @@ DOMAIN,res.cdn.office.net
 DOMAIN,res-h3.public.cdn.office.net
 DOMAIN,res-1.cdn.office.net
 DOMAIN,res-geo.cdn.office.net
+DOMAIN,shell.cdn.office.net
+DOMAIN,statics.teams.cdn.office.net
 DOMAIN,outlook-1.cdn.office.net
 DOMAIN,b.c2r.ts.cdn.office.net
+DOMAIN,f.c2r.ts.cdn.office.net
 DOMAIN,download.microsoft.com
 DOMAIN-SUFFIX,download.prss.microsoft.com
 DOMAIN,download.visualstudio.microsoft.com
