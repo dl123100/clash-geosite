@@ -10,6 +10,8 @@ DOMAIN-SUFFIX,ifconfig.me
 DOMAIN-SUFFIX,ifconfig.io
 DOMAIN-SUFFIX,ident.me
 DOMAIN-SUFFIX,ip.sb
+DOMAIN-SUFFIX,ip.icu
+DOMAIN-SUFFIX,ip.im
 DOMAIN-SUFFIX,ipw.cn
 DOMAIN-SUFFIX,icanhazip.com
 DOMAIN-SUFFIX,ipify.org
@@ -53,6 +55,10 @@ DOMAIN-SUFFIX,whatsmyip.com
 DOMAIN-SUFFIX,geoapify.com
 DOMAIN-SUFFIX,ifconfig.co
 DOMAIN-SUFFIX,ip.gs
+DOMAIN-SUFFIX,ip.me
+DOMAIN-SUFFIX,ip2location.com
+DOMAIN-SUFFIX,ip.network
+DOMAIN-SUFFIX,ipcost.com
 DOMAIN-SUFFIX,ipworld.info
 DOMAIN-SUFFIX,ipapi.com
 DOMAIN-SUFFIX,ip125.com
@@ -101,3 +107,14 @@ DOMAIN-SUFFIX,v6test.snozzages.com
 DOMAIN-SUFFIX,ipv6.br
 DOMAIN,ipv4-overseas.itdog.plus
 DOMAIN,ipv4.lvhai.org
+DOMAIN-SUFFIX,reallyfreegeoip.org
+DOMAIN-SUFFIX,iplark.com
+DOMAIN-SUFFIX,myip.wtf
+DOMAIN-SUFFIX,bgp.tools
+DOMAIN-SUFFIX,ip123.in
+DOMAIN-SUFFIX,ipcheck.ing
+DOMAIN-SUFFIX,ipaddress.my
+DOMAIN-SUFFIX,ping.pe
+DOMAIN-SUFFIX,vpng.net
+DOMAIN-SUFFIX,cip.cc
+DOMAIN-SUFFIX,httpbin.org
