@@ -417,9 +417,5 @@ DOMAIN-SUFFIX,360yield.com
 DOMAIN,csp-reporting.cloudflare.com
 DOMAIN-SUFFIX,cloudflareinsights.com
 DOMAIN,tr.www.cloudflare.com
-DOMAIN-SUFFIX,analytics.facebook.com
-DOMAIN,graph.facebook.com
-DOMAIN-SUFFIX,huawei.facebook.com
-DOMAIN-SUFFIX,platform.facebook.com
-DOMAIN-SUFFIX,dns.facebook.com
 DOMAIN,cdn.onesignal.com
+DOMAIN,api.afdback.ppsimg.com
