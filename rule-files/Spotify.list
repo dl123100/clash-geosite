@@ -21,7 +21,8 @@ DOMAIN,spotify.test-app.link
 DOMAIN,spotify.app.link
 DOMAIN,spotify-alternate.app.link
 DOMAIN,spotify-alternate.test-app.link
-DOMAIN,spotify.link
+DOMAIN-SUFFIX,spotify.co
+DOMAIN-SUFFIX,spotify.link
 DOMAIN,audio-ak.spotify.com.eip.akadns.net
 DOMAIN,audio-ak-spotify-com.akamaized.net
 DOMAIN,audio-akp-quic-spotify-com.akamaized.net
@@ -39,3 +40,7 @@ DOMAIN-SUFFIX,spotify.map.fastly.net
 DOMAIN-SUFFIX,spotify.map.fastlylb.net
 DOMAIN-SUFFIX,sam-hpto.com
 DOMAIN,umg-hpto-prod.s3.amazonaws.com
+DOMAIN,spotify.deliveryengine.adswizz.com
+DOMAIN-SUFFIX,spotx.tv
+DOMAIN-SUFFIX,spotxchange.com
+DOMAIN-SUFFIX,spotify.edgekey.net

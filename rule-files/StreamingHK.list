@@ -46,8 +46,8 @@ DOMAIN-SUFFIX,hbogoasia.hk
 DOMAIN-KEYWORD,.hbogoasia.
 DOMAIN-SUFFIX,supiptv.vip
 DOMAIN-SUFFIX,encoretvb.com
-DOMAIN-SUFFIX,content.jwplatform.com
-DOMAIN-SUFFIX,videos-f.jwpsrv.com
+DOMAIN,content.jwplatform.com
+DOMAIN-,videos-f.jwpsrv.com
 DOMAIN,bcbolt446c5271-a.akamaihd.net
 DOMAIN,edge.api.brightcove.com
 DOMAIN-SUFFIX,joox.com

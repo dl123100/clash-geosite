@@ -58,6 +58,7 @@ DOMAIN-SUFFIX,anthropic.com
 DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,perplexity.ai
+DOMAIN,fscdn.eppo.cloud
 DOMAIN-SUFFIX,forefront.ai
 DOMAIN,cdn.tolt.io
 DOMAIN,images.clerk.dev
