@@ -50,7 +50,8 @@ DOMAIN,cdnjs.cloudflare.com
 DOMAIN-SUFFIX,poe.com
 DOMAIN,sdk-api-v1.singular.net
 DOMAIN-SUFFIX,poecdn.net
-DOMAIN,api.sprig.com
+DOMAIN-SUFFIX,sprig.com
+DOMAIN,a1988.b.akamai.net
 DOMAIN-SUFFIX,qr.ae
 DOMAIN-SUFFIX,quora.com
 DOMAIN-SUFFIX,quoracdn.net
