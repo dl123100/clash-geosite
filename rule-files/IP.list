@@ -118,3 +118,5 @@ DOMAIN-SUFFIX,ping.pe
 DOMAIN-SUFFIX,vpng.net
 DOMAIN-SUFFIX,cip.cc
 DOMAIN-SUFFIX,httpbin.org
+DOMAIN-SUFFIX,ping.sx
+DOMAIN,public-us-pingsx.api.clonoth.com
