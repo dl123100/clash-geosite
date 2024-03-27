@@ -79,7 +79,7 @@ DOMAIN-SUFFIX,statsig.com
 DOMAIN,api-js.mixpanel.com
 DOMAIN,api.mixpanel.com
 DOMAIN-SUFFIX,grazie.ai
-DOMAIN-SUFFIX,aws.intellij.net
+DOMAIN-SUFFIX,intellij.net
 DOMAIN,fileserviceuploadsperm.blob.core.windows.net
 DOMAIN,nleditor.osi.office.net
 #DOMAIN,ecs.office.com
@@ -124,3 +124,7 @@ DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 DOMAIN,content-developerprofiles-pa.googleapis.com
 DOMAIN,colab.research.google.com
+DOMAIN,aistudio.google.com
+DOMAIN-SUFFIX,opera-api.com
+DOMAIN-SUFFIX,codeium.com
+DOMAIN-SUFFIX,acemc.co
