@@ -30,6 +30,7 @@ jobs:
           echo "RELEASE_NAME=Released on $(date +%Y%m%d%H%M)" >> $GITHUB_ENV
           echo "TAG_NAME=$(date +%Y%m%d%H%M)" >> $GITHUB_ENV
           echo "APPLE_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Apple.list" >> $GITHUB_ENV
+          echo "APPLEAKAMAI_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/AppleAkamai.list" >> $GITHUB_ENV
           echo "GOOGLE_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Google.list" >> $GITHUB_ENV
           echo "CN_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/CN.list" >> $GITHUB_ENV
           echo "DIRECT_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Direct.list" >> $GITHUB_ENV
@@ -98,6 +99,13 @@ jobs:
         run: |
           mkdir -p ./community/mydata
           curl -sSL $APPLE_URL | ${{ env.SED }} > ./community/mydata/apple
+
+      - name: Generate appleakamai
+        env:
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
+        run: |
+          mkdir -p ./community/mydata
+          curl -sSL $APPLEAKAMAI_URL | ${{ env.SED }} > ./community/mydata/appleakamai
 
       - name: Generate microsoft
         env:
