@@ -114,7 +114,6 @@ DOMAIN-SUFFIX,bgp.tools
 DOMAIN-SUFFIX,ip123.in
 DOMAIN-SUFFIX,ipcheck.ing
 DOMAIN-SUFFIX,ipaddress.my
-DOMAIN-SUFFIX,ping.pe
 DOMAIN-SUFFIX,vpng.net
 DOMAIN-SUFFIX,cip.cc
 DOMAIN-SUFFIX,httpbin.org
