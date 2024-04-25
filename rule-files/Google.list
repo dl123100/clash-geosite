@@ -33,7 +33,7 @@ DOMAIN-SUFFIX,app-measurement.net
 DOMAIN-SUFFIX,appbridge.ca
 DOMAIN-SUFFIX,appbridge.io
 DOMAIN-SUFFIX,appbridge.it
-DOMAIN-SUFFIX,appspot.com
+DOMAIN-KEYWORD,appspot
 DOMAIN-SUFFIX,apture.com
 DOMAIN-SUFFIX,area120.com
 DOMAIN-SUFFIX,asp-cc.com
@@ -651,3 +651,4 @@ DOMAIN-SUFFIX,opensourceinsight.dev
 DOMAIN-SUFFIX,opensourceinsights.dev
 DOMAIN-SUFFIX,google
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+DOMAIN-SUFFIX,deepmind.com
