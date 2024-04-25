@@ -53,3 +53,5 @@ DOMAIN,cs1-lb-eu.8315.ecdns.net
 DOMAIN,cs1-lb-us.8315.ecdns.net
 DOMAIN,cs2-wpc.apr-8315.edgecastdns.net
 DOMAIN-SUFFIX,twimg.com.akahost.net
+DOMAIN-SUFFIX,edgecastcdn.net
+DOMAIN-SUFFIX,edgecastdns.net
