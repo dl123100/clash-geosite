@@ -229,3 +229,4 @@ DOMAIN-SUFFIX,azureedge.net
 DOMAIN,copilot.microsoft.com
 DOMAIN,copilotstudio.microsoft.com
 DOMAIN-SUFFIX,bingparachute.com
+DOMAIN, api.githubcopilot.com

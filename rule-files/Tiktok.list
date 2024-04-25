@@ -51,7 +51,7 @@ DOMAIN-SUFFIX,tiktokcdn.com.atomile.com
 DOMAIN-SUFFIX,tiktokcdn.com.c.worldfcdn.com
 DOMAIN-SUFFIX,tiktokcdn.com.rocket-cdn.com
 DOMAIN-SUFFIX,tiktokcdn.com.qlivecdn.com
-DOMAIN-SUFFIX,tiktokcdn.com.tlivepush.com
+DOMAIN-SUFFIX,tlivepush.com
 DOMAIN-SUFFIX,tiktokv.com.c.worldfcdn2.com
 DOMAIN-SUFFIX,ttlivecdn.com.c.worldfcdn.com
 DOMAIN-SUFFIX,ttlivecdn.com.akamaized.net
@@ -308,3 +308,10 @@ DOMAIN-SUFFIX,worldfcdn.com
 DOMAIN-SUFFIX,azioncdn.net
 DOMAIN-SUFFIX,swiftserve.com
 DOMAIN,zbdhwpic.v.baishan-cloud.net
+DOMAIN,courses.snapsolve.com
+DOMAIN,engagements.appsflyer.com
+DOMAIN,roovza-launches.appsflyersdk.com
+DOMAIN,sessions.bugsnag.com
+DOMAIN-SUFFIX,ttadsmanager.com
+DOMAIN-SUFFIX,ttapis.com
+DOMAIN-SUFFIX,tzvbfs.com
