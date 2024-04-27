@@ -5,6 +5,7 @@ DOMAIN,dns.weixin.qq.com
 DOMAIN,dns.weixin.qq.com.cn
 DOMAIN,httpdns-api.aliyuncs.com
 DOMAIN,httpdns-sc.aliyuncs.com
+DOMAIN,httpdns.yunxindns.com
 DOMAIN,httpdns.alicdn.com
 DOMAIN,httpdns.baidu.com
 DOMAIN,httpsdns.baidu.com
@@ -13,6 +14,7 @@ DOMAIN,httpdns.bilivideo.com
 DOMAIN,httpdns.c.cdnhwc2.com
 DOMAIN,httpdns.music.163.com
 DOMAIN,httpdns.n.netease.com
+DOMAIN,httpdns-sdk.n.netease.com
 DOMAIN,httpdns.push.oppomobile.com
 DOMAIN,httpdns.volcengineapi.com
 DOMAIN,lofter.httpdns.c.163.com
