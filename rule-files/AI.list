@@ -1,5 +1,4 @@
 DOMAIN-KEYWORD,openai
-DOMAIN-KEYWORD,claude
 DOMAIN-KEYWORD,chatgpt
 DOMAIN-SUFFIX,openai.nooc.ink
 DOMAIN-SUFFIX,challenges.cloudflare.com
@@ -55,9 +54,6 @@ DOMAIN,a1988.b.akamai.net
 DOMAIN-SUFFIX,qr.ae
 DOMAIN-SUFFIX,quora.com
 DOMAIN-SUFFIX,quoracdn.net
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN,servd-anthropic-website.b-cdn.net
-DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN,fscdn.eppo.cloud
 DOMAIN-SUFFIX,forefront.ai
@@ -84,7 +80,6 @@ DOMAIN,fileserviceuploadsperm.blob.core.windows.net
 DOMAIN,nleditor.osi.office.net
 #DOMAIN,ecs.office.com
 #DOMAIN,officeclient.microsoft.com
-DOMAIN,cdn.usefathom.com
 DOMAIN-SUFFIX,host.livekit.cloud
 DOMAIN-SUFFIX,chatgpt.livekit.cloud
 DOMAIN-SUFFIX,turn.livekit.cloud
