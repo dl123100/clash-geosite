@@ -72,6 +72,7 @@ jobs:
           echo "Meta_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Meta.list" >> $GITHUB_ENV
           echo "Twitter_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Twitter.list" >> $GITHUB_ENV
           echo "Cert_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Cert.list" >> $GITHUB_ENV
+          echo "Talkatone_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Talkatone.list" >> $GITHUB_ENV
         shell: bash
 
       - name: Checkout Loyalsoldier/domain-list-custom
@@ -336,6 +337,12 @@ jobs:
           SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
         run: |
           curl -sSL $Spotify_URL | ${{ env.SED }} > ./community/mydata/spotify
+
+      - name: Generate talkatone
+        env:
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
+        run: |
+          curl -sSL $Talkatone_URL | ${{ env.SED }} > ./community/mydata/talkatone
 
       - name: Generate netflix
         env:
