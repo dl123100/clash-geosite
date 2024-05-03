@@ -47,7 +47,7 @@ DOMAIN,static.hsappstatic.net
 DOMAIN-SUFFIX,hsforms.com
 DOMAIN,cdnjs.cloudflare.com
 DOMAIN-SUFFIX,poe.com
-DOMAIN,sdk-api-v1.singular.net
+DOMAIN-SUFFIX,singular.net
 DOMAIN-SUFFIX,poecdn.net
 DOMAIN-SUFFIX,sprig.com
 DOMAIN,a1988.b.akamai.net
