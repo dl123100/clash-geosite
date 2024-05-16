@@ -55,6 +55,7 @@ DOMAIN-SUFFIX,qr.ae
 DOMAIN-SUFFIX,quora.com
 DOMAIN-SUFFIX,quoracdn.net
 DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,mapbox.com
 DOMAIN,fscdn.eppo.cloud
 DOMAIN-SUFFIX,forefront.ai
 DOMAIN,cdn.tolt.io
@@ -120,6 +121,7 @@ DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 DOMAIN,content-developerprofiles-pa.googleapis.com
 DOMAIN,colab.research.google.com
 DOMAIN,aistudio.google.com
+DOMAIN,android.apis.google.com
 DOMAIN-SUFFIX,opera-api.com
 DOMAIN-SUFFIX,codeium.com
 DOMAIN-SUFFIX,acemc.co
