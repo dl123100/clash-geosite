@@ -339,7 +339,6 @@ DOMAIN-SUFFIX,abssqr.com
 DOMAIN-SUFFIX,abssqr.cn
 DOMAIN-SUFFIX,wifipix.com
 DOMAIN-SUFFIX,wifipix.cn
-DOMAIN,tpstelemetry.tencent.com
 DOMAIN-SUFFIX,cmp.quantcast.com
 DOMAIN-SUFFIX,branch.io
 DOMAIN,geolocation.onetrust.com
@@ -372,12 +371,6 @@ DOMAIN,ops.in.zhihu.com
 DOMAIN,page-modular.zhihu.com
 DOMAIN,walletpay.zhihu.com
 DOMAIN,web-er.zhihu.com
-DOMAIN-SUFFIX,sentry.io
-DOMAIN,widget.intercom.io
-DOMAIN-SUFFIX,featuregates.org
-DOMAIN,api-iam.intercom.io
-DOMAIN,nexus-websocket-a.intercom.io
-DOMAIN-SUFFIX,statsigapi.net
 DOMAIN-SUFFIX,wifiapi.micloud.xiaomi.net
 DOMAIN,sec-cdn.static.xiaomi.net
 DOMAIN,acdn.adnxs.com
@@ -386,7 +379,6 @@ DOMAIN,sin3-ib.adnxs.com
 DOMAIN,b1-sadc1.zemanta.com
 DOMAIN,b1t-sadc1.zemanta.com
 DOMAIN,stas.outbrain.com
-DOMAIN,api.mixpanel.com
 DOMAIN,events.split.io
 DOMAIN-SUFFIX,pubnative.net
 DOMAIN-SUFFIX,pubmatic.com
@@ -410,9 +402,6 @@ DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,appsflyer.tk
 DOMAIN-SUFFIX,appsflyersdk.com
-DOMAIN,firebaseinstallations.googleapis.com
-DOMAIN,firebase.googleapis.com
-DOMAIN,firebaselogging-pa.googleapis.com
 DOMAIN-SUFFIX,360yield.com
 DOMAIN,csp-reporting.cloudflare.com
 DOMAIN-SUFFIX,cloudflareinsights.com

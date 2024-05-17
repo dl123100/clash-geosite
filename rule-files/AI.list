@@ -22,11 +22,7 @@ DOMAIN,openaicom.imgix.net
 DOMAIN,o33249.ingest.sentry.io
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN,widget.intercom.io
-DOMAIN,api-iam.intercom.io
-DOMAIN,messenger-apps.intercom.io
-DOMAIN,app.intercom.io
-DOMAIN,nexus-websocket-a.intercom.io
+DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomassets.com
 DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,stripe.network
