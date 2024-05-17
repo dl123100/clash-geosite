@@ -19,7 +19,8 @@ DOMAIN-SUFFIX,openai-api-files-public.s3-us-west-2.amazonaws.com
 DOMAIN-SUFFIX,openai-api-files-prod-public.s3-us-west-2.amazonaws.com
 DOMAIN-SUFFIX,openai-models-public.s3.us-west-2.amazonaws.com
 DOMAIN,openaicom.imgix.net
-DOMAIN,o33249.ingest.sentry.io
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,intercom.io
