@@ -75,6 +75,7 @@ jobs:
           echo "Talkatone_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Talkatone.list" >> $GITHUB_ENV
           echo "Claude_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Claude.list" >> $GITHUB_ENV
           echo "Twitch_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Twitch.list" >> $GITHUB_ENV
+          echo "PPL_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Perplexity.list" >> $GITHUB_ENV
         shell: bash
 
       - name: Checkout Loyalsoldier/domain-list-custom
@@ -213,6 +214,12 @@ jobs:
           SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
         run: |
           curl -sSL $Twitch_URL | ${{ env.SED }} > ./community/mydata/twitch
+
+      - name: Generate perplexity
+        env:
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
+        run: |
+          curl -sSL $PPL_URL | ${{ env.SED }} > ./community/mydata/perplexity
 
       - name: Generate httpdns
         env:
