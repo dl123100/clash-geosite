@@ -333,6 +333,7 @@ DOMAIN-SUFFIX,tencentapps.com
 DOMAIN-SUFFIX,tencentbyod.com
 DOMAIN-SUFFIX,tencentcdb.com
 DOMAIN-SUFFIX,tencentclb.com
+DOMAIN-SUFFIX,tencentcloud.com
 DOMAIN-SUFFIX,tencent-cloud.com
 DOMAIN-SUFFIX,tencent-cloud.net
 DOMAIN-SUFFIX,tencentcloud-aiot.com
@@ -1362,6 +1363,7 @@ DOMAIN-SUFFIX,tlivemcdn.cn
 DOMAIN-SUFFIX,tlivemcdn.com
 DOMAIN-SUFFIX,tliveplay.com
 DOMAIN-SUFFIX,tlivepush.cn
+DOMAIN-SUFFIX,tlivepush.com
 DOMAIN-SUFFIX,tlivepush.com.cn
 DOMAIN-SUFFIX,tlivepush2.com
 DOMAIN-SUFFIX,tlivesource.com
