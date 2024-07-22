@@ -61,6 +61,7 @@ DOMAIN-SUFFIX,tiktokcdn.liveplay.myqcloud.com
 DOMAIN-SUFFIX,tiktokcdn.com.w.kunlunsl.com
 DOMAIN-SUFFIX,tiktokcdn.com.liveplay.myqcloud.com
 DOMAIN-SUFFIX,tiktokcdn.livepush.myqcloud.com
+DOMAIN-SUFFIX,tiktokcdn.com.baishan-cloud.net
 DOMAIN-SUFFIX,tiktokd.net
 DOMAIN-SUFFIX,tiktokd.org
 DOMAIN-SUFFIX,tiktokv.com
@@ -239,6 +240,7 @@ DOMAIN-SUFFIX,bytewlb.akadns.net
 DOMAIN-SUFFIX,bytegeo.akadns.net
 DOMAIN-SUFFIX,bytedance.akadns.net
 DOMAIN-SUFFIX,bytegeo-v.akadns.net
+DOMAIN-SUFFIX,d1urvv9m2chg9l.cloudfront.net
 DOMAIN-SUFFIX,d271osm3r86e5v.cloudfront.net
 DOMAIN-SUFFIX,d273c72xo36dwp.cloudfront.net
 DOMAIN-SUFFIX,d2mmxl4tf8u5lc.cloudfront.net
@@ -317,3 +319,5 @@ DOMAIN-SUFFIX,ttadsmanager.com
 DOMAIN-SUFFIX,ttapis.com
 DOMAIN-SUFFIX,tzvbfs.com
 DOMAIN,pitaya.bytedance.com
+DOMAIN-SUFFIX,pstatp.com.cloudcdn.net
+DOMAIN-SUFFIX,pstatp.com.cloud.cdntip.com
