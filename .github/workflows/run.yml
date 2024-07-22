@@ -76,6 +76,8 @@ jobs:
           echo "Claude_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Claude.list" >> $GITHUB_ENV
           echo "Twitch_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Twitch.list" >> $GITHUB_ENV
           echo "PPL_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Perplexity.list" >> $GITHUB_ENV
+          echo "Huawei_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Huawei.list" >> $GITHUB_ENV
+          echo "BD_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Baidu.list" >> $GITHUB_ENV
         shell: bash
 
       - name: Checkout Loyalsoldier/domain-list-custom
@@ -221,6 +223,12 @@ jobs:
         run: |
           curl -sSL $PPL_URL | ${{ env.SED }} > ./community/mydata/perplexity
 
+      - name: Generate huawei
+        env:
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
+        run: |
+          curl -sSL $Huawei_URL | ${{ env.SED }} > ./community/mydata/huawei
+
       - name: Generate httpdns
         env:
           SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
@@ -238,6 +246,12 @@ jobs:
           SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
         run: |
           curl -sSL $ByteDance_URL | ${{ env.SED }} > ./community/mydata/bytedance
+
+      - name: Generate baidu
+        env:
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
+        run: |
+          curl -sSL $BD_URL | ${{ env.SED }} > ./community/mydata/baidu
 
       - name: Generate tiktok
         env:

@@ -408,3 +408,7 @@ DOMAIN-SUFFIX,cloudflareinsights.com
 DOMAIN,tr.www.cloudflare.com
 DOMAIN,cdn.onesignal.com
 DOMAIN,api.afdback.ppsimg.com
+DOMAIN-SUFFIX,staticfile.org
+DOMAIN-SUFFIX,staticfile.net
+DOMAIN-SUFFIX,bootcss.com
+DOMAIN-SUFFIX,bootcdn.cn
