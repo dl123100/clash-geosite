@@ -231,6 +231,7 @@ DOMAIN,a577.z.akamai.net
 DOMAIN,a1913.b.akamai.net
 DOMAIN,a1851.dscr.akamai.net
 DOMAIN,a1857.r.akamai.net
+DOMAIN,a1076.dscv.akamai.net
 DOMAIN,cs1.wpc.systemcdn.net
 DOMAIN-SUFFIX,tiktok.com.c.footprint.net
 DOMAIN-SUFFIX,hypstarcdn.com
@@ -321,3 +322,5 @@ DOMAIN-SUFFIX,tzvbfs.com
 DOMAIN,pitaya.bytedance.com
 DOMAIN-SUFFIX,pstatp.com.cloudcdn.net
 DOMAIN-SUFFIX,pstatp.com.cloud.cdntip.com
+DOMAIN-SUFFIX,pstatp.com.cloudglb.com
+DOMAIN,c01.i07.arnic.lv3.cloudglb.com
