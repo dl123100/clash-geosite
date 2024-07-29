@@ -619,4 +619,9 @@ DOMAIN,v6.nexushd.org
 DOMAIN-SUFFIX,comicat.org
 DOMAIN,open.demonoid.ch
 DOMAIN,t1.aag.moe
-DOMAIN,u.peer-exchange.download
+DOMAIN-SUFFIX,peer-exchange.download
+DOMAIN-SUFFIX,rer.lol
+DOMAIN,freedomalternative.com
+DOMAIN,pybittrack.retiolus.net
+DOMAIN,bandito.byterunner.io
+DOMAIN,seedpeer.net
