@@ -567,6 +567,13 @@ DOMAIN-SUFFIX,terraform.io
 DOMAIN-SUFFIX,tex-talk.net
 DOMAIN-SUFFIX,thesffblog.com
 DOMAIN-SUFFIX,topcoder.com
+DOMAIN-SUFFIX,termux-mirror.ml
+DOMAIN-SUFFIX,bintray.com
+DOMAIN-SUFFIX,grimler.se
+DOMAIN-SUFFIX,kcubeterm.me
+DOMAIN-SUFFIX,ossplanet.net
+DOMAIN-SUFFIX,agdsn.de
+DOMAIN-SUFFIX,lineageos.org
 DOMAIN-SUFFIX,unity.com
 DOMAIN-SUFFIX,unity3d.com
 DOMAIN-SUFFIX,unityads.unitychina.cn
@@ -965,3 +972,4 @@ DOMAIN-SUFFIX,dronedj.com
 DOMAIN-SUFFIX,electrek.co
 DOMAIN-SUFFIX,spaceexplored.com
 DOMAIN-SUFFIX,sleazyfork.org
+DOMAIN-SUFFIX,vancedapp.com
