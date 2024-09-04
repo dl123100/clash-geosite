@@ -107,7 +107,7 @@ DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,alkalimetricsink-pa.clients6.google.com
 DOMAIN-SUFFIX,alkalicore-pa.clients6.google.com
 DOMAIN,generativelanguage.googleapis.com
-DOMAIN,makersuite.google.com
+DOMAIN-SUFFIX,makersuite.google.com
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
@@ -134,3 +134,11 @@ DOMAIN-SUFFIX,fontshare.com
 DOMAIN,a1887.dscq.akamai.net
 DOMAIN-SUFFIX,mistral.ai
 DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,clipdrop.co
+DOMAIN-SUFFIX,jasper.ai
+DOMAIN-SUFFIX,notebooklm.google
+DOMAIN-SUFFIX,notebooklm.google.com
+DOMAIN-SUFFIX,dify.ai
+DOMAIN-SUFFIX,gateway.ai.cloudflare.com
+DOMAIN-SUFFIX,openart.ai
+DOMAIN-SUFFIX,ai.com

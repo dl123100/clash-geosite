@@ -78,6 +78,7 @@ jobs:
           echo "PPL_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Perplexity.list" >> $GITHUB_ENV
           echo "Huawei_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Huawei.list" >> $GITHUB_ENV
           echo "BD_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Baidu.list" >> $GITHUB_ENV
+          echo "Wiki_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Wiki.list" >> $GITHUB_ENV
         shell: bash
 
       - name: Checkout Loyalsoldier/domain-list-custom
@@ -396,6 +397,12 @@ jobs:
           SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
         run: |
           curl -sSL $Twitter_URL | ${{ env.SED }} > ./community/mydata/twitter
+
+      - name: Generate wiki
+        env:
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
+        run: |
+          curl -sSL $Wiki_URL | ${{ env.SED }} > ./community/mydata/wiki
 
       - name: Build geosite.dat file
         run: |
