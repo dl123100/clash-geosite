@@ -34,7 +34,6 @@ jobs:
           echo "GOOGLE_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Google.list" >> $GITHUB_ENV
           echo "CN_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/CN.list" >> $GITHUB_ENV
           echo "DIRECT_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Direct.list" >> $GITHUB_ENV
-          echo "IP_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/IP.list" >> $GITHUB_ENV
           echo "GOOGLECN_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/GoogleDirect.list" >> $GITHUB_ENV
           echo "PROXY_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Proxy.list" >> $GITHUB_ENV
           echo "AI_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/AI.list" >> $GITHUB_ENV
@@ -42,14 +41,12 @@ jobs:
           echo "MS_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Microsoft.list" >> $GITHUB_ENV
           echo "MSCN_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/MicrosoftCN.list" >> $GITHUB_ENV
           echo "AD_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/AD.list" >> $GITHUB_ENV
-          echo "STREAMING_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Streaming.list" >> $GITHUB_ENV
           echo "TG_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Telegram.list" >> $GITHUB_ENV
           echo "SOCIALMEDIA_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/SocialMedia.list" >> $GITHUB_ENV
           echo "HTTPDNS_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/HTTPDNS.list" >> $GITHUB_ENV
           echo "YOUTUBE_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Youtube.list" >> $GITHUB_ENV
           echo "ByteDance_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/ByteDance.list" >> $GITHUB_ENV
           echo "TIKTOK_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Tiktok.list" >> $GITHUB_ENV
-          echo "ST_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/SpeedTest.list" >> $GITHUB_ENV
           echo "TRACKER_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Tracker.list" >> $GITHUB_ENV
           echo "Tencent_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Tencent.list" >> $GITHUB_ENV
           echo "JD_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/JD.list" >> $GITHUB_ENV
@@ -59,14 +56,8 @@ jobs:
           echo "GitHub_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/GitHub.list" >> $GITHUB_ENV
           echo "ALIBABA_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Alibaba.list" >> $GITHUB_ENV
           echo "MT_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Meituan.list" >> $GITHUB_ENV
-          echo "JP_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/StreamingJP.list" >> $GITHUB_ENV
-          echo "TW_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/StreamingTW.list" >> $GITHUB_ENV
-          echo "UK_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/StreamingUK.list" >> $GITHUB_ENV
-          echo "HK_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/StreamingHK.list" >> $GITHUB_ENV
-          echo "US_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/StreamingUS.list" >> $GITHUB_ENV
           echo "Reddit_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Reddit.list" >> $GITHUB_ENV
           echo "Spotify_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Spotify.list" >> $GITHUB_ENV
-          echo "NF_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Netflix.list" >> $GITHUB_ENV
           echo "Meta_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Meta.list" >> $GITHUB_ENV
           echo "Twitter_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Twitter.list" >> $GITHUB_ENV
           echo "Cert_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Cert.list" >> $GITHUB_ENV
@@ -187,24 +178,12 @@ jobs:
           SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
         run: |
           curl -sSL $GitHub_URL | ${{ env.SED }} > ./community/mydata/github
-
-      - name: Generate ip
-        env:
-          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
-        run: |
-          curl -sSL $IP_URL | ${{ env.SED }} > ./community/mydata/ip
           
       - name: Generate ad
         env:
           SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
         run: |
           curl -sSL $AD_URL | ${{ env.SED }} > ./community/mydata/ad
-
-      - name: Generate streaming
-        env:
-          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
-        run: |
-          curl -sSL $STREAMING_URL | ${{ env.SED }} > ./community/mydata/streaming
 
       - name: Generate telegram
         env:
@@ -266,12 +245,6 @@ jobs:
         run: |
           curl -sSL $TIKTOK_URL | ${{ env.SED }} > ./community/mydata/tiktok
 
-      - name: Generate speedtest
-        env:
-          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
-        run: |
-          curl -sSL $ST_URL | ${{ env.SED }} > ./community/mydata/speedtest
-
       - name: Generate tracker
         env:
           SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
@@ -332,36 +305,6 @@ jobs:
         run: |
           curl -sSL $MT_URL | ${{ env.SED }} > ./community/mydata/meituan
 
-      - name: Generate jp
-        env:
-          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
-        run: |
-          curl -sSL $JP_URL | ${{ env.SED }} > ./community/mydata/jp
-
-      - name: Generate tw
-        env:
-          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
-        run: |
-          curl -sSL $TW_URL | ${{ env.SED }} > ./community/mydata/tw
-
-      - name: Generate uk
-        env:
-          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
-        run: |
-          curl -sSL $UK_URL | ${{ env.SED }} > ./community/mydata/uk
-
-      - name: Generate hk
-        env:
-          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
-        run: |
-          curl -sSL $HK_URL | ${{ env.SED }} > ./community/mydata/hk
-
-      - name: Generate us
-        env:
-          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
-        run: |
-          curl -sSL $US_URL | ${{ env.SED }} > ./community/mydata/us
-
       - name: Generate reddit
         env:
           SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
@@ -379,12 +322,6 @@ jobs:
           SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
         run: |
           curl -sSL $Talkatone_URL | ${{ env.SED }} > ./community/mydata/talkatone
-
-      - name: Generate netflix
-        env:
-          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
-        run: |
-          curl -sSL $NF_URL | ${{ env.SED }} > ./community/mydata/netflix
 
       - name: Generate meta
         env:

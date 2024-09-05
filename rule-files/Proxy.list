@@ -89,7 +89,6 @@ DOMAIN-SUFFIX,wp.com
 DOMAIN-SUFFIX,wpvip.com
 DOMAIN-SUFFIX,wpcomstaging.com
 DOMAIN-SUFFIX,gravatar.com
-DOMAIN-SUFFIX,pressablecdn.com
 DOMAIN-SUFFIX,slack-core.com
 DOMAIN-SUFFIX,slack-edge.com
 DOMAIN-SUFFIX,slack-files.com
@@ -644,7 +643,6 @@ DOMAIN-SUFFIX,debianadmin.com
 DOMAIN-SUFFIX,debuntu.org
 DOMAIN-SUFFIX,fullcirclemagazine.org
 DOMAIN-SUFFIX,iloveubuntu.net
-DOMAIN-SUFFIX,omgubuntu.co.uk
 DOMAIN-SUFFIX,ualinux.com
 DOMAIN-SUFFIX,ubucentrum.net
 DOMAIN-SUFFIX,ubuntu-br.org
@@ -758,3 +756,9 @@ DOMAIN-SUFFIX,emojipedia.org
 DOMAIN-SUFFIX,worldemojiawards.com
 DOMAIN-SUFFIX,worldemojiday.com
 DOMAIN-SUFFIX,scribd.com
+DOMAIN-SUFFIX,omtrdc.net
+DOMAIN-SUFFIX,civiccomputing.com
+DOMAIN-SUFFIX,msi.com
+DOMAIN-SUFFIX,resplendence.com
+DOMAIN-SUFFIX,pointieststick.com
+DOMAIN-SUFFIX,sammyfans.com
