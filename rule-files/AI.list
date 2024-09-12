@@ -114,7 +114,6 @@ DOMAIN-SUFFIX,deepmind.google
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-DOMAIN-SUFFIX,content-autofill.googleapis.com
 DOMAIN,content-developerprofiles-pa.googleapis.com
 DOMAIN,colab.research.google.com
 DOMAIN-KEYWORD,colab
