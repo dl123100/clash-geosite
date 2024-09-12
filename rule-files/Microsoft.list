@@ -521,6 +521,7 @@ DOMAIN,elasticshed.au.au-msedge.net
 DOMAIN,tlu.graystore.au-msedge.net
 DOMAIN-SUFFIX,l-msedge.net
 DOMAIN-SUFFIX,azureedge.us
+DOMAIN-SUFFIX,azure.us
 DOMAIN-SUFFIX,usercontent.microsoft
 DOMAIN-SUFFIX,static.microsoft
 DOMAIN-SUFFIX,cloud.microsoft
