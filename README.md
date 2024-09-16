@@ -10,6 +10,7 @@
 - [@Sebastian‘s Surge Rule](https://ruleset.isagood.day/ruleset.html)
 - [@DustinWin/clash-geosite](https://github.com/DustinWin/clash-geosite)
 - [@ACL4SSR/ACL4SSR](https://github.com/ACL4SSR/ACL4SSR)
+- [@SukkaW/Surge](https://github.com/SukkaW/Surge)
 - [@MitaZ/Better_Filter](https://github.com/MitaZ/Better_Filter)
 - [@Elysian-Realme/FuGfConfig](https://github.com/Elysian-Realme/FuGfConfig)
 - [@antonme/ipnames](https://github.com/antonme/ipnames)
