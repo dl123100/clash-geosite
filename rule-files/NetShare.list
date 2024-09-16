@@ -198,6 +198,8 @@ DOMAIN-SUFFIX,load.to
 DOMAIN-SUFFIX,macupload.net
 DOMAIN-SUFFIX,mediafire.com
 DOMAIN-SUFFIX,mediafree.co
+DOMAIN-SUFFIX,mega.nz
+DOMAIN-SUFFIX,mega.io
 DOMAIN-SUFFIX,mega.co.nz
 DOMAIN-SUFFIX,mega4down.com
 DOMAIN-SUFFIX,mega4up.org
@@ -423,3 +425,10 @@ DOMAIN-SUFFIX,kde.org
 DOMAIN-SUFFIX,pling.com
 DOMAIN-SUFFIX,ify.ac
 DOMAIN-SUFFIX,oxy.st
+DOMAIN-SUFFIX,filen.io
+DOMAIN-SUFFIX,filen.net
+DOMAIN-SUFFIX,filen-1.net
+DOMAIN-SUFFIX,filen-2.net
+DOMAIN-SUFFIX,filen-3.net
+DOMAIN-SUFFIX,filen-4.net
+DOMAIN-SUFFIX,filen-5.net
