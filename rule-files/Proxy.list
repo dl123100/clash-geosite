@@ -621,6 +621,7 @@ DOMAIN-SUFFIX,notion.com
 DOMAIN-SUFFIX,notion.new
 DOMAIN-SUFFIX,notion.site
 DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,notionusercontent.com
 DOMAIN,http-inputs-notion.splunkcloud.com
 DOMAIN-SUFFIX,supabase.com
 DOMAIN-SUFFIX,vscode-webview.net
@@ -762,3 +763,4 @@ DOMAIN-SUFFIX,msi.com
 DOMAIN-SUFFIX,resplendence.com
 DOMAIN-SUFFIX,pointieststick.com
 DOMAIN-SUFFIX,sammyfans.com
+DOMAIN-SUFFIX,pkg-size.dev
