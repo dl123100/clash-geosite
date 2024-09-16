@@ -109,7 +109,6 @@ DOMAIN-KEYWORD,fuqing
 DOMAIN-SUFFIX,dingyuedizhi.com
 DOMAIN-SUFFIX,esm.sh
 DOMAIN-SUFFIX,cdn.skypack.dev
-DOMAIN-SUFFIX,telegraph.co.uk
 DOMAIN-SUFFIX,dropbox.com
 DOMAIN-SUFFIX,dropboxapi.com
 DOMAIN-SUFFIX,dropboxusercontent.com
@@ -327,6 +326,8 @@ DOMAIN-SUFFIX,wondershare.es
 DOMAIN-SUFFIX,pdfelement.io
 DOMAIN,abtest-aws-us-east-01.saas.sensorsdata.com
 DOMAIN-SUFFIX,archive.org
+DOMAIN-SUFFIX,archive.is
+DOMAIN-SUFFIX,archive.fo
 DOMAIN-SUFFIX,archive-it.org
 DOMAIN-SUFFIX,archive.ph
 DOMAIN-SUFFIX,archive.today
@@ -764,3 +765,15 @@ DOMAIN-SUFFIX,resplendence.com
 DOMAIN-SUFFIX,pointieststick.com
 DOMAIN-SUFFIX,sammyfans.com
 DOMAIN-SUFFIX,pkg-size.dev
+DOMAIN-SUFFIX,singlelogin.se
+DOMAIN-SUFFIX,singlelogin.re
+DOMAIN-SUFFIX,z-library.se
+DOMAIN-SUFFIX,zlibrary-global.se
+DOMAIN-SUFFIX,libgen.rs
+DOMAIN-SUFFIX,libgen.is
+DOMAIN-SUFFIX,libgen.st
+DOMAIN-SUFFIX,libgen.lol
+DOMAIN-SUFFIX,libgen.fun
+DOMAIN-SUFFIX,annas-archive.se
+DOMAIN-SUFFIX,annas-archive.gs
+DOMAIN-SUFFIX,annas-archive.org
