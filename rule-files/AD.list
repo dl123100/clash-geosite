@@ -231,6 +231,7 @@ DOMAIN,update.delivery.autodesk.com
 DOMAIN,genuine-software2.autodesk.com
 DOMAIN,docs.autodesk.com
 DOMAIN,help.autodesk.com
+DOMAIN-SUFFIX,genuine.autodesk.com
 DOMAIN-SUFFIX,updates.connectify.me
 DOMAIN-SUFFIX,activate.connectify.me
 DOMAIN-SUFFIX,d1.connectify.me
