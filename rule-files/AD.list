@@ -251,6 +251,7 @@ DOMAIN,api.comm.miui.com
 DOMAIN,adv.sec.intl.miui.com
 DOMAIN,sdkconfig.ad.xiaomi.com
 DOMAIN,api.ad.xiaomi.com
+DOMAIN,a0.app.xiaomi.com
 DOMAIN,sdkconf.avlyun.com
 DOMAIN,ixav-cse.avlyun.com
 DOMAIN-SUFFIX,avlyun.sec.miui.com
