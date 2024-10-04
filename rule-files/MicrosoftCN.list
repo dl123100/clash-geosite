@@ -11,13 +11,8 @@ DOMAIN,download.microsoft.com
 DOMAIN-SUFFIX,download.prss.microsoft.com
 DOMAIN,download.visualstudio.microsoft.com
 DOMAIN-SUFFIX,download.windowsupdate.com
-DOMAIN,learn.microsoft.com
-DOMAIN,build.microsoft.com
-DOMAIN,devblogs.microsoft.com
 DOMAIN,cnupgrade.microsoft.com
-DOMAIN,developer.microsoft.com
 DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
-DOMAIN,docs.microsoft.com
 DOMAIN,fs.microsoft.com
 DOMAIN-KEYWORD,officecdn
 DOMAIN,officecdn.microsoft.com
