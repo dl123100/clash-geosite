@@ -329,7 +329,6 @@ DOMAIN-SUFFIX,mle5p.cn
 DOMAIN-SUFFIX,ms2tg.cn
 DOMAIN-SUFFIX,msg5.cn
 DOMAIN-SUFFIX,myhuaweicloud.cn
-DOMAIN-SUFFIX,myhuaweicloud.com
 DOMAIN-SUFFIX,myhwcdn.cn
 DOMAIN-SUFFIX,myhwcdn.com
 DOMAIN-SUFFIX,myhwcloudlive.com
@@ -374,3 +373,19 @@ DOMAIN-SUFFIX,xdiagservice.com
 DOMAIN-SUFFIX,y43f6.cn
 DOMAIN-SUFFIX,z95rr.cn
 DOMAIN-SUFFIX,nzxcloud.cn
+DOMAIN-SUFFIX,aadcloud.com
+DOMAIN-SUFFIX,aadcloud.cn
+DOMAIN-SUFFIX,huaweicloud-idme.cn
+DOMAIN-SUFFIX,huaweicloud-idme.com
+DOMAIN-SUFFIX,hweventgrid.cn
+DOMAIN-SUFFIX,hweventgrid.com
+DOMAIN-SUFFIX,idonguapi.cn
+DOMAIN-SUFFIX,idonguapi.com
+DOMAIN-SUFFIX,modelarts-infer.cn
+DOMAIN-SUFFIX,modelarts-infer.com
+DOMAIN-SUFFIX,myhuaweicloud-custom.cn
+DOMAIN-SUFFIX,myhuaweicloud-custom.com
+DOMAIN-SUFFIX,myhuaweicloud-koodrive.cn
+DOMAIN-SUFFIX,myhuaweicloud-koodrive.com
+DOMAIN-SUFFIX,myhuaweicloud-obs.com
+DOMAIN-SUFFIX,cn-east-4.myhuaweicloud.com
