@@ -28,8 +28,6 @@ DOMAIN-SUFFIX,pypi.io
 DOMAIN-SUFFIX,pypi.org
 DOMAIN-SUFFIX,python.org
 DOMAIN-SUFFIX,pythonhosted.org
-DOMAIN-KEYWORD,hcaptcha
-DOMAIN-SUFFIX,hcaptcha.com
 DOMAIN-SUFFIX,tampermonkey.net
 DOMAIN-SUFFIX,intellij.com
 DOMAIN-SUFFIX,intellij.net
