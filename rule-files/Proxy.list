@@ -64,7 +64,6 @@ DOMAIN-SUFFIX,kotlinlang.org
 DOMAIN-SUFFIX,kotlinconf.com
 DOMAIN-SUFFIX,maven.apache.org
 DOMAIN-SUFFIX,nodejs.org
-DOMAIN-SUFFIX,oracle.com
 DOMAIN-SUFFIX,p-events-delivery.akamaized.net
 DOMAIN-SUFFIX,packagecontrol.io
 DOMAIN-SUFFIX,postman-echo.com
@@ -727,7 +726,6 @@ DOMAIN-SUFFIX,emojipedia.org
 DOMAIN-SUFFIX,worldemojiawards.com
 DOMAIN-SUFFIX,worldemojiday.com
 DOMAIN-SUFFIX,scribd.com
-DOMAIN-SUFFIX,omtrdc.net
 DOMAIN-SUFFIX,civiccomputing.com
 DOMAIN-SUFFIX,msi.com
 DOMAIN-SUFFIX,resplendence.com
