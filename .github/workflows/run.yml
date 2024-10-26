@@ -51,7 +51,7 @@ jobs:
           echo "Tencent_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Tencent.list" >> $GITHUB_ENV
           echo "JD_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/JD.list" >> $GITHUB_ENV
           echo "BILIBILI_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Bilibili.list" >> $GITHUB_ENV
-          echo "SteamCN_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/SteamDirect.list" >> $GITHUB_ENV
+          echo "GameCN_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/GameDirect.list" >> $GITHUB_ENV
           echo "Academic_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Academic.list" >> $GITHUB_ENV
           echo "GitHub_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/GitHub.list" >> $GITHUB_ENV
           echo "ALIBABA_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Alibaba.list" >> $GITHUB_ENV
@@ -72,6 +72,7 @@ jobs:
           echo "Media_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Media.list" >> $GITHUB_ENV
           echo "UK_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/StreamingUK.list" >> $GITHUB_ENV
           echo "JP_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/StreamingJP.list" >> $GITHUB_ENV
+          echo "MI_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Xiaomi.list" >> $GITHUB_ENV
         shell: bash
 
       - name: Checkout Loyalsoldier/domain-list-custom
@@ -283,11 +284,11 @@ jobs:
         run: |
           curl -sSL $BILIBILI_URL | ${{ env.SED }} > ./community/mydata/bilibili
 
-      - name: Generate steamcn
+      - name: Generate gamecn
         env:
           SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
         run: |
-          curl -sSL $SteamCN_URL | ${{ env.SED }} > ./community/mydata/steamcn
+          curl -sSL $GameCN_URL | ${{ env.SED }} > ./community/mydata/gamecn
 
       - name: Generate academic
         env:
@@ -342,6 +343,12 @@ jobs:
           SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
         run: |
           curl -sSL $Meta_URL | ${{ env.SED }} > ./community/mydata/meta
+
+      - name: Generate xiaomi
+        env:
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
+        run: |
+          curl -sSL $MI_URL | ${{ env.SED }} > ./community/mydata/xiaomi
 
       - name: Generate twitter
         env:
