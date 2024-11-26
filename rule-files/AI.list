@@ -103,7 +103,6 @@ DOMAIN,huggingfaceh4-open-llm-leaderboard.hf.space
 DOMAIN-SUFFIX,heypi.com
 DOMAIN-SUFFIX,pi.ai
 DOMAIN-SUFFIX,opera-api.com
-DOMAIN-SUFFIX,codeium.com
 DOMAIN-SUFFIX,acemc.co
 DOMAIN-SUFFIX,webpubsub.azure.com
 DOMAIN-SUFFIX,lmarena.ai
@@ -117,6 +116,7 @@ DOMAIN-SUFFIX,mistral.ai
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,codeium.com
+DOMAIN-SUFFIX,codeiumdata.com
 DOMAIN-SUFFIX,clipdrop.co
 DOMAIN-SUFFIX,jasper.ai
 DOMAIN-SUFFIX,dify.ai
@@ -137,6 +137,7 @@ DOMAIN-SUFFIX,sider.ai
 DOMAIN-SUFFIX,klingai.com
 DOMAIN-SUFFIX,groq.com
 DOMAIN-SUFFIX,openrouter.ai
+DOMAIN-SUFFIX,langchain.com
 DOMAIN-SUFFIX,jetbrains.ai
 DOMAIN-SUFFIX,jetbrains.io
 DOMAIN-SUFFIX,chat.com
