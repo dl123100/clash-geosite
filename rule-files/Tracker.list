@@ -2,6 +2,10 @@ DOMAIN-KEYWORD,tracker
 DOMAIN-KEYWORD,announce
 DOMAIN-KEYWORD,torrent
 DOMAIN-KEYWORD,bitcomet
+DOMAIN-KEYWORD,find_node
+DOMAIN-KEYWORD,get_peers
+DOMAIN-KEYWORD,info_hash
+DOMAIN-KEYWORD,peer_id
 DOMAIN,vps02.net.orel.ru
 DOMAIN,bt.piratbit.club
 DOMAIN,download.nerocloud.me
@@ -40,7 +44,7 @@ DOMAIN,amigacity.xyz
 DOMAIN,anidex.moe
 DOMAIN,animebytes.tv
 DOMAIN,anisaishuu.de
-DOMAIN,anisource.spb.ru
+DOMAIN-SUFFIX,spb.ru
 DOMAIN,ankeschwarz.net
 DOMAIN,anthelion.me
 DOMAIN,api.bitumconference.ru
@@ -453,7 +457,7 @@ DOMAIN,sanincode.com
 DOMAIN,static.54.161.216.95.clients.your-server.de
 DOMAIN,t1.hloli.org
 DOMAIN,tamas3.ynh.fr
-DOMAIN,thinking.duckdns.org
+DOMAIN-SUFFIX,duckdns.org
 DOMAIN,thouvenin.cloud
 DOMAIN,tr.burnabyhighstar.com
 DOMAIN,ts.populargamers.co.za
@@ -625,3 +629,18 @@ DOMAIN,pybittrack.retiolus.net
 DOMAIN,bandito.byterunner.io
 DOMAIN,seedpeer.net
 DOMAIN,vibe.sleepyinternetfun.xyz
+DOMAIN-SUFFIX,genesis-sp.org
+DOMAIN-SUFFIX,jaekr.sh
+DOMAIN-SUFFIX,hkg-fansub.info
+DOMAIN-SUFFIX,yxgz.club
+DOMAIN-SUFFIX,0123456789nonexistent.com
+DOMAIN-SUFFIX,trackarr.org
+DOMAIN-SUFFIX,vpsburti.com
+DOMAIN-SUFFIX,nyacat.pw
+DOMAIN-SUFFIX,ghostchu-services.top
+DOMAIN-SUFFIX,ismaarino.com
+DOMAIN-SUFFIX,zukizuki.org
+DOMAIN-SUFFIX,ipv4online.uk
+DOMAIN-SUFFIX,aag.moe
+DOMAIN-SUFFIX,saltwood.top
+DOMAIN-SUFFIX,fleira.no
