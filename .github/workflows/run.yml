@@ -73,6 +73,7 @@ jobs:
           echo "UK_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/StreamingUK.list" >> $GITHUB_ENV
           echo "JP_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/StreamingJP.list" >> $GITHUB_ENV
           echo "MI_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Xiaomi.list" >> $GITHUB_ENV
+          echo "Gemini_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Gemini.list" >> $GITHUB_ENV
         shell: bash
 
       - name: Checkout Loyalsoldier/domain-list-custom
@@ -151,6 +152,13 @@ jobs:
           mkdir -p ./community/mydata
           curl -sSL $DIRECT_URL | ${{ env.SED }} > ./community/mydata/direct
           
+      - name: Generate gemini
+        env:
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
+        run: |
+          mkdir -p ./community/mydata
+          curl -sSL $Gemini_URL | ${{ env.SED }} > ./community/mydata/gemini
+
       - name: Generate googlecn
         env:
           SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
