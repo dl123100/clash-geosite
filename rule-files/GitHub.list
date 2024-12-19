@@ -37,3 +37,12 @@ DOMAIN-SUFFIX,help-github.com
 DOMAIN-SUFFIX,octocaptcha.com
 DOMAIN-KEYWORD,github
 DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN-SUFFIX,vscode-webview.net
+DOMAIN-SUFFIX,vsassets.io
+DOMAIN-SUFFIX,vscode-cdn.net
+DOMAIN-SUFFIX,vscode-unpkg.net
+DOMAIN-SUFFIX,vscode.dev
+DOMAIN-SUFFIX,wakapi.dev
+DOMAIN-SUFFIX,vscode-sync.trafficmanager.net
+DOMAIN-SUFFIX,vscodeexperiments.azureedge.net
+DOMAIN-SUFFIX,vo.msecnd.net

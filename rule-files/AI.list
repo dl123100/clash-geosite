@@ -133,6 +133,10 @@ DOMAIN-SUFFIX,cohere.ai
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,meta.com
 DOMAIN,static.xx.fbcdn.net
+DOMAIN-SUFFIX,research.facebook.com
+DOMAIN-SUFFIX,fbaipublicfiles.com
+DOMAIN-SUFFIX,fairseq.ai
+DOMAIN-SUFFIX,fasttext.cc
 DOMAIN-SUFFIX,deepseek.com
 DOMAIN-SUFFIX,sider.ai
 DOMAIN-SUFFIX,klingai.com
@@ -142,7 +146,13 @@ DOMAIN-SUFFIX,langchain.com
 DOMAIN-SUFFIX,jetbrains.ai
 DOMAIN-SUFFIX,jetbrains.io
 DOMAIN-SUFFIX,chat.com
+DOMAIN-SUFFIX,smoot.apple.com
 DOMAIN,apple-relay.apple.com
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,apple-relay.fastly-edge.com
+DOMAIN,cp4.cloudflare.com
+DOMAIN,guzzoni.apple.com
+DOMAIN-SUFFIX,greenhouse.io
 DOMAIN,ai.google.dev
 DOMAIN,aida.googleapis.com
 DOMAIN,aistudio.google.com
