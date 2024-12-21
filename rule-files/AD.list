@@ -409,3 +409,16 @@ DOMAIN,cdn.onesignal.com
 DOMAIN,api.afdback.ppsimg.com
 DOMAIN-SUFFIX,adobestats.io
 DOMAIN-SUFFIX,iteratehq.com
+DOMAIN-SUFFIX,openx.net
+DOMAIN-SUFFIX,telemetry-coverage.mozilla.org
+DOMAIN-SUFFIX,telemetry.mozilla.org
+DOMAIN-SUFFIX,incoming-telemetry.thunderbird.net
+DOMAIN-SUFFIX,classify-client.services.mozilla.com
+DOMAIN-SUFFIX,crazyegg.com
+DOMAIN-SUFFIX,amplitude.com
+DOMAIN-SUFFIX,advertising.com
+DOMAIN,api-js.mixpanel.com
+DOMAIN,api.iterable.com
+DOMAIN,js.iterable.com
+DOMAIN-SUFFIX,omtrdc.net
+DOMAIN-SUFFIX,histats.com
