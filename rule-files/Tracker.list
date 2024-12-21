@@ -52,7 +52,6 @@ DOMAIN,aruacfilmes.com.br
 DOMAIN,asiancinema.me
 DOMAIN,asnet.pw
 DOMAIN,atrack-asia-s1.114913.xyz
-DOMAIN,atrack.pow7.com
 DOMAIN,avgv.cc
 DOMAIN,avistaz.to
 DOMAIN,awesome-hd.me
@@ -158,7 +157,7 @@ DOMAIN,dpiui.reedlan.com
 DOMAIN,drumkitx.com
 DOMAIN,dxdhd.com
 DOMAIN,eastgame.org
-DOMAIN,eddie4.nl
+DOMAIN-SUFFIX,eddie4.nl
 DOMAIN,edu.uifr.ru
 DOMAIN,eliastre100.fr
 DOMAIN,elitezones.ro
@@ -309,7 +308,7 @@ DOMAIN,peersteers.org
 DOMAIN,pornbits.net
 DOMAIN,pornograd.net
 DOMAIN,potuk.com
-DOMAIN,pow7.com
+DOMAIN-SUFFIX,pow7.com
 DOMAIN,prestige.minimafia.nl
 DOMAIN,privatehd.to
 DOMAIN,proxmox.com
@@ -329,11 +328,9 @@ DOMAIN,santost12.xyz
 DOMAIN,sd-161673.dedibox.fr
 DOMAIN,sd-95.allfon.net
 DOMAIN,sdbits.org
-DOMAIN,secure.pow7.com
 DOMAIN,seedbay.net
 DOMAIN,seeders-paradise.org
 DOMAIN,servandroidkino.ru
-DOMAIN,shadowshq.eddie4.nl
 DOMAIN,shadowshq.yi.org
 DOMAIN,share.dmhy.me
 DOMAIN,share.dmhy.org
@@ -356,10 +353,8 @@ DOMAIN,t.lint2.com
 DOMAIN,t.overflow.biz
 DOMAIN,t.quic.ws
 DOMAIN,t1.leech.ie
-DOMAIN,t1.pow7.com
 DOMAIN,t2.leech.ie
 DOMAIN,t2.popgo.org
-DOMAIN,t2.pow7.com
 DOMAIN,t3.leech.ie
 DOMAIN,tc.animereactor.ru
 DOMAIN,teamspeak.value-wolf.org
@@ -647,3 +642,9 @@ DOMAIN-SUFFIX,mywaifu.best
 DOMAIN-SUFFIX,mathkangaroo.jp
 DOMAIN-SUFFIX,213891.xyz
 DOMAIN-SUFFIX,anidub.com
+DOMAIN-SUFFIX,uniondht.org
+DOMAIN-SUFFIX,retracker.local
+DOMAIN-SUFFIX,leechers-paradise.org
+DOMAIN-SUFFIX,opentor.net
+DOMAIN-SUFFIX,t-ru.org
+DOMAIN-SUFFIX,careland.com.cn
