@@ -74,6 +74,7 @@ jobs:
           echo "JP_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/StreamingJP.list" >> $GITHUB_ENV
           echo "MI_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Xiaomi.list" >> $GITHUB_ENV
           echo "Gemini_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Gemini.list" >> $GITHUB_ENV
+          echo "Discord_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Discord.list" >> $GITHUB_ENV
         shell: bash
 
       - name: Checkout Loyalsoldier/domain-list-custom
@@ -108,6 +109,13 @@ jobs:
         run: |
           mkdir -p ./community/mydata
           curl -sSL $APPLEAKAMAI_URL | ${{ env.SED }} > ./community/mydata/appleakamai
+
+      - name: Generate discord
+        env:
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
+        run: |
+          mkdir -p ./community/mydata
+          curl -sSL $Discord_URL | ${{ env.SED }} > ./community/mydata/discord
 
       - name: Generate microsoft
         env:

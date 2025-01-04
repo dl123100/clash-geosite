@@ -54,12 +54,17 @@ DOMAIN-SUFFIX,jetbrains.net
 DOMAIN-SUFFIX,jetbrains.org
 DOMAIN-SUFFIX,jetbrains.space
 DOMAIN-SUFFIX,jetbrains.team
+DOMAIN-SUFFIX,jetbrains.dev
+DOMAIN-SUFFIX,myjetbrains.com
 DOMAIN-SUFFIX,jb.gg
 DOMAIN-SUFFIX,jquery.com
 DOMAIN-SUFFIX,jquerymobile.com
 DOMAIN-SUFFIX,jqueryui.com
+DOMAIN-SUFFIX,kotl.in
 DOMAIN-SUFFIX,kotlinlang.org
 DOMAIN-SUFFIX,kotlinconf.com
+DOMAIN-SUFFIX,ktor.io
+DOMAIN-SUFFIX,talkingkotlin.com
 DOMAIN-SUFFIX,maven.apache.org
 DOMAIN-SUFFIX,nodejs.org
 DOMAIN-SUFFIX,p-events-delivery.akamaized.net
