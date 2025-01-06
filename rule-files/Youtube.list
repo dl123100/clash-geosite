@@ -174,4 +174,12 @@ DOMAIN-SUFFIX,wide-youtube.l.google.com
 DOMAIN-SUFFIX,youtube-ui.l.google.com
 DOMAIN-SUFFIX,youtube.googleapis.com
 DOMAIN-SUFFIX,youtubeembeddedplayer.googleapis.com
+DOMAIN-SUFFIX,youtubei.googleapis.com
+DOMAIN-SUFFIX,jnn-pa.googleapis.com
+DOMAIN-SUFFIX,notifications-pa.googleapis.com
+DOMAIN-SUFFIX,suggestqueries.google.com
+DOMAIN-SUFFIX,video-analytics.google.com
+DOMAIN-SUFFIX,yt1.googleusercontent.com
+DOMAIN-SUFFIX,yt2.googleusercontent.com
+DOMAIN-SUFFIX,yt3.googleusercontent.com
 DOMAIN-KEYWORD,youtube
