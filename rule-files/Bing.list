@@ -76,6 +76,8 @@ DOMAIN-SUFFIX,bj1.api.bing.com
 DOMAIN-SUFFIX,bluehatnights.com
 DOMAIN,bingclientmsa.sapphire.microsoftapp.net
 DOMAIN,cdn.sapphire.microsoftapp.net
+DOMAIN,eagle.sapphire.microsoftapp.net
+DOMAIN,feedcdn.sapphire.microsoftapp.net
 DOMAIN,comminity.sapphire.microsoftapp.net
 DOMAIN,gateway.bingviz.microsoftapp.net
 DOMAIN,rewardscdn.sapphire.microsoftapp.net
@@ -228,7 +230,12 @@ DOMAIN-SUFFIX,t-msedge.net
 DOMAIN-SUFFIX,azureedge.net
 DOMAIN,copilot.microsoft.com
 DOMAIN,copilotstudio.microsoft.com
+DOMAIN-SUFFIX,fpt2.microsoft.com
 DOMAIN-SUFFIX,bingparachute.com
-DOMAIN,api.githubcopilot.com
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN,api.github.com
+DOMAIN,copilot-proxy.githubusercontent.com
+DOMAIN,copilot-telemetry.githubusercontent.com
 DOMAIN,app.adjust.com
 DOMAIN-SUFFIX,copilot.cloud.microsoft
+DOMAIN,dual-a-0001.a-msedge.net
