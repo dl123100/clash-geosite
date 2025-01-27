@@ -1,6 +1,7 @@
 DOMAIN-SUFFIX,example
 DOMAIN-SUFFIX,foo.com
 DOMAIN-SUFFIX,home.arpa
+DOMAIN-SUFFIX,internal
 DOMAIN-SUFFIX,invalid
 DOMAIN-SUFFIX,ip6-localhost
 DOMAIN-SUFFIX,ip6-loopback
