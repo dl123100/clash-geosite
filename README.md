@@ -15,5 +15,4 @@
 - [@Elysian-Realme/FuGfConfig](https://github.com/Elysian-Realme/FuGfConfig)
 - [@antonme/ipnames](https://github.com/antonme/ipnames)
 - [@sjzar/ips](https://github.com/sjzar/ips)
-- [@Yi Ke/VPN_Tool](https://gitlab.com/lodepuly/vpn_tool)
 - [@Centralmatrix3/Matrix-io](https://github.com/Centralmatrix3/Matrix-io)
