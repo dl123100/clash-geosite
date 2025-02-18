@@ -136,11 +136,6 @@ DOMAIN-SUFFIX,featureassets.org
 DOMAIN-SUFFIX,you.com
 DOMAIN-SUFFIX,cohere.com
 DOMAIN-SUFFIX,cohere.ai
-DOMAIN-SUFFIX,meta.ai
-DOMAIN-SUFFIX,meta.com
-DOMAIN,static.xx.fbcdn.net
-DOMAIN-SUFFIX,research.facebook.com
-DOMAIN-SUFFIX,fbaipublicfiles.com
 DOMAIN-SUFFIX,fairseq.ai
 DOMAIN-SUFFIX,fasttext.cc
 DOMAIN-SUFFIX,deepseek.com
@@ -165,3 +160,4 @@ DOMAIN,apple-relay.akamaized.net
 DOMAIN-SUFFIX,mask.icloud.com
 DOMAIN-SUFFIX,mask-h2.icloud.com
 DOMAIN-SUFFIX,greenhouse.io
+DOMAIN-SUFFIX,grok.com
