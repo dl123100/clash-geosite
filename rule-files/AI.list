@@ -90,7 +90,6 @@ DOMAIN-SUFFIX,grazie.ai
 DOMAIN-SUFFIX,intellij.net
 #DOMAIN,ecs.office.com
 #DOMAIN,officeclient.microsoft.com
-DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,datadog.pool.ntp.org
 DOMAIN-SUFFIX,launchdarkly.com
 DOMAIN-SUFFIX,observeit.net
@@ -160,4 +159,3 @@ DOMAIN,apple-relay.akamaized.net
 DOMAIN-SUFFIX,mask.icloud.com
 DOMAIN-SUFFIX,mask-h2.icloud.com
 DOMAIN-SUFFIX,greenhouse.io
-DOMAIN-SUFFIX,grok.com
