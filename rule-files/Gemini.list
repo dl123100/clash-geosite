@@ -32,3 +32,5 @@ DOMAIN,notifications-pa.googleapis.com
 DOMAIN,firebaseinstallations.googleapis.com
 DOMAIN,searchnotifications-pa.googleapis.com
 DOMAIN-SUFFIX,codeassist.google
+DOMAIN-SUFFIX,colab.google
+DOMAIN,colab-alv.research.google.com
