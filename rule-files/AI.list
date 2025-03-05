@@ -1,5 +1,3 @@
-DOMAIN-KEYWORD,openai
-DOMAIN-KEYWORD,chatgpt
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openai.fund
 DOMAIN-SUFFIX,openai.org
@@ -164,4 +162,3 @@ DOMAIN-SUFFIX,us.i.posthog.com
 DOMAIN-SUFFIX,pearai.b-cdn.net
 DOMAIN-SUFFIX,trypear.ai
 DOMAIN-SUFFIX,hcompany.ai
-DOMAIN-KEYWORD,hcompany
