@@ -1,3 +1,4 @@
+DOMAIN-SUFFIX,hk
 DOMAIN-SUFFIX,nowe.com
 DOMAIN-SUFFIX,now.com
 DOMAIN-SUFFIX,now-tv.com
@@ -22,6 +23,7 @@ DOMAIN-SUFFIX,cdn.hgc.com.hk
 DOMAIN-SUFFIX,mytvsuperlimited.hb.omtrdc.net
 DOMAIN-SUFFIX,cdn.tvb.com
 DOMAIN-SUFFIX,lihkg.com
+DOMAIN-SUFFIX,lih.kg
 DOMAIN-SUFFIX,mingpao.com
 DOMAIN-SUFFIX,hkatv.vip
 DOMAIN-SUFFIX,hkatv.com
@@ -52,3 +54,5 @@ DOMAIN,bcbolt446c5271-a.akamaihd.net
 DOMAIN,edge.api.brightcove.com
 DOMAIN-SUFFIX,joox.com
 DOMAIN-KEYWORD,jooxweb-api
+DOMAIN-SUFFIX,hkgolden.com
+DOMAIN-SUFFIX,hkgolden.media
