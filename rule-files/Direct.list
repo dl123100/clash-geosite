@@ -171,3 +171,4 @@ DOMAIN-SUFFIX,checkip.dyndns.org
 DOMAIN-SUFFIX,checkipv6.dyndns.org
 DOMAIN-KEYWORD,quickconnect
 DOMAIN-KEYWORD,synology
+DOMAIN,api.beacondb.net
