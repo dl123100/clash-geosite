@@ -53,6 +53,7 @@ jobs:
           echo "BILIBILI_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Bilibili.list" >> $GITHUB_ENV
           echo "GameCN_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/GameDirect.list" >> $GITHUB_ENV
           echo "Academic_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Academic.list" >> $GITHUB_ENV
+          echo "163_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Netease.list" >> $GITHUB_ENV
           echo "GitHub_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/GitHub.list" >> $GITHUB_ENV
           echo "ALIBABA_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Alibaba.list" >> $GITHUB_ENV
           echo "MT_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Meituan.list" >> $GITHUB_ENV
@@ -175,6 +176,13 @@ jobs:
         run: |
           mkdir -p ./community/mydata
           curl -sSL $GOOGLECN_URL | ${{ env.SED }} > ./community/mydata/googlecn
+
+      - name: Generate netease
+        env:
+          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
+        run: |
+          mkdir -p ./community/mydata
+          curl -sSL $163_URL | ${{ env.SED }} > ./community/mydata/netease
 
       - name: Generate proxy
         env:
