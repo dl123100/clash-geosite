@@ -6,6 +6,7 @@ DOMAIN,reddit-uploaded-video.s3-accelerate.amazonaws.com
 DOMAIN-SUFFIX,yul02s05-in-f19.1e100.net
 DOMAIN-SUFFIX,ec2-34-206-27-131.compute-1.amazonaws.com
 DOMAIN,amp-reddit-com.cdn.ampproject.org
+DOMAIN-SUFFIX,bitdrift.io
 DOMAIN-SUFFIX,reddituploads.com.cdn-cf.behance.net
 DOMAIN-SUFFIX,reddituploads.com.cdn-cf.dropbox.com
 DOMAIN-SUFFIX,reddit.map.fastly.net
@@ -24,4 +25,3 @@ DOMAIN-SUFFIX,redditspace.com
 DOMAIN-SUFFIX,reddit-stream.com
 DOMAIN,prod-3-realtime-lb-840806869.us-east-1.elb.amazonaws.com
 DOMAIN-SUFFIX,reddit.app.link
-DOMAIN-SUFFIX,bitdrift.io
