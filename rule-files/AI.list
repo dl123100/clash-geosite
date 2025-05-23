@@ -28,6 +28,7 @@ DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercom.com
 DOMAIN-SUFFIX,intercomassets.com
 DOMAIN-SUFFIX,intercomusercontent.com
 DOMAIN-SUFFIX,featuregates.org
@@ -152,3 +153,5 @@ DOMAIN-SUFFIX,trypear.ai
 DOMAIN-SUFFIX,hcompany.ai
 DOMAIN-SUFFIX,hf.co
 DOMAIN-SUFFIX,chutes.ai
+DOMAIN-SUFFIX,coderabbit.ai
+DOMAIN,coderabbit.gallery.vsassets.io
