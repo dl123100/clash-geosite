@@ -16,3 +16,4 @@
 - [@antonme/ipnames](https://github.com/antonme/ipnames)
 - [@sjzar/ips](https://github.com/sjzar/ips)
 - [@Centralmatrix3/Matrix-io](https://github.com/Centralmatrix3/Matrix-io)
+- [@shangrenxi/Rules](https://github.com/shangrenxi/Rules)
