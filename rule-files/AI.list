@@ -136,6 +136,7 @@ DOMAIN-SUFFIX,cursorapi.com
 DOMAIN-SUFFIX,cursor-cdn.com
 DOMAIN-SUFFIX,codeium.com
 DOMAIN-SUFFIX,codeiumdata.com
+DOMAIN-SUFFIX,workos.com
 DOMAIN-SUFFIX,windsurf.com
 DOMAIN-SUFFIX,clipdrop.co
 DOMAIN-SUFFIX,jasper.ai
@@ -182,3 +183,4 @@ DOMAIN-SUFFIX,fireflies.ai
 DOMAIN-SUFFIX,elevenlabs.io
 DOMAIN-SUFFIX,aiva.ai
 DOMAIN-SUFFIX,lovart.ai
+DOMAIN-SUFFIX,augmentcode.com

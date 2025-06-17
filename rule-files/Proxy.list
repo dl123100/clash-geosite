@@ -358,6 +358,8 @@ DOMAIN-SUFFIX,vercel.pub
 DOMAIN-SUFFIX,vercel.sh
 DOMAIN-SUFFIX,vercel.store
 DOMAIN-SUFFIX,vercel.ai
+DOMAIN-SUFFIX,v0.dev
+DOMAIN-SUFFIX,ethyca.com
 DOMAIN-SUFFIX,zeit-world.co.uk
 DOMAIN-SUFFIX,zeit-world.com
 DOMAIN-SUFFIX,zeit-world.net
@@ -1006,7 +1008,6 @@ DOMAIN-SUFFIX,deta.space
 DOMAIN-SUFFIX,deta.surf
 DOMAIN-SUFFIX,wordtune.com
 DOMAIN-SUFFIX,zapier.com
-DOMAIN-SUFFIX,workos.com
 DOMAIN-SUFFIX,tome.app
 DOMAIN-SUFFIX,tldv.io
 DOMAIN-SUFFIX,tealhq.com
