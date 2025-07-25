@@ -213,3 +213,7 @@ DOMAIN,cdn-china.ampproject.org
 DOMAIN,csi-china.l.google.com
 DOMAIN,static-doubleclick-net.l.google.com
 DOMAIN,safebrowsing-cache.google.com
+DOMAIN,i.pki.goog
+DOMAIN,o.pki.goog
+DOMAIN,c.pki.goog
+DOMAIN,crls.pki.goog
