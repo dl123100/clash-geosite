@@ -18,3 +18,4 @@
 - [@sjzar/ips](https://github.com/sjzar/ips)
 - [@Centralmatrix3/Matrix-io](https://github.com/Centralmatrix3/Matrix-io)
 - [@shangrenxi/Rules](https://github.com/shangrenxi/Rules)
+- [@Aethersailor/Custom_OpenClash_Rules](https://github.com/Aethersailor/Custom_OpenClash_Rules)
