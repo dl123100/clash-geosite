@@ -1000,9 +1000,6 @@ DOMAIN-SUFFIX,dicebear.com
 DOMAIN-SUFFIX,nodeloc.com
 DOMAIN-SUFFIX,sing-box.app
 DOMAIN-SUFFIX,wireguard.com
-DOMAIN-SUFFIX,arc.net
-DOMAIN-SUFFIX,diabrowser.com
-DOMAIN-SUFFIX,diabrowser.engineering
 DOMAIN-SUFFIX,deta.space
 DOMAIN-SUFFIX,deta.surf
 DOMAIN-SUFFIX,wordtune.com
@@ -1031,3 +1028,4 @@ DOMAIN-SUFFIX,beautiful.ai
 DOMAIN-SUFFIX,buffer.com
 DOMAIN-SUFFIX,bufferapp.com
 DOMAIN-SUFFIX,accuweather.com
+DOMAIN-SUFFIX,bearblog.dev
