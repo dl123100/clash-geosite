@@ -47,8 +47,7 @@ DOMAIN-SUFFIX,globalsign.fr
 DOMAIN-SUFFIX,globalsign.nl
 DOMAIN-SUFFIX,phicdn.net
 DOMAIN-SUFFIX,dcocsp.cn
-DOMAIN-SUFFIX,crt.sectigo.com
-DOMAIN-SUFFIX,ocsp.sectigo.com
+DOMAIN-SUFFIX,sectigo.com
 DOMAIN-SUFFIX,ss2.us
 DOMAIN-SUFFIX,amazontrust.com
 DOMAIN-SUFFIX,awstrust.com
