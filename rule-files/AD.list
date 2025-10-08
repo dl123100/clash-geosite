@@ -363,3 +363,8 @@ DOMAIN,api.iterable.com
 DOMAIN,js.iterable.com
 DOMAIN-SUFFIX,omtrdc.net
 DOMAIN-SUFFIX,histats.com
+DOMAIN,al-log.d.meituan.net
+DOMAIN,babel-statistics-android.d.meituan.net
+DOMAIN,maplocatesdksnapshot.d.meituan.net
+DOMAIN,metrics-picture.d.meituan.net
+DOMAIN,route-stats.d.meituan.net
