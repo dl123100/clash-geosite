@@ -91,7 +91,13 @@ jobs:
         with:
           repository: v2fly/domain-list-community
           path: community
-
+          
+      - name: Checkout MetaCubeX/meta-rules-converter
+        uses: actions/checkout@v4
+        with:
+          repository: MetaCubeX/meta-rules-converter
+          path: convert
+          
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
@@ -412,6 +418,14 @@ jobs:
           go install -trimpath -ldflags="-s -w -buildid=" github.com/metacubex/geo/cmd/geo@master
           geo convert site -i v2ray -o sing -f geosite.db ./community/geosite.dat
 
+      - name: Build mrs file
+        env:
+          NO_SKIP: true
+        run: |
+          mkdir -p mrs
+          cd convert
+          go run ./ geosite -f ../community/geosite.dat -o ../mrs
+          
       - name: Move files
         run: |
           rm -rf ./tmp
@@ -441,3 +455,15 @@ jobs:
           git commit -m "${{ env.RELEASE_NAME }}"
           git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
           git push -f -u origin release
+
+      - name: Git push assets to "mrs" branch
+        run: |
+          cd mrs || exit 1
+          git init
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b mrs
+          git add .
+          git commit -m "${{ env.RELEASE_NAME }}"
+          git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
+          git push -f -u origin mrs
