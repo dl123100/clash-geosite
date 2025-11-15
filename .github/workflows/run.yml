@@ -456,15 +456,6 @@ jobs:
           git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
           git push -f -u origin release
 
-      - name: Release and upload assets
-        uses: svenstaro/upload-release-action@v2
-        with:
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-          release_name: mrs
-          tag: mrs
-          file_glob: true
-          file: ./mrs/*
-
       - name: Git push assets to "mrs" branch
         run: |
           cd mrs || exit 1
