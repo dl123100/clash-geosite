@@ -425,6 +425,14 @@ jobs:
           mkdir -p mrs
           cd convert
           go run ./ geosite -f ../community/geosite.dat -o ../mrs
+
+      - name: Build srs file
+        env:
+          NO_SKIP: true
+        run: |
+          mkdir -p srs
+          cd convert
+          go run ./ geosite -f ../community/geosite.dat -o ../srs -t sing-box
           
       - name: Move files
         run: |
@@ -467,3 +475,15 @@ jobs:
           git commit -m "${{ env.RELEASE_NAME }}"
           git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
           git push -f -u origin mrs
+
+      - name: Git push assets to "srs" branch
+        run: |
+          cd mrs || exit 1
+          git init
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b srs
+          git add .
+          git commit -m "${{ env.RELEASE_NAME }}"
+          git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
+          git push -f -u origin srs
