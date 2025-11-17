@@ -478,7 +478,7 @@ jobs:
 
       - name: Git push assets to "srs" branch
         run: |
-          cd mrs || exit 1
+          cd srs || exit 1
           git init
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
