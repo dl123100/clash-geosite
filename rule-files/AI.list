@@ -73,7 +73,7 @@ DOMAIN,a1988.b.akamai.net
 DOMAIN-SUFFIX,qr.ae
 DOMAIN-SUFFIX,quora.com
 DOMAIN-SUFFIX,quoracdn.net
-DOMAIN,fscdn.eppo.cloud
+DOMAIN-SUFFIX,fscdn.eppo.cloud
 DOMAIN-SUFFIX,forefront.ai
 DOMAIN,cdn.tolt.io
 DOMAIN,images.clerk.dev
