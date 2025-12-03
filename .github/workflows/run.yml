@@ -69,7 +69,6 @@ jobs:
           echo "BD_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Baidu.list" >> $GITHUB_ENV
           echo "Wiki_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Wiki.list" >> $GITHUB_ENV
           echo "NetShare_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/NetShare.list" >> $GITHUB_ENV
-          echo "NF_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/NetFlix.list" >> $GITHUB_ENV
           echo "Media_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/Media.list" >> $GITHUB_ENV
           echo "UK_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/StreamingUK.list" >> $GITHUB_ENV
           echo "JP_URL=https://raw.githubusercontent.com/dl123100/clash-geosite/master/rule-files/StreamingJP.list" >> $GITHUB_ENV
@@ -405,12 +404,6 @@ jobs:
           SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
         run: |
           curl -sSL $Wiki_URL | ${{ env.SED }} > ./community/mydata/wiki
-
-      - name: Generate netflix
-        env:
-          SED: sed '/^\s*#/d' | sed '/^PROCESS-NAME,/d' | sed 's/DOMAIN,/full:/g' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/DOMAIN-KEYWORD,/keyword:/g' | sed '/^\s*IP-CIDR/d' | sed '/^\s*IP-CIDR6/d'
-        run: |
-          curl -sSL $NF_URL | ${{ env.SED }} > ./community/mydata/netflix
 
       - name: Build geosite.dat file
         run: |
