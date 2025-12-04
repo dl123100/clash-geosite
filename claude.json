@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "servd-anthropic-website.b-cdn.net",
+        "cdn.usefathom.com"
+      ],
+      "domain_suffix": [
+        "anthropic.com",
+        "claude.ai",
+        "intercom.io",
+        "intercomcdn.com",
+        "claudeusercontent.com",
+        "transformer-circuits.pub",
+        "modelcontextprotocol.io",
+        "smithery.ai",
+        "neuronpedia.org",
+        "claude.com",
+        "claude.site",
+        "anthropicstatus.com"
+      ],
+      "domain_keyword": [
+        "claude",
+        "anthropic"
+      ]
+    }
+  ]
+}

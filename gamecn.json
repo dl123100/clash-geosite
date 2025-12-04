@@ -1,0 +1,55 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "api.steampowered.com",
+        "steambroadcast.akamaized.net",
+        "steamcdn-a.akamaihd.net",
+        "steamcommunity-a.akamaihd.net",
+        "steamstore-a.akamaihd.net",
+        "steamusercontent-a.akamaihd.net",
+        "steamuserimages-a.akamaihd.net",
+        "csgo.wmsj.cn",
+        "dl.steam.clngaa.com",
+        "dl.steam.ksyna.com",
+        "dota2.wmsj.cn",
+        "st.dl.bscstorage.net",
+        "st.dl.eccdnx.com",
+        "st.dl.pinyuncloud.com",
+        "steampipe.steamcontent.tnkjmec.com",
+        "trts.baishancdnx.cn",
+        "xz.pphimalayanrt.com",
+        "gstore.val.manlaxy.com",
+        "account-public-service-prod03.ol.epicgames.com",
+        "download.epicgames.com",
+        "epicgames-download1.akamaized.net",
+        "epicgames-download1-1251447533.file.myqcloud.com",
+        "launcher-public-service-prod06.ol.epicgames.com",
+        "blzddist1-a.akamaihd.net",
+        "cn.actual.battle.net"
+      ],
+      "domain_suffix": [
+        "cm.steampowered.com",
+        "dl.steam.clngaa.com",
+        "dl.steam.ksyna.com",
+        "steambang.com",
+        "steambig.com",
+        "steamboxs.com",
+        "steamchina.com",
+        "steamcn.com",
+        "steamcontent.com",
+        "steamdd.com",
+        "steampowered.com.8686c.com",
+        "steampp.net",
+        "steamproxy.net",
+        "steamrepcn.com",
+        "steamserver.net",
+        "steamstatic.com.8686c.com",
+        "steamusercontent.com",
+        "steamxdf.com",
+        "wmsjsteam.com"
+      ]
+    }
+  ]
+}
