@@ -1,0 +1,17 @@
+payload:
+    - DOMAIN-SUFFIX,anthropic.com
+    - DOMAIN,servd-anthropic-website.b-cdn.net
+    - DOMAIN,cdn.usefathom.com
+    - DOMAIN-KEYWORD,claude
+    - DOMAIN-KEYWORD,anthropic
+    - DOMAIN-SUFFIX,claude.ai
+    - DOMAIN-SUFFIX,intercom.io
+    - DOMAIN-SUFFIX,intercomcdn.com
+    - DOMAIN-SUFFIX,claudeusercontent.com
+    - DOMAIN-SUFFIX,transformer-circuits.pub
+    - DOMAIN-SUFFIX,modelcontextprotocol.io
+    - DOMAIN-SUFFIX,smithery.ai
+    - DOMAIN-SUFFIX,neuronpedia.org
+    - DOMAIN-SUFFIX,claude.com
+    - DOMAIN-SUFFIX,claude.site
+    - DOMAIN-SUFFIX,anthropicstatus.com
