@@ -85,8 +85,8 @@ DOMAIN,cdn.statically.io
 DOMAIN,stripe-upload-api.s3.us-west-1.amazonaws.com
 #DOMAIN,mrodevicemgr.officeapps.live.com
 DOMAIN-SUFFIX,statsig.com
-DOMAIN,api-js.mixpanel.com
-DOMAIN,api.mixpanel.com
+DOMAIN-SUFFIX,mixpanel.com
+DOMAIN-SUFFIX,mxpnl.com
 DOMAIN-SUFFIX,grazie.ai
 DOMAIN-SUFFIX,intellij.net
 #DOMAIN,ecs.office.com
@@ -112,6 +112,8 @@ DOMAIN,senseimds.adobe.io
 DOMAIN-SUFFIX,sensei.adobe.io
 DOMAIN-SUFFIX,senseicore.adobe.io
 DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,segment.com
+DOMAIN-SUFFIX,segmentapis.com
 DOMAIN-SUFFIX,openaidev.ghost.io
 DOMAIN-SUFFIX,xtom.chat
 DOMAIN-SUFFIX,identrust.com
@@ -119,6 +121,10 @@ DOMAIN-SUFFIX,intercom.help
 DOMAIN-SUFFIX,huggingface.co
 DOMAIN-SUFFIX,hf.space
 DOMAIN-SUFFIX,hf.co
+DOMAIN-SUFFIX,inference-api.com
+DOMAIN-SUFFIX,huggingface.tech
+DOMAIN-SUFFIX,huggingface.cloud
+DOMAIN-SUFFIX,huggingfaceusercontent.com
 DOMAIN-SUFFIX,distill.pub
 DOMAIN-SUFFIX,plot.ly
 DOMAIN-SUFFIX,awswaf.com
@@ -136,6 +142,8 @@ DOMAIN-SUFFIX,suno.ai
 DOMAIN-SUFFIX,fontshare.com
 DOMAIN,a1887.dscq.akamai.net
 DOMAIN-SUFFIX,mistral.ai
+DOMAIN-SUFFIX,mistral-embed.run
+DOMAIN-SUFFIX,mistral-medium.run
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursorapi.com
@@ -220,6 +228,9 @@ DOMAIN-SUFFIX,nebius.cloud
 DOMAIN-SUFFIX,replicate.com
 DOMAIN-SUFFIX,replicatestatus.com
 DOMAIN-SUFFIX,replicate.delivery
+DOMAIN-SUFFIX,replicatecdn.com
+DOMAIN-SUFFIX,replicate-fileupload.com
+DOMAIN-SUFFIX,r8y.io
 DOMAIN-SUFFIX,hyperbolic.xyz
 DOMAIN-SUFFIX,lmstudio.ai
 DOMAIN-SUFFIX,cerebras.ai
@@ -244,3 +255,6 @@ DOMAIN-SUFFIX,granola.ai
 DOMAIN-SUFFIX,runpulse.com
 DOMAIN-SUFFIX,mem0.ai
 DOMAIN-SUFFIX,chorus.sh
+DOMAIN-SUFFIX,stability.ai
+DOMAIN-SUFFIX,stability.dev
+DOMAIN-SUFFIX,stablediffusionapi.com
