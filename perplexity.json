@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "pplx-res.cloudinary.com",
+        "n.sni.global.fastly.net",
+        "dualstack.com.imgix.map.fastly.net",
+        "e1315.dsca.akamaiedge.net"
+      ],
+      "domain_suffix": [
+        "mapbox.com",
+        "imagedelivery.net",
+        "unsplash.com",
+        "perplexity.ai",
+        "perplexity.com",
+        "pplx.ai",
+        "siftscience.com",
+        "sift.com",
+        "financialmodelingprep.com",
+        "perplexity-ai.cloudflareaccess.com",
+        "perplexitylabs.ai",
+        "perplexitychat.ai"
+      ]
+    }
+  ]
+}

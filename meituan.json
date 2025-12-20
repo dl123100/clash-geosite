@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_suffix": [
+        "dianping.com",
+        "maoyan.com",
+        "msscdn.com",
+        "mtyun.com",
+        "mtyuncdn.com",
+        "neixin.cn",
+        "neixin.com.cn",
+        "sankuaiyun.com",
+        "zzhkmaoyan.com",
+        "meituan.com",
+        "meituan.net",
+        "mosdns.cn",
+        "mosdns.com",
+        "mosdns.net",
+        "mosmss.com",
+        "mtmos.com",
+        "mtmss.com",
+        "mtmssdn.com",
+        "mtmssdn0.com",
+        "mtmssup.com",
+        "mtmssup0.com",
+        "sankuai.com",
+        "wandie.com",
+        "zuitu.com",
+        "dpfile.com",
+        "meituanapi.com",
+        "mtimg.com",
+        "meituanusercontent.com",
+        "pipi.cn",
+        "mobike.com",
+        "mepcloud.com"
+      ]
+    }
+  ]
+}
