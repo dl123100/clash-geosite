@@ -22,3 +22,4 @@
 - [@Aethersailor/Custom_OpenClash_Rules](https://github.com/Aethersailor/Custom_OpenClash_Rules)
 - [@gemnioo/MixedCFWRules](https://github.com/gemnioo/MixedCFWRules)
 - [@Thoseyearsbrian/Aegis](https://github.com/Thoseyearsbrian/Aegis)
+- [@Accademia/Additional_Rule_For_Clash](https://github.com/Accademia/Additional_Rule_For_Clash)
