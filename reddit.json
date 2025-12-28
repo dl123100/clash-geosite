@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "redditstatic.s3.amazonaws.com",
+        "redditgifts.s3.amazonaws.com",
+        "reddit-image.s3.amazonaws.com",
+        "reddit-uploaded-media.s3-accelerate.amazonaws.com",
+        "reddit-uploaded-video.s3-accelerate.amazonaws.com",
+        "amp-reddit-com.cdn.ampproject.org",
+        "prod-3-realtime-lb-840806869.us-east-1.elb.amazonaws.com"
+      ],
+      "domain_suffix": [
+        "yul02s05-in-f19.1e100.net",
+        "ec2-34-206-27-131.compute-1.amazonaws.com",
+        "bitdrift.io",
+        "reddituploads.com.cdn-cf.behance.net",
+        "reddituploads.com.cdn-cf.dropbox.com",
+        "reddit.map.fastly.net",
+        "redd.it",
+        "reddit.com",
+        "redditblog.com",
+        "redditgifts.com",
+        "redditinc.com",
+        "redditmail.com",
+        "redditmedia.com",
+        "redditstatic.com",
+        "redditstatus.com",
+        "reddithelp.com",
+        "reddituploads.com",
+        "redditspace.com",
+        "reddit-stream.com",
+        "reddit.app.link"
+      ]
+    }
+  ]
+}

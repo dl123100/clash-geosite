@@ -1,0 +1,44 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "dns.jd.com",
+        "httpdns.m.jd.com",
+        "dns.weibo.cn",
+        "dns.weixin.qq.com",
+        "dns.weixin.qq.com.cn",
+        "httpdns-api.aliyuncs.com",
+        "httpdns-sc.aliyuncs.com",
+        "httpdns.yunxindns.com",
+        "httpdns.alicdn.com",
+        "httpdns.baidu.com",
+        "httpsdns.baidu.com",
+        "httpdns.baidubce.com",
+        "httpdns.bilivideo.com",
+        "httpdns.c.cdnhwc2.com",
+        "httpdns.music.163.com",
+        "httpdns.n.netease.com",
+        "httpdns-sdk.n.netease.com",
+        "httpdns.push.oppomobile.com",
+        "httpdns.volcengineapi.com",
+        "lofter.httpdns.c.163.com",
+        "music.httpdns.c.163.com",
+        "httpdns.browser.miui.com",
+        "httpdns.meituan.com",
+        "httpdnsvip.meituan.com",
+        "kuaishou.httpdns.pro",
+        "httpdns.xdapp.com",
+        "httpdns.byteoversea.com",
+        "hdns.ksyun.com",
+        "httpdns.upyun.com",
+        "apidns.kwd.inkuai.com",
+        "dig.bdurl.net",
+        "dig.zjurl.cn",
+        "yyapp-httpdns.gslb.yy.com",
+        "httpdns-v6.gslb.yy.com"
+      ],
+      "domain_suffix": "httpdns.bcelive.com"
+    }
+  ]
+}
