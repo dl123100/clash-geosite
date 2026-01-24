@@ -172,3 +172,6 @@ DOMAIN-SUFFIX,checkipv6.dyndns.org
 DOMAIN-KEYWORD,quickconnect
 DOMAIN-KEYWORD,synology
 DOMAIN,api.beacondb.net
+DOMAIN-SUFFIX,auth.com
+DOMAIN-SUFFIX,ua5v.com
+DOMAIN-SUFFIX,invoice.mugglepay.com
