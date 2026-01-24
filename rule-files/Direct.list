@@ -6,7 +6,6 @@ DOMAIN-SUFFIX,invalid
 DOMAIN-SUFFIX,ip6-localhost
 DOMAIN-SUFFIX,ip6-loopback
 DOMAIN-SUFFIX,lan
-DOMAIN-SUFFIX,lens.l.google.com
 DOMAIN-SUFFIX,local
 DOMAIN-SUFFIX,localdomain
 DOMAIN-SUFFIX,localhost
