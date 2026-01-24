@@ -579,8 +579,6 @@ DOMAIN-SUFFIX,7888.com
 DOMAIN-SUFFIX,7grandcross.com
 DOMAIN-SUFFIX,91facts.com
 DOMAIN-SUFFIX,9uma.cn
-DOMAIN-SUFFIX,腾讯.中国
-DOMAIN-SUFFIX,云游明长城.cn
 DOMAIN-SUFFIX,accessibility-union.cn
 DOMAIN-SUFFIX,accessibility-union.com
 DOMAIN-SUFFIX,accessibility-union.net
@@ -951,7 +949,6 @@ DOMAIN-SUFFIX,qcdntest.com.cn
 DOMAIN-SUFFIX,qcdntest.net
 DOMAIN-SUFFIX,qclivecdn.cn
 DOMAIN-SUFFIX,qclivecdn.com
-DOMAIN-SUFFIX,qcloudcdn.中国
 DOMAIN-SUFFIX,qcloudcdn.com.cn
 DOMAIN-SUFFIX,qcloudcdnsrc.com
 DOMAIN-SUFFIX,qcloudcjgj.cn
@@ -976,10 +973,8 @@ DOMAIN-SUFFIX,qlivecloud.com
 DOMAIN-SUFFIX,qmrms.com
 DOMAIN-SUFFIX,qmtjgame.com
 DOMAIN-SUFFIX,qplusstatic.com
-DOMAIN-SUFFIX,qq.中国
 DOMAIN-SUFFIX,qq.travel
 DOMAIN-SUFFIX,qq.zone
-DOMAIN-SUFFIX,qq邮箱.中国
 DOMAIN-SUFFIX,qqbrowser.mobi
 DOMAIN-SUFFIX,qqcfw.net
 DOMAIN-SUFFIX,qqclass.com
@@ -1392,7 +1387,6 @@ DOMAIN-SUFFIX,tqapp.net
 DOMAIN-SUFFIX,tquic.net
 DOMAIN-SUFFIX,tri.cn
 DOMAIN-SUFFIX,trimg.cn
-DOMAIN-SUFFIX,trpc.中国
 DOMAIN-SUFFIX,trpc.center
 DOMAIN-SUFFIX,trpc.group
 DOMAIN-SUFFIX,trpc.tech
