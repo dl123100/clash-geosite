@@ -1,0 +1,17 @@
+payload:
+    - DOMAIN-SUFFIX,financialmodelingprep.com
+    - DOMAIN-SUFFIX,imagedelivery.net
+    - DOMAIN-SUFFIX,mapbox.com
+    - DOMAIN-SUFFIX,perplexity-ai.cloudflareaccess.com
+    - DOMAIN-SUFFIX,perplexity.ai
+    - DOMAIN-SUFFIX,perplexity.com
+    - DOMAIN-SUFFIX,perplexitychat.ai
+    - DOMAIN-SUFFIX,perplexitylabs.ai
+    - DOMAIN-SUFFIX,pplx.ai
+    - DOMAIN-SUFFIX,sift.com
+    - DOMAIN-SUFFIX,siftscience.com
+    - DOMAIN-SUFFIX,unsplash.com
+    - DOMAIN,dualstack.com.imgix.map.fastly.net
+    - DOMAIN,e1315.dsca.akamaiedge.net
+    - DOMAIN,n.sni.global.fastly.net
+    - DOMAIN,pplx-res.cloudinary.com
