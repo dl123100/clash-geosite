@@ -192,11 +192,6 @@ DOMAIN-SUFFIX,redirector.googlevideo.com
 DOMAIN-SUFFIX,redirector.c.video.google.com
 DOMAIN-SUFFIX,redirector.a1.googlevideo.com
 DOMAIN,v14.lscache2.c.bigcache.googleapis.com
-DOMAIN,translate.googleapis.com
-DOMAIN,translation.googleapis.com
-DOMAIN,kh.google.com
-DOMAIN,khmdb.google.com
-DOMAIN,keyhole.l.google.com
 DOMAIN,update.googleapis.com
 DOMAIN-SUFFIX,googledownloads.cn
 DOMAIN,ep1.adtrafficquality.google
