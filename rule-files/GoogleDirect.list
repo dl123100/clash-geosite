@@ -1,7 +1,5 @@
 DOMAIN-SUFFIX,265.com
 DOMAIN-SUFFIX,2mdn.net
-DOMAIN-SUFFIX,alt7-mtalk.google.com
-DOMAIN-SUFFIX,alt8-mtalk.google.com
 DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,beacons.gcp.gvt2.com
 DOMAIN-SUFFIX,beacons-handoff.gcp.gvt2.com
@@ -12,7 +10,6 @@ DOMAIN-SUFFIX,clientservices.googleapis.com
 DOMAIN-SUFFIX,imasdk.googleapis.com
 DOMAIN-SUFFIX,redirector.gvt1.com
 DOMAIN-SUFFIX,cache.pack.google.com
-DOMAIN,cdn.ampproject.org
 DOMAIN-SUFFIX,clickserve.dartsearch.net
 DOMAIN-SUFFIX,crl.pki.goog
 DOMAIN-SUFFIX,dl.google.com

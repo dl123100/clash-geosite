@@ -63,7 +63,9 @@ DOMAIN-SUFFIX,usefathom.com
 DOMAIN-KEYWORD,claude
 DOMAIN-KEYWORD,anthropic
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,clau.de
 DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,claudemcpclient.com
 DOMAIN-SUFFIX,transformer-circuits.pub
 DOMAIN-SUFFIX,modelcontextprotocol.io
 DOMAIN-SUFFIX,smithery.ai
@@ -71,6 +73,7 @@ DOMAIN-SUFFIX,neuronpedia.org
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claude.site
 DOMAIN-SUFFIX,anthropicstatus.com
+DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN,d3mhjf54oqinl2.cloudfront.net
 DOMAIN-SUFFIX,cookielaw.org
 DOMAIN,optimise2.assets-servd.host
