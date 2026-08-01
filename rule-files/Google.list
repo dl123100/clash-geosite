@@ -207,16 +207,11 @@ DOMAIN-SUFFIX,gipscorp.com
 DOMAIN-SUFFIX,globaledu.org
 DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,gmodules.com
-DOMAIN-SUFFIX,go-lang.com
-DOMAIN-SUFFIX,go-lang.net
-DOMAIN-SUFFIX,go-lang.org
-DOMAIN-SUFFIX,go.dev
 DOMAIN-SUFFIX,godoc.org
 DOMAIN-SUFFIX,gogle.com
 DOMAIN-SUFFIX,gogole.com
 DOMAIN-SUFFIX,golang.com
 DOMAIN-SUFFIX,golang.net
-DOMAIN-SUFFIX,golang.org
 DOMAIN-SUFFIX,goo.gl
 DOMAIN-SUFFIX,googel.com
 DOMAIN-SUFFIX,googil.com
@@ -829,5 +824,6 @@ DOMAIN-SUFFIX,antigravity.google
 DOMAIN-SUFFIX,open-vsx.org
 DOMAIN-SUFFIX,default.exp-tas.com
 DOMAIN-SUFFIX,opal.google
-DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,ai.studio
+DOMAIN-SUFFIX,flow.google
+DOMAIN-SUFFIX,tenor.com
