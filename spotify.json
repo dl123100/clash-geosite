@@ -1,0 +1,69 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "audio-ak-spotify-com.akamaized.net",
+        "audio-ak.spotify.com.eip.akadns.net",
+        "audio-akp-bbr-spotify-com.akamaized.net",
+        "audio-akp-quic-spotify-com.akamaized.net",
+        "audio-akp-spotify-com.akamaized.net",
+        "audio4-ak-spotify-com.akamaized.net",
+        "audio4-akp-spotify-com.akamaized.net",
+        "cdn-spotify-experiments.conductrics.com",
+        "cdn.speedcurve.com",
+        "chrt.fm",
+        "dts.podtrac.com",
+        "heads-ak-spotify-com.akamaized.net",
+        "heads4-ak-spotify-com.akamaized.net",
+        "parking.parklogic.com",
+        "pdst.fm",
+        "pfx.vpixl.com",
+        "relaycdn.anchor.fm",
+        "spotify-alternate.app.link",
+        "spotify-alternate.test-app.link",
+        "spotify.app.link",
+        "spotify.deliveryengine.adswizz.com",
+        "spotify.test-app.link",
+        "umg-hpto-prod.s3.amazonaws.com",
+        "video-akp-cdn-spotify-com.akamaized.net"
+      ],
+      "domain_suffix": [
+        "byspotify.com",
+        "firim.pro",
+        "libsyn.com",
+        "pscdn.co",
+        "sam-hpto.com",
+        "scdn.co",
+        "simplecastaudio.com",
+        "spoti.fi",
+        "spotify-everywhere.com",
+        "spotify.co",
+        "spotify.com",
+        "spotify.com.akahost.net",
+        "spotify.com.edgesuite.net",
+        "spotify.design",
+        "spotify.edgekey.net",
+        "spotify.link",
+        "spotify.map.fastly.net",
+        "spotify.map.fastlylb.net",
+        "spotifycdn.com",
+        "spotifycdn.net",
+        "spotifycharts.com",
+        "spotifycodes.com",
+        "spotifyforbrands.com",
+        "spotifyjobs.com",
+        "spotifynewsroom.jp",
+        "spotilocal.com",
+        "spotx.tv",
+        "spotxchange.com",
+        "tospotify.com"
+      ],
+      "domain_keyword": [
+        "-spotify-",
+        "spotify-com.akamaized.net",
+        "spotify.com"
+      ]
+    }
+  ]
+}
