@@ -4,7 +4,6 @@ DOMAIN-SUFFIX,apple.comscoreresearch.com
 DOMAIN-SUFFIX,calendarserver.org
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,cups.org
-DOMAIN-SUFFIX,foundationdb.org
 DOMAIN-SUFFIX,macosforge.org
 DOMAIN-SUFFIX,macruby.com
 DOMAIN-SUFFIX,macruby.net
@@ -18,15 +17,10 @@ DOMAIN-SUFFIX,researchkit.hk
 DOMAIN-SUFFIX,researchkit.net
 DOMAIN-SUFFIX,researchkit.org
 DOMAIN-SUFFIX,researchkit.tv
-DOMAIN-SUFFIX,servicetalk.io
 DOMAIN-SUFFIX,appleswift.com
 DOMAIN-SUFFIX,swift.org
 DOMAIN-SUFFIX,swiftui.cn
 DOMAIN-SUFFIX,swiftui.com.cn
-DOMAIN-SUFFIX,webkit.org
-DOMAIN-SUFFIX,webkitgtk.org
-DOMAIN-SUFFIX,wpewebkit.org
-DOMAIN-SUFFIX,webobjects.com
 DOMAIN-SUFFIX,appleworldwidedeveloper.hb-api.omtrdc.net
 DOMAIN-SUFFIX,appleworldwidedeveloper.sc.omtrdc.net
 DOMAIN-SUFFIX,www.apple.com.cn.edgekey.net
@@ -103,8 +97,6 @@ DOMAIN-SUFFIX,asto.re
 DOMAIN-SUFFIX,tvappstore.net
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,appstore.com
-DOMAIN-SUFFIX,crashlytics.com
-PROCESS-NAME,com.apple.geod
 DOMAIN-SUFFIX,apple-icloud.cn
 DOMAIN-SUFFIX,appleicloud.cn
 DOMAIN-SUFFIX,applemx-icloud.com
