@@ -75,8 +75,6 @@ DOMAIN-SUFFIX,akabeesoft3.com
 DOMAIN-SUFFIX,akatsukiworks.com
 DOMAIN-SUFFIX,alicesoft.com
 DOMAIN-SUFFIX,cosmiccute.com
-IP-CIDR,203.104.209.7/32,no-resolve
-IP-CIDR,125.6.189.7/32,no-resolve
 DOMAIN-SUFFIX,aiasahi.jp
 DOMAIN-SUFFIX,asagaku.com
 DOMAIN-SUFFIX,asahi.com
