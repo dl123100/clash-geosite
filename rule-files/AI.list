@@ -82,6 +82,13 @@ DOMAIN-SUFFIX,smithery.ai
 DOMAIN-SUFFIX,neuronpedia.org
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claude.site
+DOMAIN-SUFFIX,claude.app
+DOMAIN-SUFFIX,chatbotclaude.com
+DOMAIN-SUFFIX,anthropic.team
+DOMAIN-SUFFIX,claude.new
+DOMAIN-SUFFIX,claudeacademy.com
+DOMAIN-SUFFIX,claudepages.dev
+DOMAIN-SUFFIX,claudestudio.com
 DOMAIN-SUFFIX,anthropicstatus.com
 DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN,anthropic.com.cdn.cloudflare.net
